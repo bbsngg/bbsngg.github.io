@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>《Linux基础》Course-3【Ch5】 | Blog of James</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Ch5 文件和目录5.1.1 常见文件扩展名\1. 压缩和归档的文件：扩展名及其含义如下。 .bz2：使用bzip2压缩的文件。 .gz：使用gzip压缩的文件。 .tar：使用tar压缩的文件，又称tar文件。 .tbz：使用tar和bzip压缩的文件。 .tgz：使用tar和gzip压缩的文件。 .zip：使用zip压缩的文件， Linux下使用gzip命令压缩的文件。 \2. 文件格式： 文">
+<meta name="keywords" content="Linux,notes">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《Linux基础》Course-3【Ch5】">
+<meta property="og:url" content="https://bbsngg.github.io/2019/07/04/《Linux基础》Course-3/index.html">
+<meta property="og:site_name" content="Blog of James">
+<meta property="og:description" content="Ch5 文件和目录5.1.1 常见文件扩展名\1. 压缩和归档的文件：扩展名及其含义如下。 .bz2：使用bzip2压缩的文件。 .gz：使用gzip压缩的文件。 .tar：使用tar压缩的文件，又称tar文件。 .tbz：使用tar和bzip压缩的文件。 .tgz：使用tar和gzip压缩的文件。 .zip：使用zip压缩的文件， Linux下使用gzip命令压缩的文件。 \2. 文件格式： 文">
+<meta property="og:locale" content="Chinese, English">
+<meta property="og:updated_time" content="2019-07-04T00:48:48.885Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《Linux基础》Course-3【Ch5】">
+<meta name="twitter:description" content="Ch5 文件和目录5.1.1 常见文件扩展名\1. 压缩和归档的文件：扩展名及其含义如下。 .bz2：使用bzip2压缩的文件。 .gz：使用gzip压缩的文件。 .tar：使用tar压缩的文件，又称tar文件。 .tbz：使用tar和bzip压缩的文件。 .tgz：使用tar和gzip压缩的文件。 .zip：使用zip压缩的文件， Linux下使用gzip命令压缩的文件。 \2. 文件格式： 文">
+  
+    <link rel="alternate" href="/atom.xml" title="Blog of James" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Blog of James</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Blog of James Song</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://bbsngg.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-《Linux基础》Course-3" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/04/《Linux基础》Course-3/" class="article-date">
+  <time datetime="2019-07-03T23:51:38.000Z" itemprop="datePublished">2019-07-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/学习笔记/">学习笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      《Linux基础》Course-3【Ch5】
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Ch5-文件和目录"><a href="#Ch5-文件和目录" class="headerlink" title="Ch5 文件和目录"></a>Ch5 文件和目录</h1><h3 id="5-1-1-常见文件扩展名"><a href="#5-1-1-常见文件扩展名" class="headerlink" title="5.1.1 常见文件扩展名"></a>5.1.1 常见文件扩展名</h3><p>\1. 压缩和归档的文件：扩展名及其含义如下。</p>
+<p>.bz2：使用bzip2压缩的文件。</p>
+<p>.gz：使用gzip压缩的文件。</p>
+<p>.tar：使用tar压缩的文件，又称tar文件。</p>
+<p>.tbz：使用tar和bzip压缩的文件。</p>
+<p>.tgz：使用tar和gzip压缩的文件。</p>
+<p>.zip：使用zip压缩的文件， Linux下使用gzip命令压缩的文件。</p>
+<p>\2. 文件格式：</p>
+<p>文件格式扩展名及其含义如下。</p>
+<p>.au：音频文件。</p>
+<p>.gif： GIF图像文件。</p>
+<p>.html/.htm： HTML文件。</p>
+<p>.jpg： JPEG图像文件。</p>
+<p>.pdf： PDF文档</p>
+<p>.png： PNG图像文件。</p>
+<p>.ps： PostScript文件，为打印而格式化过的文件。</p>
+<p>.txt：纯ASCII文本文件。</p>
+<p>.wav：音频文件。</p>
+<p>.bmp：图像文件</p>
+<p>\3. 系统文件：</p>
+<p>系统文件扩展名及其含义如下。</p>
+<p>.conf：一种配置文件，配置文件有时也使用.cfg。</p>
+<p>.lock：锁文件，用来判定程序或设备是否正在被使用。</p>
+<p>.rpm： Linux系统中用来安装软件的软件包管理器文件</p>
+<p>\4. 编程和脚本文件</p>
+<p>编程和脚本文件扩展名及其含义如下。</p>
+<p>.c： C语言的源码文件。</p>
+<p>.cpp： C++语言的源码文件。</p>
+<p>.h： C或C++语言的头文件。</p>
+<p>.o：程序的对象文件</p>
+<p>.pl： Perl脚本。</p>
+<p>.py： Python脚本。</p>
+<p>.so：库文件。</p>
+<p>.sh： Shell脚本。</p>
+<p>.tcl： TCL脚本</p>
+<h3 id="5-1-2常见的文件类型"><a href="#5-1-2常见的文件类型" class="headerlink" title="5.1.2常见的文件类型"></a>5.1.2常见的文件类型</h3><p>（使用 <code>file 文件名</code>或<code>ls –l 文件名</code>查看文件详细类型）</p>
+<p>\1. 普通文件：文件属性符号 <code>-</code>   图像工具、文档工具、归档工具</p>
+<p>\2. 目录文件：文件属性符号 <code>d</code></p>
+<p>\3. 设备文件：/dev目录下的设备文件   </p>
+<p>字符设备文件：文件属性符号 <code>c</code>      接收字符流，打印机和终端</p>
+<p>块设备文件：  文件属性符号 <code>b</code>      随机读写，如磁盘</p>
+<p>\4. 管道文件/FIFO文件：文件属性符号<code>p</code>     一头流入，从另一头流出</p>
+<p>\5. 链接连接文件： </p>
+<p>5.1软连接<code>ln –s file1/dir file2</code>建立，file2的ls –l时第一个是l，file1/dir属性不变，file2中包含了file1的路径（类似于Windows中快捷方式类似）</p>
+<p>5.2硬链接 <code>ln file1 file2</code>建立，file1和file2的ls -l 文件硬链接数均大于1，但是属性仍然不变</p>
+<h2 id="5-2目录结构"><a href="#5-2目录结构" class="headerlink" title="5.2目录结构"></a>5.2目录结构</h2><p><strong>常见目录，干什么的，常见的说出7、8个</strong></p>
+<p><strong>根目录  /</strong></p>
+<p>1./home     2./root     3./bin     4./sbin     5./dev     6./lib     7./tmp     8./mnt</p>
+<p>9./boot     10./proc    11./opt   12./media     13./selinux     14./var    15./etc   16./usr     17./lost+found        18./srv </p>
+<p><u>/home  用户目录的宿主目录，存放普通用户的数据</u></p>
+<p><u>/root  root用户的主目录，存放root用户的数据</u></p>
+<p><u>/bin  存放普通的可执行命令</u></p>
+<p>/sbin 存放root使用的系统管理程序</p>
+<p><u>/dev 设备文件保存目录</u></p>
+<p>/lib  系统库保存目录</p>
+<p>/tmp  公用临时文件目录（创建者删除文件）</p>
+<p>/mnt  /media 临时挂载其它文件系统系统挂载目录  /mnt挂U盘 临时挂载  /media挂光盘</p>
+<p><u>/boot：启动目录，用来存放与Linux系统启动有关的程序</u></p>
+<p><u>/proc：虚拟目录，系统内存映射</u></p>
+<p><u>/opt：可选程序的安装目录</u></p>
+<p><u>/var  存放经常变化的数据以及日志文件</u></p>
+<p><u>/etc  配置文件保存目录</u></p>
+<p><u>/usr  用来存放Linux系统中的应用程序</u></p>
+<p>/lost+found 存修复或损坏的文件 </p>
+<h2 id="5-3-文件和目录操作"><a href="#5-3-文件和目录操作" class="headerlink" title="5.3 文件和目录操作"></a>5.3 文件和目录操作</h2><p><strong>见《常用命令.pdf》整理</strong></p>
+<h2 id="5-4链接文件"><a href="#5-4链接文件" class="headerlink" title="5.4链接文件"></a>5.4链接文件</h2><h3 id="5-4-1硬链接-软链接"><a href="#5-4-1硬链接-软链接" class="headerlink" title="5.4.1硬链接 软链接"></a>5.4.1硬链接 软链接</h3><p>在Linux系统中，内核为<u>每一个新创建的文件分配一个inode</u>（索引节点）号，<u>文件属性保存在索引节点里</u>，在访问文件时，<u>索引节点被复制到内存里</u>，从而实现文件的快速访问</p>
+<p>(1)软链接文件</p>
+<p>软链接又称为<u>符号链接</u>,这个文件包含了另一个<u>文件或目录的路径名</u>。<br> （用<code>ls -l</code>命令查看某个文件的属性,可以看到有类似<code>lrwxrwxrwx</code>的属性符号,其属性第一个符号是<code>l</code>,这样的文件在 Linux系统中就是软链接文件。）</p>
+<p>(2)硬链接文件 </p>
+<p>硬链接是一个<strong>指针</strong>,指向<u>文件索引节点</u>，即<u>一个文件的多个文件名</u>。系统并不为它重新分配inode。可以用ln命令来建立硬链接。硬链接<u>节省空间</u>,也是Linux 系统<u>整合文件系统</u>的传统方式。 </p>
+<p>硬链接文件有两个限制: </p>
+<p>1)<u>不允许给目录创建硬链接</u>;(但是软连接中可以为一个目录创建一个快捷方式)</p>
+<p>2)只有在<u>同一文件系统</u>（不能跨分区）中的文件之间才能创建链接。 </p>
+<p><strong>硬链接和软链接的区别：</strong></p>
+<p>硬链接记录的是<u>目标的inode</u>,软链接记录的是<u>目标的路径</u>。</p>
+<p>软链接就像是<u>快捷方式</u>,而硬链接就像是<u>备份</u>。</p>
+<p>软链接可以做<u>跨分区</u>的链接,而硬链接由于inode的缘故,只能在<u>本分区中</u>做链接。所以,软链接的使用频率要高得多。 </p>
+<p><strong>ln [选项] [源文件名] [链接文件名]</strong></p>
+<h3 id="5-4-2-链接文件的使用"><a href="#5-4-2-链接文件的使用" class="headerlink" title="5.4.2 链接文件的使用"></a>5.4.2 链接文件的使用</h3><p>【例5.24】 硬链接文件的使用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@PC-LINUX ~]#echo hello &gt; a</span><br><span class="line">[root@PC-LINUX ~]#ln a b</span><br></pre></td></tr></table></figure>
+
+<p>【例5.25】 软链接文件的使用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@PC-LINUX ~]#echo hello &gt; a</span><br><span class="line">[root@PC-LINUX ~]#ln –s a b</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://bbsngg.github.io/2019/07/04/《Linux基础》Course-3/" data-id="cjxyutjvj0004motxelbv2oc3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/notes/">notes</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/07/09/11/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          自然语言处理简介
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/07/03/《Linux基础》Course-2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">《Linux基础》Course-2【Ch3 / Ch4】</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习笔记/">学习笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/讲座/">讲座</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP/">NLP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/NLP/" style="font-size: 10px;">NLP</a> <a href="/tags/notes/" style="font-size: 20px;">notes</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/07/09/11/">自然语言处理简介</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/04/《Linux基础》Course-3/">《Linux基础》Course-3【Ch5】</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/03/《Linux基础》Course-2/">《Linux基础》Course-2【Ch3 / Ch4】</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/01/《Linux基础》Course-1/">《Linux基础》Course 1【Ch1 / Ch2】</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/30/myBlog/">Get Start！</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 James Song<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>

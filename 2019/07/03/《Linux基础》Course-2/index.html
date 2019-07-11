@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://i.loli.net/2019/07/03/5d1b888c7738577724.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/03/5d1b88ac8931777354.png">
 <meta property="og:image" content="https://i.loli.net/2019/07/03/5d1b88caa637894690.png">
-<meta property="og:updated_time" content="2019-07-02T16:41:32.275Z">
+<meta property="og:updated_time" content="2019-07-04T03:17:49.900Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《Linux基础》Course-2【Ch3 &#x2F; Ch4】">
 <meta name="twitter:description" content="Ch3 走进Linux图形界面两种界面：图形化界面、字符界面 登录 关机 重启命令 如果需要以超级管理员（root）身份登录系统进行管理，在登录提示后输入用户名为“root”，按“回车”键后，在口令提示中输入安装时设置的根口令，然后按“回车”键即可。 在切断计算机电源之前必须首先关闭 Fedora 17系统。不执行关闭Fedora 17系统就 直接切断计算机的电源,会导致未存盘数据的丢失或者系统的">
@@ -114,32 +114,29 @@
         <h1 id="Ch3-走进Linux图形界面"><a href="#Ch3-走进Linux图形界面" class="headerlink" title="Ch3 走进Linux图形界面"></a>Ch3 走进Linux图形界面</h1><p><strong>两种界面：图形化界面、字符界面</strong></p>
 <p><strong>登录 关机 重启命令</strong></p>
 <p>如果需要以超级管理员（root）身份登录系统进行管理，在登录提示后输入用户名为“root”，按“回车”键后，在口令提示中输入安装时设置的根口令，然后按“回车”键即可。</p>
-<p>在切断计算机电源之前必须首先关闭 Fedora 17系统。不执行关闭Fedora 17系统就 直接切断计算机的电源,会导致未存盘数据的丢失或者系统的损害。 </p>
+<p><u>在切断计算机电源之前必须首先关闭 Fedora 17系统。不执行关闭Fedora 17系统就 直接切断计算机的电源,会导致未存盘数据的丢失或者系统的损害。</u> </p>
 <p><strong>系统日志保存在哪个目录下</strong></p>
-<p>一般保存在/var/log目录下</p>
+<p>一般保存在<code>/var/log</code>目录下</p>
 <p><strong>终端的命名tty pty pts</strong></p>
 <p>tty：终端设备的统称</p>
 <p>pty：虚拟终端</p>
 <p>pts：pty的实现方式，与ptmx配合使用实现pty</p>
-<h1 id="Ch4-Linux字符界面操作-重点！"><a href="#Ch4-Linux字符界面操作-重点！" class="headerlink" title="Ch4 Linux字符界面操作 重点！"></a>Ch4 Linux字符界面操作 重点！</h1><p><strong>进入命令行的方式</strong></p>
-<p>字符界面、图形界面下的终端以及虚拟控制台</p>
-<p><strong>虚拟控制台的切换</strong></p>
-<p><img src="https://i.loli.net/2019/07/03/5d1b820d07f9013947.png" alt="1562083819315"></p>
-<p><strong>系统关机/重启：shutdown halt reboot init</strong></p>
-<p>shutdown：安全地关闭系统</p>
-<p>​       shutdown [选项] [时间] [警告信息]</p>
-<p>​       shutdown -h now 立即关闭系统</p>
-<p>​        shutdown -h 45定时45分钟后关闭系统</p>
-<p>​       shutdown -r now重新启动系统,并发出警告信息</p>
-<p>halt：引发主机关闭系统=调用 “shutdown —h”命令执行关闭系统 </p>
-<p>​       [root@PC-LINUX ~]# halt</p>
-<p>reboot：引发主机重启,参数与“halt”相似。 </p>
-<p>​         [root@PC-LINUX ~]# reboot </p>
-<p>init：“init”命令是所有进程的祖先,它的进程号始终为“1”,所以发送“TERM”信号给 “init”会终止所有的用户进程和守护进程等。 “init” 定义了7个运行级别,其中“init 0”为关闭系统,“init 6”为重启，通过init可以完成不同运行级别之间的切换 </p>
+<h1 id="Ch4-Linux字符界面操作-重点！"><a href="#Ch4-Linux字符界面操作-重点！" class="headerlink" title="Ch4 Linux字符界面操作 重点！"></a>Ch4 Linux字符界面操作 重点！</h1><h2 id="进入命令行的方式"><a href="#进入命令行的方式" class="headerlink" title="进入命令行的方式"></a><strong>进入命令行的方式</strong></h2><p>字符界面、图形界面下的终端以及虚拟控制台</p>
+<h2 id="虚拟控制台的切换"><a href="#虚拟控制台的切换" class="headerlink" title="虚拟控制台的切换"></a><strong>虚拟控制台的切换</strong></h2><p><img src="https://i.loli.net/2019/07/03/5d1b820d07f9013947.png" alt="1562083819315"></p>
+<h2 id="系统关机-重启：shutdown-halt-reboot-init"><a href="#系统关机-重启：shutdown-halt-reboot-init" class="headerlink" title="系统关机/重启：shutdown halt reboot init"></a><strong>系统关机/重启：shutdown halt reboot init</strong></h2><p><code>shutdown</code>：安全地关闭系统</p>
+<p>​       <code>shutdown [选项] [时间] [警告信息]</code></p>
+<p>​       <code>shutdown -h now</code> 立即关闭系统</p>
+<p>​        <code>shutdown -h 45</code> 定时45分钟后关闭系统</p>
+<p>​       <code>shutdown -r now</code> 重新启动系统,并发出警告信息</p>
+<p><code>halt</code>：引发主机关闭系统=调用 “shutdown —h”命令执行关闭系统 </p>
+<p>​       <code>[root@PC-LINUX ~]# halt</code></p>
+<p><code>reboot</code>：引发主机重启,参数与“halt”相似。 </p>
+<p>​         <code>[root@PC-LINUX ~]# reboot</code></p>
+<p><code>init</code>：“init”命令是所有进程的祖先,它的进程号始终为“1”,所以发送“TERM”信号给 “init”会终止所有的用户进程和守护进程等。 “init” 定义了7个运行级别,其中“init 0”为关闭系统,“init 6”为重启，通过init可以完成不同运行级别之间的切换 </p>
 <p>shutdown和init都是既可以关机又可以重启：</p>
 <p>shutdown –h now和init 0用于关机 + halt</p>
 <p>shutdown –r now和init 6用户重启  + reboot</p>
-<p><strong>运行级别 0～6 要很清楚，3字符、5图形、0关机、6重启</strong></p>
+<h2 id="运行级别-0～6"><a href="#运行级别-0～6" class="headerlink" title="*运行级别 0～6 *"></a>*<em>运行级别 0～6 *</em></h2><p><strong>要很清楚，3字符、5图形、0关机、6重启</strong></p>
 <p>Linux运行级别有如下7种：（本质是定义了不同级别下的可运行程序）</p>
 <p>0: 停止运行,所有进程中止,关闭系统。 </p>
 <p>1: 单用户模式,用于维护系统,只有少数进程运行。</p>
@@ -149,24 +146,20 @@
 <p>5: 完整的多用户模式(带有基于X Window的图形界面)。</p>
 <p>6: 重新引导计算机。</p>
 <p>   <img src="https://i.loli.net/2019/07/03/5d1b8244e908888343.png" alt="1562083887802"></p>
-<p><strong>man帮助命令</strong></p>
-<p>man是一种显示Unix/Linux在线手册的命令。可以用来查看命令、函数或文件的帮助手册,另外它还可以显示一些gzip压缩格式的文件。 </p>
+<h2 id="man帮助命令"><a href="#man帮助命令" class="headerlink" title="man帮助命令"></a><strong>man帮助命令</strong></h2><p>man是一种显示Unix/Linux在线手册的命令。可以用来查看命令、函数或文件的帮助手册,另外它还可以显示一些gzip压缩格式的文件。 </p>
 <p>man命令格式化并显示在线的手册页。 </p>
 <p>man 1 passwd</p>
-<p><strong>help使用</strong></p>
-<p>help命令可以查找Shell命令的用法</p>
+<h2 id="help使用"><a href="#help使用" class="headerlink" title="help使用"></a><strong>help使用</strong></h2><p>help命令可以查找Shell命令的用法</p>
 <p>查看mkdir命令帮助：[root@PC-LINUX ~]# mkdir –help </p>
 <p>（注意help前有两条-）</p>
 <p>使用 “/+指令”直接查找 </p>
-<p><strong>whereis命令</strong>可以查找命令所在的位置</p>
+<h3 id="whereis命令"><a href="#whereis命令" class="headerlink" title="whereis命令"></a>whereis命令</h3><p>可以查找命令所在的位置</p>
 <p> <img src="https://i.loli.net/2019/07/03/5d1b827323e5a16285.png" alt="1562083931614"> </p>
-<p><strong>Shell里技巧性的命令行自动补全</strong></p>
-<p>输入第一个之后按下Tab键</p>
+<h3 id="shell里技巧性的命令行自动补全"><a href="#shell里技巧性的命令行自动补全" class="headerlink" title="shell里技巧性的命令行自动补全"></a><strong>shell里技巧性的命令行自动补全</strong></h3><p>输入第一个之后按下Tab键</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b82b1411ec31215.png" alt="1562083999764"></p>
 <p><strong>光标上翻下翻</strong></p>
 <p> <img src="https://i.loli.net/2019/07/03/5d1b86b74958383977.png" alt="1562085023555"></p>
-<p><strong>一行上执行多个命令：</strong></p>
-<ol>
+<h3 id="一行上执行多个命令："><a href="#一行上执行多个命令：" class="headerlink" title="一行上执行多个命令："></a><strong>一行上执行多个命令：</strong></h3><ol>
 <li><p>使用 “ ; “：同时执行两个命令</p>
 <p>命令1; 命令2</p>
 <p>先执行命令1，不管有无出错，再执行2</p>
@@ -177,21 +170,17 @@
 <p>先执行命令1，正确时，再执行2</p>
 </li>
 </ol>
-<p><strong>命令替换：传递参数</strong></p>
-<p>​    命令1 $(命令2)   或   命令1  ` 命令2 `</p>
-<p><strong>命令别名：</strong></p>
-<p>​    alias[简化后的命令（别名）] = [复杂的命令]</p>
+<h3 id="命令替换：传递参数"><a href="#命令替换：传递参数" class="headerlink" title="命令替换：传递参数"></a><strong>命令替换：传递参数</strong></h3><p>​    命令1 $(命令2)   或   命令1  ` 命令2 `</p>
+<h3 id="命令别名："><a href="#命令别名：" class="headerlink" title="命令别名："></a><strong>命令别名：</strong></h3><p>​    alias[简化后的命令（别名）] = [复杂的命令]</p>
 <p>   <img src="https://i.loli.net/2019/07/03/5d1b87035aba492428.png" alt="1562085099288"></p>
-<p><strong>管道</strong></p>
-<p><strong>【管道什么意思，管道有什么作用，具体怎么使用】</strong></p>
+<h3 id="管道"><a href="#管道" class="headerlink" title="管道**"></a><strong>管道**</strong></h3><p><strong>【管道什么意思，管道有什么作用，具体怎么使用】</strong></p>
 <p>管道可以通过组合许多小程序共同完成复杂的任务，可以将某个命令的输出信息当作某个命令的输入（由左到右），由管道符号“|”来标识。</p>
 <p>语法：</p>
 <p>[命令1]|[命令2]|[命令3]</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b87504022085087.png" alt="1562085184073"></p>
 <p>   |显示一个屏幕的信息</p>
 <p>more之后就可以分页显示上一个命令的输出</p>
-<p><strong>重定向：</strong></p>
-<ol>
+<h3 id="重定向："><a href="#重定向：" class="headerlink" title="重定向："></a><strong>重定向：</strong></h3><ol>
 <li>输出重定向</li>
 </ol>
 <p>command &gt; file</p>
@@ -214,8 +203,7 @@
 <li>同时实现输出和错误重定向</li>
 </ol>
 <p>Command &amp;&gt; file</p>
-<p><strong>vi （编辑的是ASCII文本）</strong></p>
-<p><strong>【三种模式，三种模式之间的转换及命令】</strong></p>
+<h2 id="vi-（编辑的是ASCII文本）"><a href="#vi-（编辑的是ASCII文本）" class="headerlink" title="vi （编辑的是ASCII文本）"></a><strong>vi （编辑的是ASCII文本）</strong></h2><p><strong>【三种模式，三种模式之间的转换及命令】</strong></p>
 <p>vi编辑器有3种基本工作模式,分别是<u>命令行模式、插入模式和末行模式</u>。</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b87bd6911691140.png" alt="1562085294989"></p>
 <p>当在Shell提示符下输入“vi文件名”之后就进入了命令行模式,在命令行模式下是不能输入任何数据的。</p>
@@ -225,6 +213,7 @@
 <li>从插入模式切换为命令行模式只需按“Esc”键。</li>
 <li>在命令行模式下,按转义命令冒号键“:”可以进入末行模式。</li>
 </ol>
+<p>命令行模式操作：</p>
 <p>注：下面操作都是只能在命令行模式下控制，在输入模式下会变成输入</p>
 <p>【屏幕光标的移动】</p>
 <p>h j k l分别对应：左 下 上 右</p>
@@ -267,7 +256,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://bbsngg.github.io/2019/07/03/《Linux基础》Course-2/" data-id="cjxm1iduv00036ctxtp1llv6k" class="article-share-link">Share</a>
+      <a data-url="https://bbsngg.github.io/2019/07/03/《Linux基础》Course-2/" data-id="cjxyutjwo000jmotxnm5pymsw" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/notes/">notes</a></li></ul>
@@ -277,6 +266,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2019/07/04/《Linux基础》Course-3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          《Linux基础》Course-3【Ch5】
+        
+      </div>
+    </a>
   
   
     <a href="/2019/07/01/《Linux基础》Course-1/" id="article-nav-older" class="article-nav-link-wrap">
@@ -297,7 +295,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习笔记/">学习笔记</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习笔记/">学习笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/讲座/">讲座</a></li></ul>
     </div>
   </div>
 
@@ -307,7 +305,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP/">NLP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
     </div>
   </div>
 
@@ -317,7 +315,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/notes/" style="font-size: 10px;">notes</a>
+      <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/NLP/" style="font-size: 10px;">NLP</a> <a href="/tags/notes/" style="font-size: 20px;">notes</a>
     </div>
   </div>
 
@@ -339,6 +337,14 @@
       <ul>
         
           <li>
+            <a href="/2019/07/09/11/">自然语言处理简介</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/04/《Linux基础》Course-3/">《Linux基础》Course-3【Ch5】</a>
+          </li>
+        
+          <li>
             <a href="/2019/07/03/《Linux基础》Course-2/">《Linux基础》Course-2【Ch3 / Ch4】</a>
           </li>
         
@@ -348,10 +354,6 @@
         
           <li>
             <a href="/2019/06/30/myBlog/">Get Start！</a>
-          </li>
-        
-          <li>
-            <a href="/2019/06/30/hello-world/">Hello World</a>
           </li>
         
       </ul>

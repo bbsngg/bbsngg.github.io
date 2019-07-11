@@ -70,6 +70,233 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-11" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/09/11/" class="article-date">
+  <time datetime="2019-07-09T15:51:44.000Z" itemprop="datePublished">2019-07-09</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/讲座/">讲座</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/09/11/">自然语言处理简介</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="自然语言处理简介"><a href="#自然语言处理简介" class="headerlink" title="自然语言处理简介"></a>自然语言处理简介</h1><p>时间：2019/7/9 主讲：陈家骏</p>
+<h2 id="什么是自然语言"><a href="#什么是自然语言" class="headerlink" title="什么是自然语言"></a>什么是自然语言</h2><p>区别于计算机语言，使用计算机对自然语言处理的技术和方法</p>
+<p>相近研究领域：</p>
+<p>​    自然语言理解：强调对语言含义和意图的深层次理解</p>
+<p>​    计算语言学：可计算语言理论</p>
+<h2 id="NLP应用"><a href="#NLP应用" class="headerlink" title="NLP应用"></a>NLP应用</h2><p><strong>机器翻译 MT</strong>：文本，语音</p>
+<p><strong>自动摘要 Text Summarization</strong>：应对与信息过载，分为单文档 / 多文档</p>
+<p><strong>文本分类 Classification</strong></p>
+<p><strong>信息检索 Information Retrieval</strong></p>
+<p><strong>自动问答 Question Answering QA</strong>：相比于信息检索，答案具有（展示）唯一性</p>
+<p>*<em>信息抽取 Information Extraction *</em>：非/半结构化–》结构化信息，实体关系</p>
+<p><strong>情感分析 Sentiment/Opinion Analysis</strong>：热点事件发现预警，产品意见调查，消费者购买决策。冷启动问题：对于新用户，如何推荐？利用其他数据信息，社交网络</p>
+<p><strong>“只要涉及语言，都有NLP”</strong></p>
+<h2 id="NLP基本任务"><a href="#NLP基本任务" class="headerlink" title="NLP基本任务"></a>NLP基本任务</h2><h4 id="1-语言分析：分析语言表达的结构和含义"><a href="#1-语言分析：分析语言表达的结构和含义" class="headerlink" title="1 语言分析：分析语言表达的结构和含义"></a>1 语言分析：分析语言表达的结构和含义</h4><p><strong>词法分析：</strong></p>
+<p>形态还原，词性标注，命名实体识别，分词（词的定义，规范，信息丢失）</p>
+<p>切分歧义——交集型AB/C或A/BC，组合型AB或A/B</p>
+<p><strong>句法语义分析：</strong></p>
+<p>句法分析：</p>
+<p>组成份分析：树形结构</p>
+<p>依存分析：寻找依赖词</p>
+<p>语义分析：</p>
+<p>词义，句义，篇章语义</p>
+<p>句义表示：</p>
+<p>逻辑形式：数理逻辑公式推算出语义</p>
+<p>格角色：词性提取，树形结构</p>
+<p><strong>篇章分析</strong></p>
+<h4 id="2-语言生成：从某种内部表示生成语言的表达"><a href="#2-语言生成：从某种内部表示生成语言的表达" class="headerlink" title="2 语言生成：从某种内部表示生成语言的表达"></a>2 语言生成：从某种内部表示生成语言的表达</h4><p>词的生成，句子生成，篇章生成</p>
+<h4 id="3-多语言处理"><a href="#3-多语言处理" class="headerlink" title="3 多语言处理"></a>3 多语言处理</h4><h2 id="自然语言处理的实现方法"><a href="#自然语言处理的实现方法" class="headerlink" title="自然语言处理的实现方法"></a>自然语言处理的实现方法</h2><ol>
+<li><p>基于规则的理性方法</p>
+<p>符号推理，人的语言知识</p>
+<p>优势：语言知识描述精确，理论基础好，效率高</p>
+<p>困难：知识扩充（一致性），鲁棒性（规则选取冲突），劳动力</p>
+<p>——明明能做好做不好</p>
+<p>如：正向+逆向最大子串匹配</p>
+</li>
+<li><p>基于语料库的经验方法</p>
+<p>大规模语料库，统计学习，深度学习</p>
+<p>优势：概率大的为结果，知识扩充容易，一致性</p>
+<p>困难：缺乏深入描述，</p>
+<p>——做出的结果无从修改，不知从何而来</p>
+</li>
+</ol>
+<h2 id="自然语言的分类（基于形态结构）"><a href="#自然语言的分类（基于形态结构）" class="headerlink" title="自然语言的分类（基于形态结构）"></a>自然语言的分类（基于形态结构）</h2><p>分析型语言：没有或很少有词形变化，汉语</p>
+<p>黏着型语言：有词形变化，词的语法意义由附加成分表达，日语</p>
+<p>屈折型：有词形变化，语法意义由词的形态变化来表示，英语</p>
+<p>SVO 主动宾</p>
+<p>VSO 动主宾</p>
+<p>SOV 主宾动</p>
+<h2 id="NLP难点"><a href="#NLP难点" class="headerlink" title="NLP难点"></a>NLP难点</h2><p>歧义处理：有限的规则表达复杂、多样的对象</p>
+<p>语言知识的表示、获取和运用：数据标注</p>
+<p>成语和惯用型</p>
+<p>语言本身的灵活性和动态性</p>
+<p>​    灵活性：同一意图的不同表达，错误的表达也需要被正确处理</p>
+<p>​    动态性：新的词汇</p>
+<p>上下文和常识知识（与语言无关）的利用和处理</p>
+<h2 id="汉语处理的难点"><a href="#汉语处理的难点" class="headerlink" title="汉语处理的难点"></a>汉语处理的难点</h2><p>缺乏计算语言学的句法/语义理论</p>
+<p>corpus缺乏</p>
+<p>词法分析：分词，词性标注</p>
+<p>句法分析：主动词识别，词法分类与句法功能对应差</p>
+<p>语义分析：句法结构与句义对应差（如：老头<u>晒</u>太阳），时体态确定难</p>
+<h2 id="NLP涉及的学科"><a href="#NLP涉及的学科" class="headerlink" title="NLP涉及的学科"></a>NLP涉及的学科</h2><p>语言学，计算机科学，数学，哲学，心理学</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://bbsngg.github.io/2019/07/09/11/" data-id="cjxyutjwm000imotxwqkxwqbi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NLP/">NLP</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-《Linux基础》Course-3" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/04/《Linux基础》Course-3/" class="article-date">
+  <time datetime="2019-07-03T23:51:38.000Z" itemprop="datePublished">2019-07-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/学习笔记/">学习笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/04/《Linux基础》Course-3/">《Linux基础》Course-3【Ch5】</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Ch5-文件和目录"><a href="#Ch5-文件和目录" class="headerlink" title="Ch5 文件和目录"></a>Ch5 文件和目录</h1><h3 id="5-1-1-常见文件扩展名"><a href="#5-1-1-常见文件扩展名" class="headerlink" title="5.1.1 常见文件扩展名"></a>5.1.1 常见文件扩展名</h3><p>\1. 压缩和归档的文件：扩展名及其含义如下。</p>
+<p>.bz2：使用bzip2压缩的文件。</p>
+<p>.gz：使用gzip压缩的文件。</p>
+<p>.tar：使用tar压缩的文件，又称tar文件。</p>
+<p>.tbz：使用tar和bzip压缩的文件。</p>
+<p>.tgz：使用tar和gzip压缩的文件。</p>
+<p>.zip：使用zip压缩的文件， Linux下使用gzip命令压缩的文件。</p>
+<p>\2. 文件格式：</p>
+<p>文件格式扩展名及其含义如下。</p>
+<p>.au：音频文件。</p>
+<p>.gif： GIF图像文件。</p>
+<p>.html/.htm： HTML文件。</p>
+<p>.jpg： JPEG图像文件。</p>
+<p>.pdf： PDF文档</p>
+<p>.png： PNG图像文件。</p>
+<p>.ps： PostScript文件，为打印而格式化过的文件。</p>
+<p>.txt：纯ASCII文本文件。</p>
+<p>.wav：音频文件。</p>
+<p>.bmp：图像文件</p>
+<p>\3. 系统文件：</p>
+<p>系统文件扩展名及其含义如下。</p>
+<p>.conf：一种配置文件，配置文件有时也使用.cfg。</p>
+<p>.lock：锁文件，用来判定程序或设备是否正在被使用。</p>
+<p>.rpm： Linux系统中用来安装软件的软件包管理器文件</p>
+<p>\4. 编程和脚本文件</p>
+<p>编程和脚本文件扩展名及其含义如下。</p>
+<p>.c： C语言的源码文件。</p>
+<p>.cpp： C++语言的源码文件。</p>
+<p>.h： C或C++语言的头文件。</p>
+<p>.o：程序的对象文件</p>
+<p>.pl： Perl脚本。</p>
+<p>.py： Python脚本。</p>
+<p>.so：库文件。</p>
+<p>.sh： Shell脚本。</p>
+<p>.tcl： TCL脚本</p>
+<h3 id="5-1-2常见的文件类型"><a href="#5-1-2常见的文件类型" class="headerlink" title="5.1.2常见的文件类型"></a>5.1.2常见的文件类型</h3><p>（使用 <code>file 文件名</code>或<code>ls –l 文件名</code>查看文件详细类型）</p>
+<p>\1. 普通文件：文件属性符号 <code>-</code>   图像工具、文档工具、归档工具</p>
+<p>\2. 目录文件：文件属性符号 <code>d</code></p>
+<p>\3. 设备文件：/dev目录下的设备文件   </p>
+<p>字符设备文件：文件属性符号 <code>c</code>      接收字符流，打印机和终端</p>
+<p>块设备文件：  文件属性符号 <code>b</code>      随机读写，如磁盘</p>
+<p>\4. 管道文件/FIFO文件：文件属性符号<code>p</code>     一头流入，从另一头流出</p>
+<p>\5. 链接连接文件： </p>
+<p>5.1软连接<code>ln –s file1/dir file2</code>建立，file2的ls –l时第一个是l，file1/dir属性不变，file2中包含了file1的路径（类似于Windows中快捷方式类似）</p>
+<p>5.2硬链接 <code>ln file1 file2</code>建立，file1和file2的ls -l 文件硬链接数均大于1，但是属性仍然不变</p>
+<h2 id="5-2目录结构"><a href="#5-2目录结构" class="headerlink" title="5.2目录结构"></a>5.2目录结构</h2><p><strong>常见目录，干什么的，常见的说出7、8个</strong></p>
+<p><strong>根目录  /</strong></p>
+<p>1./home     2./root     3./bin     4./sbin     5./dev     6./lib     7./tmp     8./mnt</p>
+<p>9./boot     10./proc    11./opt   12./media     13./selinux     14./var    15./etc   16./usr     17./lost+found        18./srv </p>
+<p><u>/home  用户目录的宿主目录，存放普通用户的数据</u></p>
+<p><u>/root  root用户的主目录，存放root用户的数据</u></p>
+<p><u>/bin  存放普通的可执行命令</u></p>
+<p>/sbin 存放root使用的系统管理程序</p>
+<p><u>/dev 设备文件保存目录</u></p>
+<p>/lib  系统库保存目录</p>
+<p>/tmp  公用临时文件目录（创建者删除文件）</p>
+<p>/mnt  /media 临时挂载其它文件系统系统挂载目录  /mnt挂U盘 临时挂载  /media挂光盘</p>
+<p><u>/boot：启动目录，用来存放与Linux系统启动有关的程序</u></p>
+<p><u>/proc：虚拟目录，系统内存映射</u></p>
+<p><u>/opt：可选程序的安装目录</u></p>
+<p><u>/var  存放经常变化的数据以及日志文件</u></p>
+<p><u>/etc  配置文件保存目录</u></p>
+<p><u>/usr  用来存放Linux系统中的应用程序</u></p>
+<p>/lost+found 存修复或损坏的文件 </p>
+<h2 id="5-3-文件和目录操作"><a href="#5-3-文件和目录操作" class="headerlink" title="5.3 文件和目录操作"></a>5.3 文件和目录操作</h2><p><strong>见《常用命令.pdf》整理</strong></p>
+<h2 id="5-4链接文件"><a href="#5-4链接文件" class="headerlink" title="5.4链接文件"></a>5.4链接文件</h2><h3 id="5-4-1硬链接-软链接"><a href="#5-4-1硬链接-软链接" class="headerlink" title="5.4.1硬链接 软链接"></a>5.4.1硬链接 软链接</h3><p>在Linux系统中，内核为<u>每一个新创建的文件分配一个inode</u>（索引节点）号，<u>文件属性保存在索引节点里</u>，在访问文件时，<u>索引节点被复制到内存里</u>，从而实现文件的快速访问</p>
+<p>(1)软链接文件</p>
+<p>软链接又称为<u>符号链接</u>,这个文件包含了另一个<u>文件或目录的路径名</u>。<br> （用<code>ls -l</code>命令查看某个文件的属性,可以看到有类似<code>lrwxrwxrwx</code>的属性符号,其属性第一个符号是<code>l</code>,这样的文件在 Linux系统中就是软链接文件。）</p>
+<p>(2)硬链接文件 </p>
+<p>硬链接是一个<strong>指针</strong>,指向<u>文件索引节点</u>，即<u>一个文件的多个文件名</u>。系统并不为它重新分配inode。可以用ln命令来建立硬链接。硬链接<u>节省空间</u>,也是Linux 系统<u>整合文件系统</u>的传统方式。 </p>
+<p>硬链接文件有两个限制: </p>
+<p>1)<u>不允许给目录创建硬链接</u>;(但是软连接中可以为一个目录创建一个快捷方式)</p>
+<p>2)只有在<u>同一文件系统</u>（不能跨分区）中的文件之间才能创建链接。 </p>
+<p><strong>硬链接和软链接的区别：</strong></p>
+<p>硬链接记录的是<u>目标的inode</u>,软链接记录的是<u>目标的路径</u>。</p>
+<p>软链接就像是<u>快捷方式</u>,而硬链接就像是<u>备份</u>。</p>
+<p>软链接可以做<u>跨分区</u>的链接,而硬链接由于inode的缘故,只能在<u>本分区中</u>做链接。所以,软链接的使用频率要高得多。 </p>
+<p><strong>ln [选项] [源文件名] [链接文件名]</strong></p>
+<h3 id="5-4-2-链接文件的使用"><a href="#5-4-2-链接文件的使用" class="headerlink" title="5.4.2 链接文件的使用"></a>5.4.2 链接文件的使用</h3><p>【例5.24】 硬链接文件的使用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@PC-LINUX ~]#echo hello &gt; a</span><br><span class="line">[root@PC-LINUX ~]#ln a b</span><br></pre></td></tr></table></figure>
+
+<p>【例5.25】 软链接文件的使用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@PC-LINUX ~]#echo hello &gt; a</span><br><span class="line">[root@PC-LINUX ~]#ln –s a b</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://bbsngg.github.io/2019/07/04/《Linux基础》Course-3/" data-id="cjxyutjvj0004motxelbv2oc3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/notes/">notes</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-《Linux基础》Course-2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/07/03/《Linux基础》Course-2/" class="article-date">
@@ -99,32 +326,29 @@
         <h1 id="Ch3-走进Linux图形界面"><a href="#Ch3-走进Linux图形界面" class="headerlink" title="Ch3 走进Linux图形界面"></a>Ch3 走进Linux图形界面</h1><p><strong>两种界面：图形化界面、字符界面</strong></p>
 <p><strong>登录 关机 重启命令</strong></p>
 <p>如果需要以超级管理员（root）身份登录系统进行管理，在登录提示后输入用户名为“root”，按“回车”键后，在口令提示中输入安装时设置的根口令，然后按“回车”键即可。</p>
-<p>在切断计算机电源之前必须首先关闭 Fedora 17系统。不执行关闭Fedora 17系统就 直接切断计算机的电源,会导致未存盘数据的丢失或者系统的损害。 </p>
+<p><u>在切断计算机电源之前必须首先关闭 Fedora 17系统。不执行关闭Fedora 17系统就 直接切断计算机的电源,会导致未存盘数据的丢失或者系统的损害。</u> </p>
 <p><strong>系统日志保存在哪个目录下</strong></p>
-<p>一般保存在/var/log目录下</p>
+<p>一般保存在<code>/var/log</code>目录下</p>
 <p><strong>终端的命名tty pty pts</strong></p>
 <p>tty：终端设备的统称</p>
 <p>pty：虚拟终端</p>
 <p>pts：pty的实现方式，与ptmx配合使用实现pty</p>
-<h1 id="Ch4-Linux字符界面操作-重点！"><a href="#Ch4-Linux字符界面操作-重点！" class="headerlink" title="Ch4 Linux字符界面操作 重点！"></a>Ch4 Linux字符界面操作 重点！</h1><p><strong>进入命令行的方式</strong></p>
-<p>字符界面、图形界面下的终端以及虚拟控制台</p>
-<p><strong>虚拟控制台的切换</strong></p>
-<p><img src="https://i.loli.net/2019/07/03/5d1b820d07f9013947.png" alt="1562083819315"></p>
-<p><strong>系统关机/重启：shutdown halt reboot init</strong></p>
-<p>shutdown：安全地关闭系统</p>
-<p>​       shutdown [选项] [时间] [警告信息]</p>
-<p>​       shutdown -h now 立即关闭系统</p>
-<p>​        shutdown -h 45定时45分钟后关闭系统</p>
-<p>​       shutdown -r now重新启动系统,并发出警告信息</p>
-<p>halt：引发主机关闭系统=调用 “shutdown —h”命令执行关闭系统 </p>
-<p>​       [root@PC-LINUX ~]# halt</p>
-<p>reboot：引发主机重启,参数与“halt”相似。 </p>
-<p>​         [root@PC-LINUX ~]# reboot </p>
-<p>init：“init”命令是所有进程的祖先,它的进程号始终为“1”,所以发送“TERM”信号给 “init”会终止所有的用户进程和守护进程等。 “init” 定义了7个运行级别,其中“init 0”为关闭系统,“init 6”为重启，通过init可以完成不同运行级别之间的切换 </p>
+<h1 id="Ch4-Linux字符界面操作-重点！"><a href="#Ch4-Linux字符界面操作-重点！" class="headerlink" title="Ch4 Linux字符界面操作 重点！"></a>Ch4 Linux字符界面操作 重点！</h1><h2 id="进入命令行的方式"><a href="#进入命令行的方式" class="headerlink" title="进入命令行的方式"></a><strong>进入命令行的方式</strong></h2><p>字符界面、图形界面下的终端以及虚拟控制台</p>
+<h2 id="虚拟控制台的切换"><a href="#虚拟控制台的切换" class="headerlink" title="虚拟控制台的切换"></a><strong>虚拟控制台的切换</strong></h2><p><img src="https://i.loli.net/2019/07/03/5d1b820d07f9013947.png" alt="1562083819315"></p>
+<h2 id="系统关机-重启：shutdown-halt-reboot-init"><a href="#系统关机-重启：shutdown-halt-reboot-init" class="headerlink" title="系统关机/重启：shutdown halt reboot init"></a><strong>系统关机/重启：shutdown halt reboot init</strong></h2><p><code>shutdown</code>：安全地关闭系统</p>
+<p>​       <code>shutdown [选项] [时间] [警告信息]</code></p>
+<p>​       <code>shutdown -h now</code> 立即关闭系统</p>
+<p>​        <code>shutdown -h 45</code> 定时45分钟后关闭系统</p>
+<p>​       <code>shutdown -r now</code> 重新启动系统,并发出警告信息</p>
+<p><code>halt</code>：引发主机关闭系统=调用 “shutdown —h”命令执行关闭系统 </p>
+<p>​       <code>[root@PC-LINUX ~]# halt</code></p>
+<p><code>reboot</code>：引发主机重启,参数与“halt”相似。 </p>
+<p>​         <code>[root@PC-LINUX ~]# reboot</code></p>
+<p><code>init</code>：“init”命令是所有进程的祖先,它的进程号始终为“1”,所以发送“TERM”信号给 “init”会终止所有的用户进程和守护进程等。 “init” 定义了7个运行级别,其中“init 0”为关闭系统,“init 6”为重启，通过init可以完成不同运行级别之间的切换 </p>
 <p>shutdown和init都是既可以关机又可以重启：</p>
 <p>shutdown –h now和init 0用于关机 + halt</p>
 <p>shutdown –r now和init 6用户重启  + reboot</p>
-<p><strong>运行级别 0～6 要很清楚，3字符、5图形、0关机、6重启</strong></p>
+<h2 id="运行级别-0～6"><a href="#运行级别-0～6" class="headerlink" title="*运行级别 0～6 *"></a>*<em>运行级别 0～6 *</em></h2><p><strong>要很清楚，3字符、5图形、0关机、6重启</strong></p>
 <p>Linux运行级别有如下7种：（本质是定义了不同级别下的可运行程序）</p>
 <p>0: 停止运行,所有进程中止,关闭系统。 </p>
 <p>1: 单用户模式,用于维护系统,只有少数进程运行。</p>
@@ -134,24 +358,20 @@
 <p>5: 完整的多用户模式(带有基于X Window的图形界面)。</p>
 <p>6: 重新引导计算机。</p>
 <p>   <img src="https://i.loli.net/2019/07/03/5d1b8244e908888343.png" alt="1562083887802"></p>
-<p><strong>man帮助命令</strong></p>
-<p>man是一种显示Unix/Linux在线手册的命令。可以用来查看命令、函数或文件的帮助手册,另外它还可以显示一些gzip压缩格式的文件。 </p>
+<h2 id="man帮助命令"><a href="#man帮助命令" class="headerlink" title="man帮助命令"></a><strong>man帮助命令</strong></h2><p>man是一种显示Unix/Linux在线手册的命令。可以用来查看命令、函数或文件的帮助手册,另外它还可以显示一些gzip压缩格式的文件。 </p>
 <p>man命令格式化并显示在线的手册页。 </p>
 <p>man 1 passwd</p>
-<p><strong>help使用</strong></p>
-<p>help命令可以查找Shell命令的用法</p>
+<h2 id="help使用"><a href="#help使用" class="headerlink" title="help使用"></a><strong>help使用</strong></h2><p>help命令可以查找Shell命令的用法</p>
 <p>查看mkdir命令帮助：[root@PC-LINUX ~]# mkdir –help </p>
 <p>（注意help前有两条-）</p>
 <p>使用 “/+指令”直接查找 </p>
-<p><strong>whereis命令</strong>可以查找命令所在的位置</p>
+<h3 id="whereis命令"><a href="#whereis命令" class="headerlink" title="whereis命令"></a>whereis命令</h3><p>可以查找命令所在的位置</p>
 <p> <img src="https://i.loli.net/2019/07/03/5d1b827323e5a16285.png" alt="1562083931614"> </p>
-<p><strong>Shell里技巧性的命令行自动补全</strong></p>
-<p>输入第一个之后按下Tab键</p>
+<h3 id="shell里技巧性的命令行自动补全"><a href="#shell里技巧性的命令行自动补全" class="headerlink" title="shell里技巧性的命令行自动补全"></a><strong>shell里技巧性的命令行自动补全</strong></h3><p>输入第一个之后按下Tab键</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b82b1411ec31215.png" alt="1562083999764"></p>
 <p><strong>光标上翻下翻</strong></p>
 <p> <img src="https://i.loli.net/2019/07/03/5d1b86b74958383977.png" alt="1562085023555"></p>
-<p><strong>一行上执行多个命令：</strong></p>
-<ol>
+<h3 id="一行上执行多个命令："><a href="#一行上执行多个命令：" class="headerlink" title="一行上执行多个命令："></a><strong>一行上执行多个命令：</strong></h3><ol>
 <li><p>使用 “ ; “：同时执行两个命令</p>
 <p>命令1; 命令2</p>
 <p>先执行命令1，不管有无出错，再执行2</p>
@@ -162,21 +382,17 @@
 <p>先执行命令1，正确时，再执行2</p>
 </li>
 </ol>
-<p><strong>命令替换：传递参数</strong></p>
-<p>​    命令1 $(命令2)   或   命令1  ` 命令2 `</p>
-<p><strong>命令别名：</strong></p>
-<p>​    alias[简化后的命令（别名）] = [复杂的命令]</p>
+<h3 id="命令替换：传递参数"><a href="#命令替换：传递参数" class="headerlink" title="命令替换：传递参数"></a><strong>命令替换：传递参数</strong></h3><p>​    命令1 $(命令2)   或   命令1  ` 命令2 `</p>
+<h3 id="命令别名："><a href="#命令别名：" class="headerlink" title="命令别名："></a><strong>命令别名：</strong></h3><p>​    alias[简化后的命令（别名）] = [复杂的命令]</p>
 <p>   <img src="https://i.loli.net/2019/07/03/5d1b87035aba492428.png" alt="1562085099288"></p>
-<p><strong>管道</strong></p>
-<p><strong>【管道什么意思，管道有什么作用，具体怎么使用】</strong></p>
+<h3 id="管道"><a href="#管道" class="headerlink" title="管道**"></a><strong>管道**</strong></h3><p><strong>【管道什么意思，管道有什么作用，具体怎么使用】</strong></p>
 <p>管道可以通过组合许多小程序共同完成复杂的任务，可以将某个命令的输出信息当作某个命令的输入（由左到右），由管道符号“|”来标识。</p>
 <p>语法：</p>
 <p>[命令1]|[命令2]|[命令3]</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b87504022085087.png" alt="1562085184073"></p>
 <p>   |显示一个屏幕的信息</p>
 <p>more之后就可以分页显示上一个命令的输出</p>
-<p><strong>重定向：</strong></p>
-<ol>
+<h3 id="重定向："><a href="#重定向：" class="headerlink" title="重定向："></a><strong>重定向：</strong></h3><ol>
 <li>输出重定向</li>
 </ol>
 <p>command &gt; file</p>
@@ -199,8 +415,7 @@
 <li>同时实现输出和错误重定向</li>
 </ol>
 <p>Command &amp;&gt; file</p>
-<p><strong>vi （编辑的是ASCII文本）</strong></p>
-<p><strong>【三种模式，三种模式之间的转换及命令】</strong></p>
+<h2 id="vi-（编辑的是ASCII文本）"><a href="#vi-（编辑的是ASCII文本）" class="headerlink" title="vi （编辑的是ASCII文本）"></a><strong>vi （编辑的是ASCII文本）</strong></h2><p><strong>【三种模式，三种模式之间的转换及命令】</strong></p>
 <p>vi编辑器有3种基本工作模式,分别是<u>命令行模式、插入模式和末行模式</u>。</p>
 <p><img src="https://i.loli.net/2019/07/03/5d1b87bd6911691140.png" alt="1562085294989"></p>
 <p>当在Shell提示符下输入“vi文件名”之后就进入了命令行模式,在命令行模式下是不能输入任何数据的。</p>
@@ -210,6 +425,7 @@
 <li>从插入模式切换为命令行模式只需按“Esc”键。</li>
 <li>在命令行模式下,按转义命令冒号键“:”可以进入末行模式。</li>
 </ol>
+<p>命令行模式操作：</p>
 <p>注：下面操作都是只能在命令行模式下控制，在输入模式下会变成输入</p>
 <p>【屏幕光标的移动】</p>
 <p>h j k l分别对应：左 下 上 右</p>
@@ -252,7 +468,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://bbsngg.github.io/2019/07/03/《Linux基础》Course-2/" data-id="cjxm1iduv00036ctxtp1llv6k" class="article-share-link">Share</a>
+      <a data-url="https://bbsngg.github.io/2019/07/03/《Linux基础》Course-2/" data-id="cjxyutjwo000jmotxnm5pymsw" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/notes/">notes</a></li></ul>
@@ -343,7 +559,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://bbsngg.github.io/2019/07/01/《Linux基础》Course-1/" data-id="cjxm1idtv00016ctxnktzh60f" class="article-share-link">Share</a>
+      <a data-url="https://bbsngg.github.io/2019/07/01/《Linux基础》Course-1/" data-id="cjxyutjvb0003motxxw9qvwj1" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/notes/">notes</a></li></ul>
@@ -381,7 +597,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://bbsngg.github.io/2019/06/30/myBlog/" data-id="cjxm1iduz00066ctxivd3ibsb" class="article-share-link">Share</a>
+      <a data-url="https://bbsngg.github.io/2019/06/30/myBlog/" data-id="cjxyutjur0000motxq1am2byu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -430,7 +646,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://bbsngg.github.io/2019/06/30/hello-world/" data-id="cjxm1idv100076ctxvxvctfz8" class="article-share-link">Share</a>
+      <a data-url="https://bbsngg.github.io/2019/06/30/hello-world/" data-id="cjxyutjv80002motx4irztez8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -450,7 +666,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习笔记/">学习笔记</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习笔记/">学习笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/讲座/">讲座</a></li></ul>
     </div>
   </div>
 
@@ -460,7 +676,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP/">NLP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/notes/">notes</a></li></ul>
     </div>
   </div>
 
@@ -470,7 +686,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/notes/" style="font-size: 10px;">notes</a>
+      <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/NLP/" style="font-size: 10px;">NLP</a> <a href="/tags/notes/" style="font-size: 20px;">notes</a>
     </div>
   </div>
 
@@ -492,6 +708,14 @@
       <ul>
         
           <li>
+            <a href="/2019/07/09/11/">自然语言处理简介</a>
+          </li>
+        
+          <li>
+            <a href="/2019/07/04/《Linux基础》Course-3/">《Linux基础》Course-3【Ch5】</a>
+          </li>
+        
+          <li>
             <a href="/2019/07/03/《Linux基础》Course-2/">《Linux基础》Course-2【Ch3 / Ch4】</a>
           </li>
         
@@ -501,10 +725,6 @@
         
           <li>
             <a href="/2019/06/30/myBlog/">Get Start！</a>
-          </li>
-        
-          <li>
-            <a href="/2019/06/30/hello-world/">Hello World</a>
           </li>
         
       </ul>
