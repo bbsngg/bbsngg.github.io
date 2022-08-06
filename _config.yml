@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Song Dingjie"
 title_separator          : "-"
 name                     : &name "Song Dingjie"
-description              : &description "Hi! I'm James Song, an under postgraduate in the Nature Language Processing Group at Nanjing University ."
+description              : &description "Hi! I'm James Song, an under postgraduate in the Natural Language Processing Group at Nanjing University ."
 url                      : https://bbsngg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bbsngg/bbsngg.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Song Dingjie"
   avatar           : "profile.png"
-  bio              : "Under Postgraduate at Nanjing University, <a style='color: black;' href='http://nlp.nju.edu.cn/homepage/'>Nature Language Processing Group</a>"
+  bio              : "Under Postgraduate at Nanjing University, <a style='color: black;' href='http://nlp.nju.edu.cn/homepage/'>Natural Language Processing Group</a>"
   location         : "Nanjing, China"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
