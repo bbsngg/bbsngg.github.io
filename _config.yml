@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Song Dingjie"
   avatar           : "avatar.jpg"
-  bio              : "Under Postgraduate at Nanjing University, <a style='color: black;' href='http://nlp.nju.edu.cn/homepage/'>Natural Language Processing Group</a>"
-  location         : "Nanjing, China"
+  bio              : "Research Assistant at CUHK-sz"
+  location         : "Shenzhen, China"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=jP0bKzEAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
