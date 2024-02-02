@@ -71,12 +71,12 @@ Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang
 <br>
 
 * [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
-Huang Huang*, Fei Yu*, Jianqing Zhu*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
+Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
 *arXiv*, [code and data](https://github.com/FreedomIntelligence/AceGPT)
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
-Xidong Wang*, Guiming Hardy Chen*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang* (equal contribution), Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang\* (equal contribution), Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
 *arXiv*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 

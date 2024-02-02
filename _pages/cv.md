@@ -39,7 +39,7 @@ Skills
 
 * **Tools & Frameworks**: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark, Git, \LaTeX, ssh
 
-
+<!--
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -60,4 +60,4 @@ Teaching
 
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
