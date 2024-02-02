@@ -11,49 +11,53 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Master of Software Engineering, Nanjing University, Nanjing, China (09/2021 - 06/2023)
+  * Advisors: Dr. Xinyu Dai, Dr. Jidong Ge
+  * GPA: 4.4/5.0
+
+* Bachelor of Software Engineering, Nanjing University, Nanjing, China (09/2017 - 06/2021)
+  * Advisors: Dr. Xinyu Dai, Dr. Jidong Ge
+  * GPA: 4.3/5.0
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2023 - 2024: Research Assistant
+  * The Chinese University of Hong Kong, Shenzhen
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2022 - 2023: NLP Research Intern
+  * International Digital Economy Academy (IDEA)
+
+* 2020 - 2020: Research Assistant
+  * NLP Group, Nanjing University
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages**: Python, Java, JavaScript, SQL, HTML/CSS
+
+* **Natural Languages**: English, Mandarin, Cantonese
+
+* **Tools & Frameworks**: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark, Git, \LaTeX, ssh
+
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
