@@ -10,8 +10,7 @@ redirect_from:
 
 Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), under the guidance of Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/ "NJU SE") and the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/ "NJU NLP") at Nanjing University, advised by Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Prior to this, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/ "NJU SE") of Nanjing University.
 
-<span style="color:blue">**I am currently seeking PhD and internship positions. If you are interested in my profile, please feel free to contact me.:)**</span>
-
+<span style="color:blue">**I am actively seeking Summer2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span>
 
 Email: [bbsngg@outlook.com](mailto:bbsngg@outlook.com)
 
@@ -76,7 +75,7 @@ Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song*
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
-Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang\* (equal contribution), Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
 *arXiv*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 

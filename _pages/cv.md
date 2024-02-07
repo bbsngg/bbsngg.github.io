@@ -37,7 +37,7 @@ Skills
 
 * **Natural Languages**: English, Mandarin, Cantonese
 
-* **Tools & Frameworks**: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark, Git, \LaTeX, ssh
+* **Tools & Frameworks**: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark, Git, LaTeX, ssh
 
 <!--
 Publications
