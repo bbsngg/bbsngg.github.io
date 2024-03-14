@@ -34,6 +34,8 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ## Updates
 
+**March 2024**: Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
+
 **Nov 2023**: HuatuoGPT2 released! Try it out on the [🌐 demo](https://www.huatuogpt.cn/#/)! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially **surpassing GPT-4 in expert evaluations and the fresh medical licensing exams**. More info can be found in [📃 paper](https://arxiv.org/abs/2311.09774) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B).
 
 **Sep 2023**: We publish AceGPT that achieved **top performance** among open-source Arabic language models in benchmark tests. More info can be found in [📃 paper](https://arxiv.org/abs/2309.12053) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat).
@@ -71,12 +73,12 @@ Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang
 
 * [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
 Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
-*arXiv*, [code and data](https://github.com/FreedomIntelligence/AceGPT)
+*NAACL 2024*, [code and data](https://github.com/FreedomIntelligence/AceGPT)
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
 Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
-*arXiv*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
+*NAACL 2024*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 
 * [Episode-based Prompt Learning for Any-shot Intent Detection](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3)
