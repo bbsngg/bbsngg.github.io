@@ -34,7 +34,7 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ## Updates
 
-**March 2024**: Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
+**March 2024**: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
 
 **Nov 2023**: HuatuoGPT2 released! Try it out on the [🌐 demo](https://www.huatuogpt.cn/#/)! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially **surpassing GPT-4 in expert evaluations and the fresh medical licensing exams**. More info can be found in [📃 paper](https://arxiv.org/abs/2311.09774) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B).
 
