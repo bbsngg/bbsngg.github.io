@@ -24,15 +24,18 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
+* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/)
 * **Medical LLM:** [\[CMB\]](https://arxiv.org/abs/2308.08833), [\[HuatuoGPT-II\]](https://arxiv.org/abs/2311.09774)
 * **Multilingual LLM:** [\[AceGPT\]](https://arxiv.org/abs/2309.12053)
+* **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 <!-- My primary research interests lie in natural language processing and deep learning. My long-term goal in the research is to build an intelligent system that can understand users’ needs and solve real-world problems. I commenced a deep dive into low-resource learning and dialogue systems toward this goal. More specifically, I was interested in building a conversational agent that can be rapidly deployed in low-resource scenarios (e.g., medical domain). My current research focuses on building models for generalization and extrapolation to new tasks/domains, involving studies in zero-shot and few-shot learning. -->
 
 
 
 ## Updates
+
+**April 2024**: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).
 
 **March 2024**: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
 
@@ -63,6 +66,13 @@ My research interests are in Natural Language Processing, especially **intellige
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=jP0bKzEAAAAJ)
 
+
+### 2024
+
+* [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
+**Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
+*arXiv*, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
+<br>
 
 ### 2023
 
