@@ -10,7 +10,7 @@ redirect_from:
 
 Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), under the guidance of Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/ "NJU SE") and the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/ "NJU NLP") at Nanjing University, advised by Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Prior to this, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/ "NJU SE") of Nanjing University.
 
-<span style="color:blue">**I am actively seeking Summer2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span>
+<span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span>
 
 Email: [bbsngg@outlook.com](mailto:bbsngg@outlook.com)
 
@@ -29,10 +29,6 @@ My research interests are in Natural Language Processing, especially **intellige
 * **Multilingual LLM:** [\[AceGPT\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
-<!-- My primary research interests lie in natural language processing and deep learning. My long-term goal in the research is to build an intelligent system that can understand users’ needs and solve real-world problems. I commenced a deep dive into low-resource learning and dialogue systems toward this goal. More specifically, I was interested in building a conversational agent that can be rapidly deployed in low-resource scenarios (e.g., medical domain). My current research focuses on building models for generalization and extrapolation to new tasks/domains, involving studies in zero-shot and few-shot learning. -->
-
-
-
 ## Updates
 
 **April 2024**: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).
@@ -50,18 +46,6 @@ My research interests are in Natural Language Processing, especially **intellige
 **Jun 2023**: I defended my master's degree and got my master's degree in software engineering. Thanks to all those who have supported me.
 
 **Aug 2022 - Apr 2023**: Finished my internship with [Jiaxing Zhang](https://scholar.google.com/citations?user=ozXuhOUAAAAJ) on LLM SFT.
-
-
-## Awards
-
-* Outstanding Graduate Student, Nanjing University, 2022
-* Yingcai Scholarship, Nanjing University, 2022
-* Renmin Scholarship (People’s Scholarship), Nanjing University, 2018-2021
-* Third Runner's Up in 15th Citi Cup Financial Innovation Application Competition, Citigroup, 2019
-* Second Runner's Up in 2019 "Chain to Future" University Blockchain Technology Application Competition, CCF, 2019
-* Outstanding Student Leader of the Communist Youth League, Nanjing University, 2018-2019
-
-
 
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=jP0bKzEAAAAJ)
@@ -87,12 +71,12 @@ Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song*
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
-Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+**Dingjie Song\***, Xidong Wang\*, Guiming Hardy Chen\* (*equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
 *NAACL 2024*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 
 * [Episode-based Prompt Learning for Any-shot Intent Detection](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3)
-Pengfei Sun*, **Dingjie Song\*** (equal contribution), Yawen Ouyang, Zhen Wu, Xinyu Dai
+**Dingjie Song\***, Pengfei Sun* (*equal contribution), Yawen Ouyang, Zhen Wu, Xinyu Dai
 NLPCC 2023 **Oral**
 <br>
 
@@ -106,6 +90,17 @@ JCST 2022
 <br>
 
 ---
+
+## Awards
+
+* Outstanding Graduate Student, Nanjing University, 2022
+* Yingcai Scholarship, Nanjing University, 2022
+* Renmin Scholarship (People’s Scholarship), Nanjing University, 2018-2021
+* Third Runner's Up in 15th Citi Cup Financial Innovation Application Competition, Citigroup, 2019
+* Second Runner's Up in 2019 "Chain to Future" University Blockchain Technology Application Competition, CCF, 2019
+* Outstanding Student Leader of the Communist Youth League, Nanjing University, 2018-2019
+
+
 
 <div align="center">
     <a href='https://mapmyvisitors.com/web/1bvss'  title='Visit tracker'>
