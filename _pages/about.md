@@ -10,7 +10,7 @@ redirect_from:
 
 Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), under the guidance of Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/ "NJU SE") and the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/ "NJU NLP") at Nanjing University, advised by Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Prior to this, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/ "NJU SE") of Nanjing University.
 
-<span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span>
+<!-- <span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span> -->
 
 Email: [bbsngg@outlook.com](mailto:bbsngg@outlook.com)
 
@@ -30,6 +30,8 @@ My research interests are in Natural Language Processing, especially **intellige
 * **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**July 2024**: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!
 
 **April 2024**: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).
 
@@ -55,14 +57,14 @@ My research interests are in Natural Language Processing, especially **intellige
 
 * [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
-*arXiv*, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
+*COLM 2024*, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
 <br>
 
 ### 2023
 
 * [HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs](https://arxiv.org/abs/2311.09774)
 Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, **Dingjie Song**, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang
-*arXiv*, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
+*COLM 2024*, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
 <br>
 
 * [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
