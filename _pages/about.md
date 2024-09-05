@@ -24,12 +24,14 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/)
+* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA)
 * **Medical LLM:** [\[CMB\]](https://arxiv.org/abs/2308.08833), [\[HuatuoGPT-II\]](https://arxiv.org/abs/2311.09774)
 * **Multilingual LLM:** [\[AceGPT\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**Sep 2024**: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA).
 
 **July 2024**: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!
 
@@ -54,6 +56,11 @@ My research interests are in Natural Language Processing, especially **intellige
 
 
 ### 2024
+
+* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
+**Dingjie Song\***, Xidong Wang\*, Shunian Chen, Chen Zhang, Benyou Wang
+*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
+<br>
 
 * [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
