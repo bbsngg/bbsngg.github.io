@@ -12,7 +12,7 @@ Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group]
 
 <!-- <span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span> -->
 
-Email: [bbsngg@outlook.com](mailto:bbsngg@outlook.com)
+Email: [dingjiesong.cs@gmail.com](mailto:dingjiesong.cs@gmail.com)
 
 
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ) / [CV](http://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf)
