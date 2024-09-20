@@ -15,7 +15,7 @@ Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group]
 Email: [bbsngg@outlook.com](mailto:bbsngg@outlook.com)
 
 
-[Google Scholar](https://scholar.google.com/citations?user=jP0bKzEAAAAJ) / [CV](http://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf)
+[Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ) / [CV](http://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf)
 
 
 Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](#awards) / [Papers](#papers)
@@ -52,7 +52,7 @@ My research interests are in Natural Language Processing, especially **intellige
 **Aug 2022 - Apr 2023**: Finished my internship with [Jiaxing Zhang](https://scholar.google.com/citations?user=ozXuhOUAAAAJ) on LLM SFT.
 
 ## Papers
-[Google Scholar](https://scholar.google.com/citations?user=jP0bKzEAAAAJ)
+[Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
 
 
 ### 2024
