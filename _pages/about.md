@@ -31,7 +31,9 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ## Updates
 
-**Sep 2024**: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA).
+**Sep 2024**: **TRIM** ✂️ released! TRIM is a simple yet effective **Image Token Reduction Method** for efficient MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.10994), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM) and the [GitHub](https://github.com/FreedomIntelligence/TRIM).
+
+**Sep 2024**: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA). 🥈#2 Paper of the day on [Huggingface Daily Paper](https://huggingface.co/papers/2409.02889).
 
 **July 2024**: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!
 
@@ -56,6 +58,11 @@ My research interests are in Natural Language Processing, especially **intellige
 
 
 ### 2024
+
+* [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
+**Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
+*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/TRIM)
+<br>
 
 * [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
 **Dingjie Song\***, Xidong Wang\*, Shunian Chen, Chen Zhang, Benyou Wang
