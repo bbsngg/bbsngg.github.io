@@ -24,12 +24,14 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA)
+* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[TRIM\]](https://github.com/FreedomIntelligence/TRIM), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
 * **Medical LLM:** [\[CMB\]](https://arxiv.org/abs/2308.08833), [\[HuatuoGPT-II\]](https://arxiv.org/abs/2311.09774)
 * **Multilingual LLM:** [\[AceGPT\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**Nov 2024**: **MM-Detect** 🕵️ released! MM-Detect is the first **Data Contamination Detection Framework** for MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2411.03823) and the [GitHub](https://github.com/MLLM-Data-Contamination/MM-Detect).
 
 **Sep 2024**: **TRIM** ✂️ released! TRIM is a simple yet effective **Image Token Reduction Method** for efficient MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.10994), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM) and the [GitHub](https://github.com/FreedomIntelligence/TRIM).
 
@@ -41,23 +43,34 @@ My research interests are in Natural Language Processing, especially **intellige
 
 **March 2024**: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
 
-**Nov 2023**: HuatuoGPT2 released! Try it out on the [🌐 demo](https://www.huatuogpt.cn/#/)! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially **surpassing GPT-4 in expert evaluations and the fresh medical licensing exams**. More info can be found in [📃 paper](https://arxiv.org/abs/2311.09774) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B).
+<details>
 
-**Sep 2023**: We publish AceGPT that achieved **top performance** among open-source Arabic language models in benchmark tests. More info can be found in [📃 paper](https://arxiv.org/abs/2309.12053) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat).
+  <summary>Before 2024</summary>
 
-**Aug 2023**: [Checkout our 📃 new paper](https://arxiv.org/abs/2308.08833) that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the [🌐 website](https://cmedbenchmark.llmzoo.com/#home) and the [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/CMB).
+  **Nov 2023**: HuatuoGPT2 released! Try it out on the [🌐 demo](https://www.huatuogpt.cn/#/)! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially **surpassing GPT-4 in expert evaluations and the fresh medical licensing exams**. More info can be found in [📃 paper](https://arxiv.org/abs/2311.09774) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B).
 
-**Jul 2023**: Start the journey in CUHK-sz as a research assistant under the guidance of [Benyou Wang](https://scholar.google.com/citations?user=Jk4vJU8AAAAJ).
+  **Sep 2023**: We publish AceGPT that achieved **top performance** among open-source Arabic language models in benchmark tests. More info can be found in [📃 paper](https://arxiv.org/abs/2309.12053) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat).
 
-**Jun 2023**: I defended my master's degree and got my master's degree in software engineering. Thanks to all those who have supported me.
+  **Aug 2023**: [Checkout our 📃 new paper](https://arxiv.org/abs/2308.08833) that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the [🌐 website](https://cmedbenchmark.llmzoo.com/#home) and the [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/CMB).
 
-**Aug 2022 - Apr 2023**: Finished my internship with [Jiaxing Zhang](https://scholar.google.com/citations?user=ozXuhOUAAAAJ) on LLM SFT.
+  **Jul 2023**: Start the journey in CUHK-sz as a research assistant under the guidance of [Benyou Wang](https://scholar.google.com/citations?user=Jk4vJU8AAAAJ).
+
+  **Jun 2023**: I defended my master's degree and got my master's degree in software engineering. Thanks to all those who have supported me.
+
+  **Aug 2022 - Apr 2023**: Finished my internship with [Jiaxing Zhang](https://scholar.google.com/citations?user=ozXuhOUAAAAJ) on LLM SFT.
+
+</details>
 
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
 
 
 ### 2024
+
+* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
+**Dingjie Song\***, Sicheng Lai\*, Shunian Chen, Lichao Sun, Benyou Wang
+*arxiv, Under Review*, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
+<br>
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
 **Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
