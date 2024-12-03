@@ -24,12 +24,14 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[MileBench\]](https://milebench.github.io/), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[TRIM\]](https://github.com/FreedomIntelligence/TRIM), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
-* **Medical LLM:** [\[CMB\]](https://arxiv.org/abs/2308.08833), [\[HuatuoGPT-II\]](https://arxiv.org/abs/2311.09774)
-* **Multilingual LLM:** [\[AceGPT\]](https://arxiv.org/abs/2309.12053)
-* **Task-oriented dialogue systems:** [\[EPL, NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[STAM, JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
+* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
+* **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774)
+* **Multilingual LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2309.12053)
+* **Task-oriented dialogue systems:** [\[NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**Dec 2024**: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!
 
 **Nov 2024**: **MM-Detect** 🕵️ released! MM-Detect is the first **Data Contamination Detection Framework** for MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2411.03823) and the [GitHub](https://github.com/MLLM-Data-Contamination/MM-Detect).
 
@@ -47,19 +49,20 @@ My research interests are in Natural Language Processing, especially **intellige
 
   <summary>Before 2024</summary>
 
-  **Nov 2023**: HuatuoGPT2 released! Try it out on the [🌐 demo](https://www.huatuogpt.cn/#/)! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially **surpassing GPT-4 in expert evaluations and the fresh medical licensing exams**. More info can be found in [📃 paper](https://arxiv.org/abs/2311.09774) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B).
+  <p><strong>Nov 2023</strong>: HuatuoGPT2 released! Try it out on the <a href="https://www.huatuogpt.cn/#/">🌐 demo</a>! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially <strong>surpassing GPT-4 in expert evaluations and the fresh medical licensing exams</strong>. More info can be found in <a href="https://arxiv.org/abs/2311.09774">📃 paper</a> and <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B">🤗 HuggingFace</a>.</p>
 
-  **Sep 2023**: We publish AceGPT that achieved **top performance** among open-source Arabic language models in benchmark tests. More info can be found in [📃 paper](https://arxiv.org/abs/2309.12053) and [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat).
+  <p><strong>Sep 2023</strong>: We publish AceGPT that achieved <strong>top performance</strong> among open-source Arabic language models in benchmark tests. More info can be found in <a href="https://arxiv.org/abs/2309.12053">📃 paper</a> and <a href="https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat">🤗 HuggingFace</a>.</p>
 
-  **Aug 2023**: [Checkout our 📃 new paper](https://arxiv.org/abs/2308.08833) that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the [🌐 website](https://cmedbenchmark.llmzoo.com/#home) and the [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/CMB).
+  <p><strong>Aug 2023</strong>: <a href="https://arxiv.org/abs/2308.08833">Checkout our 📃 new paper</a> that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the <a href="https://cmedbenchmark.llmzoo.com/#home">🌐 website</a> and the <a href="https://huggingface.co/datasets/FreedomIntelligence/CMB">🤗 HuggingFace</a>.</p>
 
-  **Jul 2023**: Start the journey in CUHK-sz as a research assistant under the guidance of [Benyou Wang](https://scholar.google.com/citations?user=Jk4vJU8AAAAJ).
+  <p><strong>Jul 2023</strong>: Start the journey in CUHK-sz as a research assistant under the guidance of <a href="https://scholar.google.com/citations?user=Jk4vJU8AAAAJ">Benyou Wang</a>.</p>
 
-  **Jun 2023**: I defended my master's degree and got my master's degree in software engineering. Thanks to all those who have supported me.
+  <p><strong>Jun 2023</strong>: I defended my master's degree and got my master's degree in software engineering. Thanks to all those who have supported me.</p>
 
-  **Aug 2022 - Apr 2023**: Finished my internship with [Jiaxing Zhang](https://scholar.google.com/citations?user=ozXuhOUAAAAJ) on LLM SFT.
+  <p><strong>Aug 2022 - Apr 2023</strong>: Finished my internship with <a href="https://scholar.google.com/citations?user=ozXuhOUAAAAJ">Jiaxing Zhang</a> on LLM SFT.</p>
 
 </details>
+
 
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
@@ -68,44 +71,60 @@ My research interests are in Natural Language Processing, especially **intellige
 ### 2024
 
 * [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
-**Dingjie Song\***, Sicheng Lai\*, Shunian Chen, Lichao Sun, Benyou Wang
+<br>
+**Dingjie Song\***, Sicheng Lai\* (*equal contribution), Shunian Chen, Lichao Sun, Benyou Wang
+<br>
 *arxiv, Under Review*, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
 <br>
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
+<br>
 **Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
-*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/TRIM)
+<br>
+*COLING 2025*, [code and model](https://github.com/FreedomIntelligence/TRIM)
 <br>
 
 * [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
-**Dingjie Song\***, Xidong Wang\*, Shunian Chen, Chen Zhang, Benyou Wang
+<br>
+Xidong Wang\*, **Dingjie Song\*** (*equal contribution), Shunian Chen, Chen Zhang, Benyou Wang
+<br>
 *arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
 <br>
 
 * [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
+<br>
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
+<br>
 *COLM 2024*, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
 <br>
 
 ### 2023
 
 * [HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs](https://arxiv.org/abs/2311.09774)
+<br>
 Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, **Dingjie Song**, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang
+<br>
 *COLM 2024*, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
 <br>
 
 * [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
+<br>
 Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
+<br>
 *NAACL 2024*, [code and data](https://github.com/FreedomIntelligence/AceGPT)
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
-**Dingjie Song\***, Xidong Wang\*, Guiming Hardy Chen\* (*equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+<br>
+Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (*equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+<br>
 *NAACL 2024*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 
 * [Episode-based Prompt Learning for Any-shot Intent Detection](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3)
-**Dingjie Song\***, Pengfei Sun* (*equal contribution), Yawen Ouyang, Zhen Wu, Xinyu Dai
+<br>
+Pengfei Sun\*, **Dingjie Song\*** (*equal contribution), Yawen Ouyang, Zhen Wu, Xinyu Dai
+<br>
 NLPCC 2023 **Oral**
 <br>
 
