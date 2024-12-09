@@ -72,30 +72,37 @@ My research interests are in Natural Language Processing, especially **intellige
 
 * [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
 <br>
-**Dingjie Song\***, Sicheng Lai\* (*equal contribution), Shunian Chen, Lichao Sun, Benyou Wang
+**Dingjie Song\***, Sicheng Lai\*, Shunian Chen, Lichao Sun, Benyou Wang
 <br>
 *arxiv, Under Review*, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
+<br>
+
+* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
+<br>
+Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
+<br>
+*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
+<br>
+
+* [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
+<br>
+Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, Nuo Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, **Dingjie Song**, Xidong Wang, Anningzhe Gao, Zhang Zhiyi, Jianquan Li, Xiang Wan, Benyou Wang
+<br>
+*arxiv, Under Review*, [project page](https://mllm-bench.llmzoo.com/)
 <br>
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
 <br>
 **Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
 <br>
-*COLING 2025*, [code and model](https://github.com/FreedomIntelligence/TRIM)
-<br>
-
-* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
-<br>
-Xidong Wang\*, **Dingjie Song\*** (*equal contribution), Shunian Chen, Chen Zhang, Benyou Wang
-<br>
-*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
+***COLING 2025***, [code and model](https://github.com/FreedomIntelligence/TRIM)
 <br>
 
 * [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
 <br>
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
 <br>
-*COLM 2024*, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
+***COLM 2024***, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
 <br>
 
 ### 2023
@@ -104,36 +111,38 @@ Xidong Wang\*, **Dingjie Song\*** (*equal contribution), Shunian Chen, Chen Zhan
 <br>
 Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, **Dingjie Song**, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang
 <br>
-*COLM 2024*, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
+***COLM 2024***, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
 <br>
 
 * [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
 <br>
 Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
 <br>
-*NAACL 2024*, [code and data](https://github.com/FreedomIntelligence/AceGPT)
+***NAACL 2024***, [code and data](https://github.com/FreedomIntelligence/AceGPT)
 <br>
 
 * [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
 <br>
-Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\*** (*equal contribution), Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
+Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\***, Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
 <br>
-*NAACL 2024*, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
+***NAACL 2024***, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 
 * [Episode-based Prompt Learning for Any-shot Intent Detection](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3)
 <br>
-Pengfei Sun\*, **Dingjie Song\*** (*equal contribution), Yawen Ouyang, Zhen Wu, Xinyu Dai
+Pengfei Sun\*, **Dingjie Song\***, Yawen Ouyang, Zhen Wu, Xinyu Dai
 <br>
-NLPCC 2023 **Oral**
+***NLPCC 2023 <span style="color:#A52A2A;">Oral</span>***
 <br>
 
 
 ### 2022
 
 * [Self-Supervised Task Augmentation for Few-Shot Intent Detection](https://link.springer.com/article/10.1007/s11390-022-2029-5)
+<br>
 Pengfei Sun, Yawen Ouyang, **Dingjie Song**, Xinyu Dai
-JCST 2022
+<br>
+***JCST 2022***,
 [code and data](https://github.com/bbsngg/STAM)
 <br>
 
