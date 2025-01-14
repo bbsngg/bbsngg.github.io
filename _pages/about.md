@@ -67,8 +67,7 @@ My research interests are in Natural Language Processing, especially **intellige
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
 
-
-### 2025
+### Preprint
 
 * [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
 <br>
@@ -104,6 +103,8 @@ Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, N
 <br>
 *arxiv, Under Review*, [project page](https://mllm-bench.llmzoo.com/)
 <br>
+
+### 2025
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
 <br>
