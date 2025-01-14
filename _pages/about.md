@@ -70,6 +70,20 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ### 2025
 
+* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
+<br>
+Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
+<br>
+*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/Med-MAT)
+<br>
+
+* [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/pdf/2412.14203)
+<br>
+Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, Bo Li, Yan Hu, Benyou Wang
+<br>
+*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/BlenderLLM)
+<br>
+
 * [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
 <br>
 **Dingjie Song\***, Sicheng Lai\*, Shunian Chen, Lichao Sun, Benyou Wang
