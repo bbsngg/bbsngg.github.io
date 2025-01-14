@@ -67,7 +67,7 @@ My research interests are in Natural Language Processing, especially **intellige
 ## Papers
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
 
-### Preprint
+### Preprints
 
 * [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
 <br>
