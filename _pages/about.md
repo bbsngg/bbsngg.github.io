@@ -26,12 +26,14 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
+* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
 * **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774)
 * **Multilingual LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**Jan 2025**: 🎉🎉 [MLLM-Bench](https://arxiv.org/pdf/2311.13951) was accepted to [NAACL'25](https://2025.naacl.org/) main conference!
 
 **Dec 2024**: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!
 
@@ -99,14 +101,14 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 *arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
 <br>
 
+### 2025
+
 * [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
 <br>
 Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, Nuo Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, **Dingjie Song**, Xidong Wang, Anningzhe Gao, Zhang Zhiyi, Jianquan Li, Xiang Wan, Benyou Wang
 <br>
-*arxiv, Under Review*, [project page](https://mllm-bench.llmzoo.com/)
+***NAACL 2025***, [project page](https://mllm-bench.llmzoo.com/)
 <br>
-
-### 2025
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
 <br>
