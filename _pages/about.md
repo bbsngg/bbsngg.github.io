@@ -73,6 +73,27 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ### Preprints
 
+* [Aligning Multimodal LLM with Human Preference: A Survey](https://arxiv.org/abs/2503.14504)
+<br>
+Tao Yu, Chaoyou Fu, Junkang Wu, Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen, Guibin Zhang, **Dingjie Song**, Yibo Yan, Tianlong Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang Wang, Tieniu Tan
+<br>
+*arXiv preprint arXiv:2503.14504, 2025/3/18*, [project page](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Alignment)
+<br>
+
+* [A Survey on Post-training of Large Language Models](https://arxiv.org/abs/2503.06072)
+<br>
+Guiyao Tie, Zeli Zhao, **Dingjie Song**, Fuyang Wei, Rong Zhou, Yurou Dai, Wen Yin, Zhejian Yang, Jiangyue Yan, Yao Su, Zhenhan Dai, Yifeng Xie, Yihan Cao, Lichao Sun, Pan Zhou, Lifang He, Hechang Chen, Yu Zhang, Qingsong Wen, Tianming Liu, Neil Zhenqiang Gong, Jiliang Tang, Caiming Xiong, Heng Ji, Philip S. Yu, Jianfeng Gao
+<br>
+*Preprint*
+<br>
+
+* [From Correctness to Comprehension: AI Agents for Personalized Error Diagnosis in Education](https://arxiv.org/abs/2502.13789)
+<br>
+Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
+<br>
+*Preprint*
+<br>
+
 * [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
 <br>
 Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
