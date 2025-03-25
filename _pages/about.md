@@ -75,7 +75,7 @@ My research interests are in Natural Language Processing, especially **intellige
 
 * [Aligning Multimodal LLM with Human Preference: A Survey](https://arxiv.org/abs/2503.14504)
 <br>
-Tao Yu, Chaoyou Fu, Junkang Wu, Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen, Guibin Zhang, **Dingjie Song**, Yibo Yan, Tianlong Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang Wang, Tieniu Tan
+Tao Yu, Yi-Fan Zhang, Chaoyou Fu, Junkang Wu, Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen, Guibin Zhang, **Dingjie Song**, Yibo Yan, Tianlong Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang Wang, Tieniu Tan
 <br>
 *arXiv preprint arXiv:2503.14504, 2025/3/18*, [project page](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Alignment)
 <br>
