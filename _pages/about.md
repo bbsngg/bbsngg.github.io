@@ -33,6 +33,8 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ## Updates
 
+**May 2025**: 🎉🎉 [Med-MAT](https://github.com/FreedomIntelligence/Med-MAT) was accepted to [ACL'25](https://2025.aclweb.org/) main conference!
+
 **Jan 2025**: 🎉🎉 [MLLM-Bench](https://arxiv.org/pdf/2311.13951) was accepted to [NAACL'25](https://2025.naacl.org/) main conference!
 
 **Dec 2024**: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!
@@ -94,13 +96,6 @@ Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
 *Preprint*
 <br>
 
-* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
-<br>
-Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
-<br>
-*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/Med-MAT)
-<br>
-
 * [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/pdf/2412.14203)
 <br>
 Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, Bo Li, Yan Hu, Benyou Wang
@@ -123,6 +118,13 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
 
 ### 2025
+
+* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
+<br>
+Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
+<br>
+*ACL 2025*, [project page](https://github.com/FreedomIntelligence/Med-MAT)
+<br>
 
 * [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
 <br>
