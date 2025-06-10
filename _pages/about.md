@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Ph.D. student in the Department of Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://sites.google.com/lehigh.edu/lichaosun). Previously, I was a research assistant with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), mentored by Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/) and [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) at Nanjing University, under the guidance of Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Before that, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/) of Nanjing University.
+Welcome! I am a Ph.D. student in the Department of Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/). Previously, I was a research assistant with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), mentored by Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/) and [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) at Nanjing University, under the guidance of Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Before that, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/) of Nanjing University.
 
 <!-- Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), under the guidance of Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/ "NJU SE") and the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/ "NJU NLP") at Nanjing University, advised by Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Prior to this, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/ "NJU SE") of Nanjing University. -->
 
@@ -26,32 +26,37 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[MM-Detect\]](https://github.com/MLLM-Data-Contamination/MM-Detect)
+* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[ICML 2025 DIG-BUG Workshop\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA)
 * **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774)
 * **Multilingual LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
 
+**June 2025**: 🎉🎉 [MM-Detect](https://github.com/MLLM-Data-Contamination/MM-Detect) was accepted to [ICML'25 DIG-BUG Workshop](https://dig-bugs.github.io/)!
+
 **May 2025**: 🎉🎉 [Med-MAT](https://github.com/FreedomIntelligence/Med-MAT) was accepted to [ACL'25](https://2025.aclweb.org/) main conference!
 
 **Jan 2025**: 🎉🎉 [MLLM-Bench](https://arxiv.org/pdf/2311.13951) was accepted to [NAACL'25](https://2025.naacl.org/) main conference!
 
-**Dec 2024**: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!
-
-**Nov 2024**: **MM-Detect** 🕵️ released! MM-Detect is the first **Data Contamination Detection Framework** for MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2411.03823) and the [GitHub](https://github.com/MLLM-Data-Contamination/MM-Detect).
-
-**Sep 2024**: **TRIM** ✂️ released! TRIM is a simple yet effective **Image Token Reduction Method** for efficient MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.10994), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM) and the [GitHub](https://github.com/FreedomIntelligence/TRIM).
-
-**Sep 2024**: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA). 🥈#2 Paper of the day on [Huggingface Daily Paper](https://huggingface.co/papers/2409.02889).
-
-**July 2024**: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!
-
-**April 2024**: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).
-
-**March 2024**: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!
-
 <details>
+
+  <summary>Before 2025</summary>
+
+  <p><strong>Dec 2024</strong>: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!</p>
+
+  <p><strong>Nov 2024</strong>: **MM-Detect** 🕵️ released! MM-Detect is the first **Data Contamination Detection Framework** for MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2411.03823) and the [GitHub](https://github.com/MLLM-Data-Contamination/MM-Detect).</p>
+
+  <p><strong>Sep 2024</strong>: **TRIM** ✂️ released! TRIM is a simple yet effective **Image Token Reduction Method** for efficient MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.10994), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM) and the [GitHub](https://github.com/FreedomIntelligence/TRIM).</p>
+
+  <p><strong>Sep 2024</strong>: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA). 🥈#2 Paper of the day on [Huggingface Daily Paper](https://huggingface.co/papers/2409.02889).</p>
+
+  <p><strong>July 2024</strong>: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!</p>
+
+  <p><strong>April 2024</strong>: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).</p>
+
+  <p><strong>March 2024</strong>: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!</p>
+
 
   <summary>Before 2024</summary>
 
@@ -75,25 +80,32 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ### Preprints
 
+* [Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents](https://arxiv.org/abs/2505.23450)
+<br>
+Zhejian Yang, Yongchao Chen, Xueyang Zhou, Jiangyue Yan, **Dingjie Song**, Yinuo Liu, Yuting Li, Yu Zhang, Pan Zhou, Hechang Chen, Lichao Sun
+<br>
+*arXiv, Under Review*, [project page](https://agentic-robot.github.io/)
+<br>
+
 * [Aligning Multimodal LLM with Human Preference: A Survey](https://arxiv.org/abs/2503.14504)
 <br>
 Tao Yu, Yi-Fan Zhang, Chaoyou Fu, Junkang Wu, Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen, Guibin Zhang, **Dingjie Song**, Yibo Yan, Tianlong Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang Wang, Tieniu Tan
 <br>
-*arXiv preprint arXiv:2503.14504, 2025/3/18*, [project page](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Alignment)
+*arXiv, Under Review*, [project page](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Alignment)
 <br>
 
 * [A Survey on Post-training of Large Language Models](https://arxiv.org/abs/2503.06072)
 <br>
 Guiyao Tie, Zeli Zhao, **Dingjie Song**, Fuyang Wei, Rong Zhou, Yurou Dai, Wen Yin, Zhejian Yang, Jiangyue Yan, Yao Su, Zhenhan Dai, Yifeng Xie, Yihan Cao, Lichao Sun, Pan Zhou, Lifang He, Hechang Chen, Yu Zhang, Qingsong Wen, Tianming Liu, Neil Zhenqiang Gong, Jiliang Tang, Caiming Xiong, Heng Ji, Philip S. Yu, Jianfeng Gao
 <br>
-*Preprint*
+*arXiv, Under Review*
 <br>
 
 * [From Correctness to Comprehension: AI Agents for Personalized Error Diagnosis in Education](https://arxiv.org/abs/2502.13789)
 <br>
 Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
 <br>
-*Preprint*
+*arXiv, Under Review*
 <br>
 
 * [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/pdf/2412.14203)
@@ -101,13 +113,6 @@ Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
 Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, Bo Li, Yan Hu, Benyou Wang
 <br>
 *arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/BlenderLLM)
-<br>
-
-* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
-<br>
-**Dingjie Song\***, Sicheng Lai\*, Shunian Chen, Lichao Sun, Benyou Wang
-<br>
-*arxiv, Under Review*, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
 <br>
 
 * [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
@@ -119,11 +124,18 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 
 ### 2025
 
+* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
+<br>
+**Dingjie Song\***, Sicheng Lai\*, Mingxuan Wang, Shunian Chen, Lichao Sun, Benyou Wang
+<br>
+***ICML 2025 DIG-BUG Workshop***, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
+<br>
+
 * [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
 <br>
 Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
 <br>
-*ACL 2025*, [project page](https://github.com/FreedomIntelligence/Med-MAT)
+***ACL 2025***, [project page](https://github.com/FreedomIntelligence/Med-MAT)
 <br>
 
 * [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
