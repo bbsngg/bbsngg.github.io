@@ -43,20 +43,19 @@ My research interests are in Natural Language Processing, especially **intellige
 
   <summary>Before 2025</summary>
 
-  <p><strong>Dec 2024</strong>: 🎉🎉 [TRIM](https://arxiv.org/pdf/2409.10994) was accepted to [COLING'25](https://coling2025.org/) main conference!</p>
+  <p><strong>Dec 2024</strong>: 🎉🎉 <a href="https://arxiv.org/pdf/2409.10994">TRIM</a> was accepted to <a href="https://coling2025.org/">COLING'25</a> main conference!</p>
 
-  <p><strong>Nov 2024</strong>: **MM-Detect** 🕵️ released! MM-Detect is the first **Data Contamination Detection Framework** for MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2411.03823) and the [GitHub](https://github.com/MLLM-Data-Contamination/MM-Detect).</p>
+  <p><strong>Nov 2024</strong>: <strong>MM-Detect</strong> 🕵️ released! MM-Detect is the first <strong>Data Contamination Detection Framework</strong> for MLLMs!  More information can be found in <a href="https://arxiv.org/pdf/2411.03823">📃 paper</a> and the <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">GitHub</a>.</p>
 
-  <p><strong>Sep 2024</strong>: **TRIM** ✂️ released! TRIM is a simple yet effective **Image Token Reduction Method** for efficient MLLMs!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.10994), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM) and the [GitHub](https://github.com/FreedomIntelligence/TRIM).</p>
+  <p><strong>Sep 2024</strong>: <strong>TRIM</strong> ✂️ released! TRIM is a simple yet effective <strong>Image Token Reduction Method</strong> for efficient MLLMs!  More information can be found in <a href="https://arxiv.org/pdf/2409.10994">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/TRIM">GitHub</a>.</p>
 
-  <p><strong>Sep 2024</strong>: **LongLLaVA** 🐍🦙 released! LongLLaVA is the first MLLM with **hybrid architecture** that can handle up to **1000 images**!  More information can be found in [📃 paper](https://arxiv.org/pdf/2409.02889), [🤗 HuggingFace](https://huggingface.co/FreedomIntelligence/LongLLaVA) and the [GitHub](https://github.com/FreedomIntelligence/LongLLaVA). 🥈#2 Paper of the day on [Huggingface Daily Paper](https://huggingface.co/papers/2409.02889).</p>
+  <p><strong>Sep 2024</strong>: <strong>LongLLaVA</strong> 🐍🦙 released! LongLLaVA is the first MLLM with <strong>hybrid architecture</strong> that can handle up to <strong>1000 images</strong>!  More information can be found in <a href="https://arxiv.org/pdf/2409.02889">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/LongLLaVA">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/LongLLaVA">GitHub</a>. 🥈#2 Paper of the day on <a href="https://huggingface.co/papers/2409.02889">Huggingface Daily Paper</a>.</p>
 
-  <p><strong>July 2024</strong>: 🎉🎉 Two papers [MileBench](https://milebench.github.io/) and [HuatuoGPT2](https://www.huatuogpt.cn/#/) were accepted to [COLM'24](https://colmweb.org/) main conference!</p>
+  <p><strong>July 2024</strong>: 🎉🎉 Two papers <a href="https://milebench.github.io/">MileBench</a> and <a href="https://www.huatuogpt.cn/#/">HuatuoGPT2</a> were accepted to <a href="https://colmweb.org/">COLM'24</a> main conference!</p>
 
-  <p><strong>April 2024</strong>: **MileBench** 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the **MultImodal Long-contExt capabilities of MLLMs**.  More information can be found on the [🌐 website](https://milebench.github.io/), [📃 paper](https://arxiv.org/pdf/2404.18532), [🤗 HuggingFace](https://huggingface.co/datasets/FreedomIntelligence/MileBench) and the [GitHub](https://github.com/MileBench/MileBench).</p>
+  <p><strong>April 2024</strong>: <strong>MileBench</strong> 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the <strong>MultImodal Long-contExt capabilities of MLLMs</strong>.  More information can be found on the <a href="https://milebench.github.io/">🌐 website</a>, <a href="https://arxiv.org/pdf/2404.18532">📃 paper</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/MileBench">🤗 HuggingFace</a> and the <a href="https://github.com/MileBench/MileBench">GitHub</a>.</p>
 
-  <p><strong>March 2024</strong>: 🎉🎉 Two papers [CMB](https://cmedbenchmark.llmzoo.com/#home) and [AceGPT](https://arxiv.org/abs/2309.12053) were accepted to [NAACL'24](https://2024.naacl.org/) main conference!</p>
-
+  <p><strong>March 2024</strong>: 🎉🎉 Two papers <a href="https://cmedbenchmark.llmzoo.com/#home">CMB</a> and <a href="https://arxiv.org/abs/2309.12053">AceGPT</a> were accepted to <a href="https://2024.naacl.org/">NAACL'24</a> main conference!</p>
 
   <summary>Before 2024</summary>
 
