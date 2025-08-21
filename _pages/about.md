@@ -26,12 +26,14 @@ Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](
 ## Research Overview
 
 My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[LongLLaVA\]](https://github.com/FreedomIntelligence/LongLLaVA)
+* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025,ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA)
 * **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698)
 * **Multilingual LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2309.12053)
 * **Task-oriented dialogue systems:** [\[NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
 
 ## Updates
+
+**Aug 2025**: 🎉🎉 [MM-Detect](https://github.com/MLLM-Data-Contamination/MM-Detect) and [LongLLaVA](https://github.com/FreedomIntelligence/LongLLaVA) were accepted to [EMNLP Findings'25](https://2025.emnlp.org/)!
 
 **July 2025**: 🎉🎉 [SAMed-2](https://github.com/ZhilingYan/Medical-SAM-Bench) was accepted to [MICCAI'25](https://www.miccai.org/)!
 
@@ -116,20 +118,13 @@ Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, 
 *arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/BlenderLLM)
 <br>
 
+### 2025
+
 * [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
 <br>
 Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
-*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
-<br>
-
-### 2025
-
-* [SAMed-2: Selective Memory Enhanced Medical Segment Anything Model](https://arxiv.org/abs/2507.03698)
-<br>
-Zhiling Yan, Sifan Song, **Dingjie Song**, Yiwei Li, Rong Zhou, Weixiang Sun, Zhennong Chen, Sekeun Kim, Hui Ren, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun
-<br>
-***MICCAI 2025***, [code and data](https://github.com/ZhilingYan/Medical-SAM-Bench)
+***EMNLP Findings 2025***, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
 <br>
 
 
@@ -137,7 +132,15 @@ Zhiling Yan, Sifan Song, **Dingjie Song**, Yiwei Li, Rong Zhou, Weixiang Sun, Zh
 <br>
 **Dingjie Song\***, Sicheng Lai\*, Mingxuan Wang, Shunian Chen, Lichao Sun, Benyou Wang
 <br>
-***ICML 2025 DIG-BUG Workshop <span style="color:#A52A2A;">Oral</span>***, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
+***EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop <span style="color:#A52A2A;">Oral</span>***, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
+<br>
+
+
+* [SAMed-2: Selective Memory Enhanced Medical Segment Anything Model](https://arxiv.org/abs/2507.03698)
+<br>
+Zhiling Yan, Sifan Song, **Dingjie Song**, Yiwei Li, Rong Zhou, Weixiang Sun, Zhennong Chen, Sekeun Kim, Hui Ren, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun
+<br>
+***MICCAI 2025***, [code and data](https://github.com/ZhilingYan/Medical-SAM-Bench)
 <br>
 
 * [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
