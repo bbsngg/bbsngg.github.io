@@ -83,6 +83,13 @@ My research interests are in Natural Language Processing, especially **intellige
 
 ### Preprints
 
+* [CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation](https://arxiv.org/abs/2510.06231)
+<br>
+Mingzhe Zheng, **Dingjie Song**, Guanyu Zhou, Jun You, Jiahao Zhan, Xuran Ma, Xinyuan Song, Ser-Nam Lim, Qifeng Chen, Harry Yang
+<br>
+*arXiv, Under Review*, [project page](https://github.com/DuNGEOnmassster/CML-Bench/)
+<br>
+
 * [Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents](https://arxiv.org/abs/2505.23450)
 <br>
 Zhejian Yang, Yongchao Chen, Xueyang Zhou, Jiangyue Yan, **Dingjie Song**, Yinuo Liu, Yuting Li, Yu Zhang, Pan Zhou, Hechang Chen, Lichao Sun
