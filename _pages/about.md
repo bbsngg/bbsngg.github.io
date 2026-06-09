@@ -1,51 +1,68 @@
 ---
 permalink: /
 title: "Dingjie Song"
-excerpt: "About me"
+excerpt: "Ph.D. student at Lehigh University working on multimodal large language models."
+description: "Dingjie Song — Ph.D. student in Computer Science and Engineering at Lehigh University, advised by Prof. Lichao Sun. Research on multimodal large language models, medical and multilingual LLMs."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I am a Ph.D. student in the Department of Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/). Previously, I was a research assistant with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), mentored by Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/) and [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/) at Nanjing University, under the guidance of Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Before that, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/) of Nanjing University.
+I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/), and currently a summer research intern at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto. Previously a research assistant at the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/) with Dr. [Benyou Wang](https://wabyking.github.io/old.html); M.E. from [Nanjing University](http://nlp.nju.edu.cn/homepage/).
 
-<!-- Welcome! I am a research assistant affiliated with the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/), under the guidance of Dr. [Benyou Wang](https://wabyking.github.io/old.html). I obtained my M.E. from the [Software Institute](https://software.nju.edu.cn/ "NJU SE") and the [Natural Language Processing Group](http://nlp.nju.edu.cn/homepage/ "NJU NLP") at Nanjing University, advised by Dr. [Xinyu Dai](https://ai.nju.edu.cn/daixinyu/index.htm) and Dr. [Jidong Ge](https://gjdnju.github.io/). Prior to this, I completed my B.E. at the [Software Institute](https://software.nju.edu.cn/ "NJU SE") of Nanjing University. -->
+My research is in Large Language Models and Natural Language Processing, currently focused on **LLM agents** 🤖 and **AI for scientific discovery** 🔬 — building agents that learn and self-evolve in open-ended environments, and AI systems that automate and accelerate the research process end-to-end. This builds on my earlier work making **multimodal** and **medical** LLMs efficient, robust, and trustworthy. My work spans:
+
+* **LLM Agents:** [\[OpenSkill\]](https://openlair.github.io/openskill/), [\[Agentic Robot\]](https://agentic-robot.github.io/)
+* **AI Scientist & Scientific Discovery:** [\[Dr. Claw 🦞\]](https://github.com/OpenLAIR/dr-claw), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
+* **Multimodal LLM:** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[ScratchMath\]](https://arxiv.org/abs/2603.24961)
+* **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698), [\[KDD 2026\]](https://arxiv.org/abs/2602.10367)
+
+<details>
+<summary>Earlier directions</summary>
+<ul>
+<li><strong>Multilingual LLM:</strong> <a href="https://arxiv.org/abs/2309.12053">[NAACL 2024]</a></li>
+<li><strong>Task-oriented dialogue systems:</strong> <a href="https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3">[NLPCC 2023 Oral]</a>, <a href="https://link.springer.com/article/10.1007/s11390-022-2029-5">[JCST 2023]</a></li>
+</ul>
+</details>
 
 <!-- <span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span> -->
 
-Email: [dingjiesong.cs@gmail.com](mailto:dingjiesong.cs@gmail.com)
+<div class="notice--info" markdown="1">
+🦞 **Featured — [Dr. Claw](https://github.com/OpenLAIR/dr-claw): the best open-source IDE for AI-powered research.** Carry a project from idea to publication with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills. [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw)
 
-
-[Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ) / [CV](http://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf)
-
-
-Links: [Research Overview](#research-overview) / [Updates](#updates) / [Awards](#awards) / [Papers](#papers)
-
-
-## Research Overview
-
-My research interests are in Natural Language Processing, especially **intelligent interactive systems** 🤖 and **Domain-specific LLMs** 👨🏻‍⚕️ and the following directions:
-* **Multimodal LLM** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025,ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA)
-* **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698)
-* **Multilingual LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2309.12053)
-* **Task-oriented dialogue systems:** [\[NLPCC 2023 Oral\]](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3), [\[JCST 2023\]](https://link.springer.com/article/10.1007/s11390-022-2029-5)
+[🌐 Website](https://openlair.github.io/dr-claw/) · [⭐ Star on GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+</div>
 
 ## Updates
 
-**Aug 2025**: 🎉🎉 [MM-Detect](https://github.com/MLLM-Data-Contamination/MM-Detect) and [LongLLaVA](https://github.com/FreedomIntelligence/LongLLaVA) were accepted to [EMNLP Findings'25](https://2025.emnlp.org/)!
+<div class="updates" markdown="1">
 
-**July 2025**: 🎉🎉 [SAMed-2](https://github.com/ZhilingYan/Medical-SAM-Bench) was accepted to [MICCAI'25](https://www.miccai.org/)!
+**June 2026**: 🌴 Started a summer research internship at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto!
 
-**June 2025**: 🎉🎉 [MM-Detect](https://github.com/MLLM-Data-Contamination/MM-Detect) was accepted to [ICML'25 DIG-BUG Workshop](https://dig-bugs.github.io/)!
+**June 2026**: 🦾 [OpenSkill](https://openlair.github.io/openskill/) released — open-world self-evolution for LLM agents! [📃 paper](https://arxiv.org/abs/2606.06741), [code](https://github.com/OpenLAIR/OpenSkill).
 
-**May 2025**: 🎉🎉 [Med-MAT](https://github.com/FreedomIntelligence/Med-MAT) was accepted to [ACL'25](https://2025.aclweb.org/) main conference!
+**May 2026**: 🎉🎉 [LiveMedBench](https://arxiv.org/abs/2602.10367) was accepted to [KDD'26](https://kdd2026.kdd.org/) (Datasets and Benchmarks Track)!
 
-**Jan 2025**: 🎉🎉 [MLLM-Bench](https://arxiv.org/pdf/2311.13951) was accepted to [NAACL'25](https://2025.naacl.org/) main conference!
+**May 2026**: 🦞 [Dr. Claw](https://github.com/OpenLAIR/dr-claw) open-sourced — a full-stack AI research workspace with multi-agent support and 100+ research skills; featured by [Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)! [🌐 Website](https://openlair.github.io/dr-claw/)
+
+**May 2026**: 📃 [AutoResearch AI](https://arxiv.org/abs/2605.23204) preprint released — toward AI-powered research automation for scientific discovery.
+
+**Mar 2026**: 📃 New preprints released: [Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589) and [ScratchMath](https://arxiv.org/abs/2603.24961).
 
 <details>
 
-  <summary>Before 2025</summary>
+  <summary>Earlier updates</summary>
+
+  <p><strong>Aug 2025</strong>: 🎉🎉 <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">MM-Detect</a> and <a href="https://github.com/FreedomIntelligence/LongLLaVA">LongLLaVA</a> were accepted to <a href="https://2025.emnlp.org/">EMNLP Findings'25</a>!</p>
+
+  <p><strong>July 2025</strong>: 🎉🎉 <a href="https://github.com/ZhilingYan/Medical-SAM-Bench">SAMed-2</a> was accepted to <a href="https://www.miccai.org/">MICCAI'25</a>!</p>
+
+  <p><strong>June 2025</strong>: 🎉🎉 <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">MM-Detect</a> was accepted to <a href="https://dig-bugs.github.io/">ICML'25 DIG-BUG Workshop</a>!</p>
+
+  <p><strong>May 2025</strong>: 🎉🎉 <a href="https://github.com/FreedomIntelligence/Med-MAT">Med-MAT</a> was accepted to <a href="https://2025.aclweb.org/">ACL'25</a> main conference!</p>
+
+  <p><strong>Jan 2025</strong>: 🎉🎉 <a href="https://arxiv.org/pdf/2311.13951">MLLM-Bench</a> was accepted to <a href="https://2025.naacl.org/">NAACL'25</a> main conference!</p>
 
   <p><strong>Dec 2024</strong>: 🎉🎉 <a href="https://arxiv.org/pdf/2409.10994">TRIM</a> was accepted to <a href="https://coling2025.org/">COLING'25</a> main conference!</p>
 
@@ -61,6 +78,8 @@ My research interests are in Natural Language Processing, especially **intellige
 
   <p><strong>March 2024</strong>: 🎉🎉 Two papers <a href="https://cmedbenchmark.llmzoo.com/#home">CMB</a> and <a href="https://arxiv.org/abs/2309.12053">AceGPT</a> were accepted to <a href="https://2024.naacl.org/">NAACL'24</a> main conference!</p>
 
+  <details>
+
   <summary>Before 2024</summary>
 
   <p><strong>Nov 2023</strong>: HuatuoGPT2 released! Try it out on the <a href="https://www.huatuogpt.cn/#/">🌐 demo</a>! HuatuoGPT2 employs an innovative domain adaptation method to significantly boost its medical knowledge and dialogue proficiency and showcases SOTA performance in several medical benchmarks, especially <strong>surpassing GPT-4 in expert evaluations and the fresh medical licensing exams</strong>. More info can be found in <a href="https://arxiv.org/abs/2311.09774">📃 paper</a> and <a href="https://huggingface.co/FreedomIntelligence/HuatuoGPT2-34B">🤗 HuggingFace</a>.</p>
@@ -75,65 +94,41 @@ My research interests are in Natural Language Processing, especially **intellige
 
   <p><strong>Aug 2022 - Apr 2023</strong>: Finished my internship with <a href="https://scholar.google.com/citations?user=ozXuhOUAAAAJ">Jiaxing Zhang</a> on LLM SFT.</p>
 
+  </details>
+
 </details>
 
+</div>
 
-## Papers
-[Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ)
+## Selected Publications
+[Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ) &nbsp;·&nbsp; **[See all publications →](/publications/)**
 
-### Preprints
+### LLM Agents
 
-* [CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation](https://arxiv.org/abs/2510.06231)
+* [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
 <br>
-Mingzhe Zheng, **Dingjie Song**, Guanyu Zhou, Jun You, Jiahao Zhan, Xuran Ma, Xinyuan Song, Ser-Nam Lim, Qifeng Chen, Harry Yang
+Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
 <br>
-*arXiv, Under Review*, [project page](https://github.com/DuNGEOnmassster/CML-Bench/)
-<br>
-
-* [Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents](https://arxiv.org/abs/2505.23450)
-<br>
-Zhejian Yang, Yongchao Chen, Xueyang Zhou, Jiangyue Yan, **Dingjie Song**, Yinuo Liu, Yuting Li, Yu Zhang, Pan Zhou, Hechang Chen, Lichao Sun
-<br>
-*arXiv, Under Review*, [project page](https://agentic-robot.github.io/)
+*arXiv, Under Review*, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
 <br>
 
-* [Aligning Multimodal LLM with Human Preference: A Survey](https://arxiv.org/abs/2503.14504)
+### AI Scientist & Scientific Discovery
+
+* [Dr. Claw 🦞: A Full-Stack AI Research Workspace](https://github.com/OpenLAIR/dr-claw)
 <br>
-Tao Yu, Yi-Fan Zhang, Chaoyou Fu, Junkang Wu, Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen, Guibin Zhang, **Dingjie Song**, Yibo Yan, Tianlong Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang Wang, Tieniu Tan
+*"A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power."* — carries a project from idea to publication, with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills.
 <br>
-*arXiv, Under Review*, [project page](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Alignment)
+[![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw) &nbsp; [🌐 Website](https://openlair.github.io/dr-claw/) · [GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>
 
-* [A Survey on Post-training of Large Language Models](https://arxiv.org/abs/2503.06072)
+* [Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589)
 <br>
-Guiyao Tie, Zeli Zhao, **Dingjie Song**, Fuyang Wei, Rong Zhou, Yurou Dai, Wen Yin, Zhejian Yang, Jiangyue Yan, Yao Su, Zhenhan Dai, Yifeng Xie, Yihan Cao, Lichao Sun, Pan Zhou, Lifang He, Hechang Chen, Yu Zhang, Qingsong Wen, Tianming Liu, Neil Zhenqiang Gong, Jiliang Tang, Caiming Xiong, Heng Ji, Philip S. Yu, Jianfeng Gao
+Hongtao Wu\*, Boyun Zheng\*, **Dingjie Song\***, Yu Jiang, Jianfeng Gao, Lei Xing, Lichao Sun, Yixuan Yuan
 <br>
 *arXiv, Under Review*
 <br>
 
-* [From Correctness to Comprehension: AI Agents for Personalized Error Diagnosis in Education](https://arxiv.org/abs/2502.13789)
-<br>
-Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
-<br>
-*arXiv, Under Review*
-<br>
-
-* [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/pdf/2412.14203)
-<br>
-Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, Bo Li, Yan Hu, Benyou Wang
-<br>
-*arxiv, Under Review*, [project page](https://github.com/FreedomIntelligence/BlenderLLM)
-<br>
-
-### 2025
-
-* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
-<br>
-Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
-<br>
-***EMNLP Findings 2025***, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
-<br>
-
+### Multimodal LLM
 
 * [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
 <br>
@@ -142,26 +137,11 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 ***EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop <span style="color:#A52A2A;">Oral</span>***, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
 <br>
 
-
-* [SAMed-2: Selective Memory Enhanced Medical Segment Anything Model](https://arxiv.org/abs/2507.03698)
+* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
 <br>
-Zhiling Yan, Sifan Song, **Dingjie Song**, Yiwei Li, Rong Zhou, Weixiang Sun, Zhennong Chen, Sekeun Kim, Hui Ren, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun
+Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
-***MICCAI 2025***, [code and data](https://github.com/ZhilingYan/Medical-SAM-Bench)
-<br>
-
-* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
-<br>
-Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
-<br>
-***ACL 2025***, [project page](https://github.com/FreedomIntelligence/Med-MAT)
-<br>
-
-* [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
-<br>
-Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, Nuo Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, **Dingjie Song**, Xidong Wang, Anningzhe Gao, Zhang Zhiyi, Jianquan Li, Xiang Wan, Benyou Wang
-<br>
-***NAACL 2025***, [project page](https://mllm-bench.llmzoo.com/)
+***EMNLP Findings 2025***, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
 <br>
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
@@ -171,8 +151,6 @@ Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, N
 ***COLING 2025***, [code and model](https://github.com/FreedomIntelligence/TRIM)
 <br>
 
-### 2024
-
 * [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
 <br>
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
@@ -180,47 +158,7 @@ Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, N
 ***COLM 2024***, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
 <br>
 
-* [HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs](https://arxiv.org/abs/2311.09774)
-<br>
-Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, **Dingjie Song**, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang
-<br>
-***COLM 2024***, [project page](https://www.huatuogpt.cn/), [code and data](https://github.com/FreedomIntelligence/HuatuoGPT-II)
-<br>
-
-* [AceGPT, Localizing Large Language Models in Arabic](https://arxiv.org/abs/2309.12053)
-<br>
-Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song**, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
-<br>
-***NAACL 2024***, [code and data](https://github.com/FreedomIntelligence/AceGPT)
-<br>
-
-* [CMB: A Comprehensive Medical Benchmark in Chinese](https://arxiv.org/abs/2308.08833)
-<br>
-Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\***, Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
-<br>
-***NAACL 2024***, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
-<br>
-
-
-### 2023
-
-* [Episode-based Prompt Learning for Any-shot Intent Detection](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3)
-<br>
-Pengfei Sun\*, **Dingjie Song\***, Yawen Ouyang, Zhen Wu, Xinyu Dai
-<br>
-***NLPCC 2023 <span style="color:#A52A2A;">Oral</span>***
-<br>
-
-
-### 2022
-
-* [Self-Supervised Task Augmentation for Few-Shot Intent Detection](https://link.springer.com/article/10.1007/s11390-022-2029-5)
-<br>
-Pengfei Sun, Yawen Ouyang, **Dingjie Song**, Xinyu Dai
-<br>
-***JCST 2022***,
-[code and data](https://github.com/bbsngg/STAM)
-<br>
+**[→ Browse the full list of publications](/publications/)**
 
 ---
 
@@ -229,9 +167,15 @@ Pengfei Sun, Yawen Ouyang, **Dingjie Song**, Xinyu Dai
 * Outstanding Graduate Student, Nanjing University, 2022
 * Yingcai Scholarship, Nanjing University, 2022
 * Renmin Scholarship (People’s Scholarship), Nanjing University, 2018-2021
-* Third Runner's Up in 15th Citi Cup Financial Innovation Application Competition, Citigroup, 2019
-* Second Runner's Up in 2019 "Chain to Future" University Blockchain Technology Application Competition, CCF, 2019
-* Outstanding Student Leader of the Communist Youth League, Nanjing University, 2018-2019
+
+<details>
+  <summary>More awards</summary>
+  <ul>
+    <li>Third Runner-Up, 15th Citi Cup Financial Innovation Application Competition, Citigroup, 2019</li>
+    <li>Second Runner-Up, 2019 "Chain to Future" University Blockchain Technology Application Competition, CCF, 2019</li>
+    <li>Outstanding Student Leader of the Communist Youth League, Nanjing University, 2018-2019</li>
+  </ul>
+</details>
 
 ## Services
 

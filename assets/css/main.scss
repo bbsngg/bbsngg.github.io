@@ -39,3 +39,22 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Custom overrides */
+/* Smaller main body text and section headings (sidebar and nav unchanged) */
+.page__content {
+  p, li, dl {
+    font-size: 0.95em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  h3 {
+    font-size: 1.05em;
+  }
+
+  /* Updates entries: smaller than the rest of the body */
+  .updates p {
+    font-size: 0.8em;
+  }
+}

@@ -1,2 +1,11 @@
 _site/
 .vscode
+
+# Local preview / build artifacts (not used by the deployed GitHub Pages build)
+.bundle/
+vendor/
+Gemfile.lock
+.jekyll-cache/
+.sass-cache/
+.preview-shim.rb
+.preview-config.yml

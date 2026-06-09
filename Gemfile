@@ -25,3 +25,10 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Stdlib gems dropped from Ruby's default set in 3.4+/4.0, needed by jekyll 3.9 for local preview
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger", "~> 1.6.0"
+gem "webrick"
