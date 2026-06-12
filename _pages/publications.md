@@ -32,13 +32,6 @@ Hongtao Wu\*, Boyun Zheng\*, **Dingjie Song\***, Yu Jiang, Jianfeng Gao, Lei Xin
 *arXiv, Under Review*
 <br>
 
-* [Can MLLMs Read Students' Minds? Unpacking Multimodal Error Analysis in Handwritten Math](https://arxiv.org/abs/2603.24961)
-<br>
-**Dingjie Song**, Tianlong Xu, Yi-Fan Zhang, Hang Li, Zhiling Yan, Xing Fan, Haoyang Li, Lichao Sun, Qingsong Wen
-<br>
-*arXiv, Under Review*
-<br>
-
 * [CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation](https://arxiv.org/abs/2510.06231)
 <br>
 Mingzhe Zheng, **Dingjie Song**, Guanyu Zhou, Jun You, Jiahao Zhan, Xuran Ma, Xinyuan Song, Ser-Nam Lim, Qifeng Chen, Harry Yang
@@ -89,6 +82,13 @@ Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, 
 <br>
 
 ### 2026
+
+* [Can MLLMs Read Students' Minds? Unpacking Multimodal Error Analysis in Handwritten Math](https://arxiv.org/abs/2603.24961)
+<br>
+**Dingjie Song**, Tianlong Xu, Yi-Fan Zhang, Hang Li, Zhiling Yan, Xing Fan, Haoyang Li, Lichao Sun, Qingsong Wen
+<br>
+***AIED 2026***, [project page](/ScratchMath/), [paper](/ScratchMath/paper/ScratchMath_AIED2026.pdf), [code](https://github.com/ai-for-edu/ScratchMath), [data](https://huggingface.co/datasets/songdj/ScratchMath)
+<br>
 
 * [LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation](https://arxiv.org/abs/2602.10367)
 <br>
