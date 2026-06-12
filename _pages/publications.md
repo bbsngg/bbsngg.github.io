@@ -11,6 +11,13 @@ author_profile: true
 
 ### Preprints
 
+* [Dr. Claw: An AI Research Workspace from Idea to Paper](https://github.com/OpenLAIR/dr-claw)
+<br>
+**Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Lichao Sun
+<br>
+*Software, 2026*, [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+<br>
+
 * [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
 <br>
 Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
@@ -87,7 +94,7 @@ Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, 
 <br>
 **Dingjie Song**, Tianlong Xu, Yi-Fan Zhang, Hang Li, Zhiling Yan, Xing Fan, Haoyang Li, Lichao Sun, Qingsong Wen
 <br>
-***AIED 2026***, [project page](/ScratchMath/), [paper](/ScratchMath/paper/ScratchMath_AIED2026.pdf), [code](https://github.com/ai-for-edu/ScratchMath), [data](https://huggingface.co/datasets/songdj/ScratchMath)
+***AIED 2026 <span style="color:#A52A2A;">Oral</span>***, [project page](/ScratchMath/), [paper](/ScratchMath/paper/ScratchMath_AIED2026.pdf), [code](https://github.com/ai-for-edu/ScratchMath), [data](https://huggingface.co/datasets/songdj/ScratchMath)
 <br>
 
 * [LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation](https://arxiv.org/abs/2602.10367)
