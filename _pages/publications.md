@@ -11,6 +11,13 @@ author_profile: true
 
 ### Preprints
 
+* [Distributional Matching for Vector Quantization: A Unified Theoretical and Empirical Framework](https://arxiv.org/abs/2607.15933)
+<br>
+Xianghong Fang, Litao Guo, Hengchao Chen, Yuxuan Zhang, Xiaofan Xia, **Dingjie Song**, Yexin Liu, Hao Wang, Harry Yang, Qiang Sun, Yuan Yuan
+<br>
+*arXiv, Under Review*
+<br>
+
 * [AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery](https://arxiv.org/abs/2605.23204)
 <br>
 Guiyao Tie, Jiawen Shi, **Dingjie Song**, Yixiao Huang, Ziji Sheng, Xueyang Zhou, Daizong Liu, Pan Zhou, Yongchao Chen, Ran Xu, Lifang He, Qingsong Wen, Manling Li, Cong Lu, Shuai Li, Pengtao Xie, Yixuan Yuan, Rui Meng, Lei Xing, Lichao Sun, Caiming Xiong, Philip S. Yu, Jianfeng Gao
@@ -30,13 +37,6 @@ Hongtao Wu\*, Boyun Zheng\*, **Dingjie Song\***, Yu Jiang, Jianfeng Gao, Lei Xin
 Mingzhe Zheng, **Dingjie Song**, Guanyu Zhou, Jun You, Jiahao Zhan, Xuran Ma, Xinyuan Song, Ser-Nam Lim, Qifeng Chen, Harry Yang
 <br>
 *arXiv, Under Review*, [project page](https://github.com/DuNGEOnmassster/CML-Bench/)
-<br>
-
-* [Enhancing Vector Quantization with Distributional Matching: A Theoretical and Empirical Study](https://arxiv.org/abs/2506.15078)
-<br>
-Xianghong Fang, Litao Guo, Hengchao Chen, Yuxuan Zhang, Xiaofan Xia, **Dingjie Song**, Yexin Liu, Hao Wang, Harry Yang, Yuan Yuan, Qiang Sun
-<br>
-*arXiv, Under Review*
 <br>
 
 * [Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents](https://arxiv.org/abs/2505.23450)
@@ -85,7 +85,7 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 
 * [Dr. Claw: An AI Research Workspace from Idea to Paper](https://github.com/OpenLAIR/dr-claw)
 <br>
-**Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Lichao Sun
+**Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Henry Peng Zou, Zhiling Yan, Yuxuan Zhang, Yanfang Ye, Philip S. Yu, Lichao Sun
 <br>
 ***EMNLP 2026, System Demonstrations Track***, [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>

@@ -168,7 +168,7 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 
 ## Awards
 
-* Outstanding Graduate Student, Nanjing University, 2022
+* Outstanding Graduate Student, Nanjing University, 2023
 * Yingcai Scholarship, Nanjing University, 2022
 * Renmin Scholarship (People’s Scholarship), Nanjing University, 2018-2021
 

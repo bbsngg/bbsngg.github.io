@@ -11,6 +11,9 @@ redirect_from:
 Education
 =========
 
+* Ph.D. in Computer Science and Engineering, Lehigh University, Bethlehem, PA, USA (01/2025 - Present)
+
+  * Advisor: Dr. Lichao Sun
 * Master of Software Engineering, Nanjing University, Nanjing, China (09/2021 - 06/2023)
 
   * Advisors: Dr. Xinyu Dai, Dr. Jidong Ge
@@ -23,13 +26,19 @@ Education
 Work experience
 ===============
 
+* 2026: Research Intern
+
+  * Salesforce AI Research, Palo Alto, CA
+* 2024 - 2025: Research Intern
+
+  * Squirrel AI Learning
 * 2023 - 2024: Research Assistant
 
   * The Chinese University of Hong Kong, Shenzhen
 * 2022 - 2023: NLP Research Intern
 
   * International Digital Economy Academy (IDEA)
-* 2020 - 2020: Research Assistant
+* 2021 - 2022: Graduate Student
 
   * NLP Group, Nanjing University
 
