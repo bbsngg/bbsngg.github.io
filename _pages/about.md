@@ -9,13 +9,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/), and currently a summer research intern at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto. Previously a research assistant at the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/) with Dr. [Benyou Wang](https://wabyking.github.io/old.html); M.E. from [Nanjing University](http://nlp.nju.edu.cn/homepage/).
+I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/), and currently a summer research intern at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto. Previously a research assistant at the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/) with Dr. [Benyou Wang](https://wabyking.github.io/old.html); M.E. from [Nanjing University](https://nlp.nju.edu.cn/).
 
 My research is in Large Language Models and Natural Language Processing, currently focused on **LLM agents** 🤖 and **AI for scientific discovery** 🔬 — building agents that learn and self-evolve in open-ended environments, and AI systems that automate and accelerate the research process end-to-end. This builds on my earlier work making **multimodal** and **medical** LLMs efficient, robust, and trustworthy. My work spans:
 
-* **LLM Agents:** [\[OpenSkill\]](https://openlair.github.io/openskill/), [\[Agentic Robot\]](https://agentic-robot.github.io/)
-* **AI Scientist & Scientific Discovery:** [\[Dr. Claw 🦞\]](https://github.com/OpenLAIR/dr-claw), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
-* **Multimodal LLM:** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[ScratchMath\]](https://arxiv.org/abs/2603.24961)
+* **LLM Agents:** [\[EMNLP 2026\]](https://openlair.github.io/openskill/), [\[EMNLP Findings 2026\]](https://claw-bench.com), [\[Agentic Robot\]](https://agentic-robot.github.io/)
+* **AI Scientist & Scientific Discovery:** [\[EMNLP 2026 Demo\]](https://github.com/OpenLAIR/dr-claw), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
+* **Multimodal LLM:** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[AIED 2026\]](https://arxiv.org/abs/2603.24961)
 * **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698), [\[KDD 2026\]](https://arxiv.org/abs/2602.10367)
 
 <details>
@@ -38,6 +38,8 @@ My research is in Large Language Models and Natural Language Processing, current
 
 <div class="updates" markdown="1">
 
+**Aug 2026**: 🎉🎉 Three papers accepted to [EMNLP'26](https://2026.emnlp.org/): [OpenSkill](https://openlair.github.io/openskill/) to the main conference, [Dr. Claw](https://github.com/OpenLAIR/dr-claw) to the System Demonstrations Track, and [ClawBench](https://claw-bench.com) to Findings!
+
 **June 2026**: 🌴 Started a summer research internship at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto!
 
 **June 2026**: 🦾 [OpenSkill](https://openlair.github.io/openskill/) released — open-world self-evolution for LLM agents! [📃 paper](https://arxiv.org/abs/2606.06741), [code](https://github.com/OpenLAIR/OpenSkill).
@@ -58,7 +60,7 @@ My research is in Large Language Models and Natural Language Processing, current
 
   <p><strong>July 2025</strong>: 🎉🎉 <a href="https://github.com/ZhilingYan/Medical-SAM-Bench">SAMed-2</a> was accepted to <a href="https://www.miccai.org/">MICCAI'25</a>!</p>
 
-  <p><strong>June 2025</strong>: 🎉🎉 <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">MM-Detect</a> was accepted to <a href="https://dig-bugs.github.io/">ICML'25 DIG-BUG Workshop</a>!</p>
+  <p><strong>June 2025</strong>: 🎉🎉 <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">MM-Detect</a> was accepted to <a href="https://icml2025digbugs.github.io/">ICML'25 DIG-BUG Workshop</a>!</p>
 
   <p><strong>May 2025</strong>: 🎉🎉 <a href="https://github.com/FreedomIntelligence/Med-MAT">Med-MAT</a> was accepted to <a href="https://2025.aclweb.org/">ACL'25</a> main conference!</p>
 
@@ -76,7 +78,7 @@ My research is in Large Language Models and Natural Language Processing, current
 
   <p><strong>April 2024</strong>: <strong>MileBench</strong> 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the <strong>MultImodal Long-contExt capabilities of MLLMs</strong>.  More information can be found on the <a href="https://milebench.github.io/">🌐 website</a>, <a href="https://arxiv.org/pdf/2404.18532">📃 paper</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/MileBench">🤗 HuggingFace</a> and the <a href="https://github.com/MileBench/MileBench">GitHub</a>.</p>
 
-  <p><strong>March 2024</strong>: 🎉🎉 Two papers <a href="https://cmedbenchmark.llmzoo.com/#home">CMB</a> and <a href="https://arxiv.org/abs/2309.12053">AceGPT</a> were accepted to <a href="https://2024.naacl.org/">NAACL'24</a> main conference!</p>
+  <p><strong>March 2024</strong>: 🎉🎉 Two papers <a href="https://github.com/FreedomIntelligence/CMB">CMB</a> and <a href="https://arxiv.org/abs/2309.12053">AceGPT</a> were accepted to <a href="https://2024.naacl.org/">NAACL'24</a> main conference!</p>
 
   <details>
 
@@ -86,7 +88,7 @@ My research is in Large Language Models and Natural Language Processing, current
 
   <p><strong>Sep 2023</strong>: We publish AceGPT that achieved <strong>top performance</strong> among open-source Arabic language models in benchmark tests. More info can be found in <a href="https://arxiv.org/abs/2309.12053">📃 paper</a> and <a href="https://huggingface.co/FreedomIntelligence/AceGPT-13B-chat">🤗 HuggingFace</a>.</p>
 
-  <p><strong>Aug 2023</strong>: <a href="https://arxiv.org/abs/2308.08833">Checkout our 📃 new paper</a> that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the <a href="https://cmedbenchmark.llmzoo.com/#home">🌐 website</a> and the <a href="https://huggingface.co/datasets/FreedomIntelligence/CMB">🤗 HuggingFace</a>.</p>
+  <p><strong>Aug 2023</strong>: <a href="https://arxiv.org/abs/2308.08833">Checkout our 📃 new paper</a> that focuses on benchmarking prevalent Medical LLMs for their medical knowledge and clinical diagnostic capabilities. More information can be found on the <a href="https://github.com/FreedomIntelligence/CMB">🌐 website</a> and the <a href="https://huggingface.co/datasets/FreedomIntelligence/CMB">🤗 HuggingFace</a>.</p>
 
   <p><strong>Jul 2023</strong>: Start the journey in CUHK-sz as a research assistant under the guidance of <a href="https://scholar.google.com/citations?user=Jk4vJU8AAAAJ">Benyou Wang</a>.</p>
 
@@ -109,7 +111,7 @@ My research is in Large Language Models and Natural Language Processing, current
 <br>
 Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
 <br>
-*arXiv, Under Review*, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
+***EMNLP 2026***, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
 <br>
 
 ### AI Scientist & Scientific Discovery
@@ -117,6 +119,8 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 * [Dr. Claw 🦞: A Full-Stack AI Research Workspace](https://github.com/OpenLAIR/dr-claw)
 <br>
 *"A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power."* — carries a project from idea to publication, with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills.
+<br>
+***EMNLP 2026, System Demonstrations Track***
 <br>
 [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw) &nbsp; [🌐 Website](https://openlair.github.io/dr-claw/) · [GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>

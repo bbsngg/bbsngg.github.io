@@ -11,20 +11,6 @@ author_profile: true
 
 ### Preprints
 
-* [Dr. Claw: An AI Research Workspace from Idea to Paper](https://github.com/OpenLAIR/dr-claw)
-<br>
-**Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Lichao Sun
-<br>
-*Software, 2026*, [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
-<br>
-
-* [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
-<br>
-Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
-<br>
-*arXiv, Under Review*, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
-<br>
-
 * [AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery](https://arxiv.org/abs/2605.23204)
 <br>
 Guiyao Tie, Jiawen Shi, **Dingjie Song**, Yixiao Huang, Ziji Sheng, Xueyang Zhou, Daizong Liu, Pan Zhou, Yongchao Chen, Ran Xu, Lifang He, Qingsong Wen, Manling Li, Cong Lu, Shuai Li, Pengtao Xie, Yixuan Yuan, Rui Meng, Lei Xing, Lichao Sun, Caiming Xiong, Philip S. Yu, Jianfeng Gao
@@ -90,6 +76,27 @@ Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, 
 
 ### 2026
 
+* [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
+<br>
+Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
+<br>
+***EMNLP 2026***, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
+<br>
+
+* [Dr. Claw: An AI Research Workspace from Idea to Paper](https://github.com/OpenLAIR/dr-claw)
+<br>
+**Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Lichao Sun
+<br>
+***EMNLP 2026, System Demonstrations Track***, [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+<br>
+
+* [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
+<br>
+Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Zhuofeng Li, Xingwei Qu, Zhengkang Guo, Yuanzhe Shen, **Dingjie Song**, Han Zhou, Tuney Zheng, Xian Wu, Hao Yu, Songcheng Cai, Yi Lu, Yunzhuo Hao, Minyi Lei, Liang Chen, Kai Zou, Huifeng Yin, Wendong Xu, Dongfu Jiang, Ping Nie, Jiaheng Liu, Wenhu Chen, Kelsey R. Allen
+<br>
+***EMNLP Findings 2026***, [project page](https://claw-bench.com)
+<br>
+
 * [Can MLLMs Read Students' Minds? Unpacking Multimodal Error Analysis in Handwritten Math](https://arxiv.org/abs/2603.24961)
 <br>
 **Dingjie Song**, Tianlong Xu, Yi-Fan Zhang, Hang Li, Zhiling Yan, Xing Fan, Haoyang Li, Lichao Sun, Qingsong Wen
@@ -140,7 +147,7 @@ Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingji
 <br>
 Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, Nuo Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, **Dingjie Song**, Xidong Wang, Anningzhe Gao, Zhang Zhiyi, Jianquan Li, Xiang Wan, Benyou Wang
 <br>
-***NAACL 2025***, [project page](https://mllm-bench.llmzoo.com/)
+***NAACL 2025***, [project page](https://github.com/FreedomIntelligence/MLLM-Bench)
 <br>
 
 * [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
@@ -177,7 +184,7 @@ Huang Huang\*, Fei Yu\*, Jianqing Zhu\*, Xuening Sun, Hao Cheng, **Dingjie Song*
 <br>
 Xidong Wang\*, Guiming Hardy Chen\*, **Dingjie Song\***, Zhiyi Zhang\*, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li
 <br>
-***NAACL 2024***, [project page](https://cmedbenchmark.llmzoo.com/#home), [code and data](https://github.com/FreedomIntelligence/CMB)
+***NAACL 2024***, [code and data](https://github.com/FreedomIntelligence/CMB)
 <br>
 
 
