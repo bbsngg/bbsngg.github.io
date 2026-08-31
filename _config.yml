@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Dingjie Song"
   avatar           : "avatar.jpg"
-  bio              : "Ph.D. Student at Lehigh University. Summer research intern at Salesforce AI Research. Working on LLM agents & AI for science."
-  location         : "Palo Alto, CA"
+  bio              : "Ph.D. Student at Lehigh University. Working on LLM agents & AI for science."
+  location         : "Bethlehem, PA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=YLQ8DCsAAAAJ"
-  cv               : "http://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf"
+  cv               : "https://bbsngg.github.io/files/DingjieSong_Academic_CV_en.pdf"
   email            : "dingjiesong.cs@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
