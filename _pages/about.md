@@ -29,7 +29,7 @@ My research is in Large Language Models and Natural Language Processing, current
 <!-- <span style="color:blue">**I am actively seeking Fall 2024 PhD and internship positions in ML/LLM/VLMs. Appreciate any interesting opportunities! :)**</span> -->
 
 <div class="notice--info" markdown="1">
-🦞 **Featured — [Dr. Claw](https://github.com/OpenLAIR/dr-claw): the best open-source IDE for AI-powered research.** Carry a project from idea to publication with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills. [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw)
+🦞 **Featured — [Dr. Claw](https://github.com/OpenLAIR/dr-claw): the best open-source IDE for AI-powered research.** Carry a project from idea to publication with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills. [![EMNLP 2026 System Demonstrations](https://img.shields.io/badge/EMNLP%202026-System%20Demonstrations-A52A2A?style=flat)](https://2026.emnlp.org/) [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw)
 
 [🌐 Website](https://openlair.github.io/dr-claw/) · [⭐ Star on GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 </div>
