@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/). In summer 2026 I was a research intern at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto; previously a research assistant at the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/) with Dr. [Benyou Wang](https://wabyking.github.io/old.html); M.E. from [Nanjing University](https://nlp.nju.edu.cn/).
+I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](https://www.lehigh.edu/), advised by Prof. [Lichao Sun](https://lichao-sun.github.io/). In summer 2026 I was a research intern at [Salesforce AI Research](https://www.salesforceairesearch.com/) in Palo Alto, and in 2024–2025 a research intern at [Squirrel AI Learning](https://squirrelai.com/). Previously a research assistant at the [CUHK-Shenzhen NLP group](https://freedomintelligence.github.io/) with Dr. [Benyou Wang](https://wabyking.github.io/old.html); M.E. from [Nanjing University](https://nlp.nju.edu.cn/).
 
 My research is in Large Language Models and Natural Language Processing, currently focused on **LLM agents** 🤖 and **AI for scientific discovery** 🔬 — building agents that learn and self-evolve in open-ended environments, and AI systems that automate and accelerate the research process end-to-end. This builds on my earlier work making **multimodal** and **medical** LLMs efficient, robust, and trustworthy. My work spans:
 
