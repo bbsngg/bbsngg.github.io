@@ -1,0 +1,731 @@
+/* ==========================================================================
+   CUSTOM LAYER
+   Typography, colour system and component polish applied on top of the
+   AcademicPages / Minimal Mistakes defaults. Loaded last from main.scss.
+   ========================================================================== */
+
+:root {
+  --ink:        #16212c;
+  --ink-soft:   #3b4855;
+  --muted:      #6a7885;
+  --line:       #e3e8ed;
+  --line-soft:  #eef1f5;
+  --surface:    #ffffff;
+  --surface-2:  #f6f8fa;
+  --page-bg:    #fbfcfd;
+  --accent:     #1f6f9a;
+  --accent-dk:  #15516f;
+  --accent-sf:  #eaf3f8;
+  --warm:       #a5361f;
+  --shadow-sm:  0 1px 2px rgba(16, 32, 48, 0.04), 0 2px 8px rgba(16, 32, 48, 0.05);
+  --shadow-md:  0 2px 6px rgba(16, 32, 48, 0.06), 0 12px 28px rgba(16, 32, 48, 0.08);
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --serif: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  font-family: var(--sans);
+  color: var(--ink-soft);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(31, 111, 154, 0.15);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.sidebar .author__name {
+  font-family: var(--serif);
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+/*
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--line);
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+          backdrop-filter: saturate(180%) blur(12px);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: var(--muted);
+    font-size: 0.92em;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+
+    &:hover {
+      color: var(--accent-dk);
+    }
+  }
+
+  .visible-links a:before {
+    height: 2px;
+    background: var(--accent);
+  }
+
+  button {
+    background-color: var(--accent);
+    border-radius: 4px;
+  }
+
+  .hidden-links {
+    border-color: var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+
+    a:hover {
+      color: var(--accent-dk);
+      background: var(--accent-sf);
+    }
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-family: var(--serif);
+  font-size: 1.12em;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/*
+   Sidebar / author profile
+   ========================================================================== */
+
+.sidebar {
+  @include breakpoint($large) {
+    position: sticky;
+    top: 5.2em;
+    align-self: flex-start;
+    padding-bottom: 2em;
+  }
+
+  .author__avatar img {
+    @include breakpoint($large) {
+      padding: 0;
+      border: 4px solid #fff;
+      box-shadow: 0 0 0 1px var(--line), 0 10px 26px rgba(16, 32, 48, 0.10);
+      transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+
+    &:hover {
+      @include breakpoint($large) {
+        transform: translateY(-2px);
+        box-shadow: 0 0 0 1px rgba(31, 111, 154, 0.35), 0 14px 30px rgba(16, 32, 48, 0.14);
+      }
+    }
+  }
+
+  .author__name {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .author__bio {
+    color: var(--muted);
+    font-size: 0.84em;
+    line-height: 1.6;
+
+    @include breakpoint($large) {
+      padding-bottom: 0.9em;
+      margin-bottom: 0.9em;
+      border-bottom: 1px solid var(--line);
+    }
+  }
+
+  .author__urls-wrapper .btn {
+    padding: 0.32em 0.95em;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background-color: #fff;
+    color: var(--ink-soft);
+    font-family: var(--sans);
+    font-size: 0.78em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    &:hover {
+      background-color: var(--accent-sf);
+      border-color: rgba(31, 111, 154, 0.35);
+      color: var(--accent-dk);
+    }
+  }
+
+  .author__urls {
+    border-color: var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+
+    /* on wide screens the list is inline, not a popover */
+    @include breakpoint($large) {
+      border: 0;
+      box-shadow: none;
+    }
+
+    li {
+      margin-bottom: 1px;
+      color: var(--muted);
+      font-size: 0.85em;
+      line-height: 1.5;
+    }
+
+    /* plain rows (location) keep the same rhythm as the links */
+    > li {
+      padding: 0.3em 0.5em;
+    }
+
+    a {
+      display: block;
+      margin: 0 0 0 -0.5em;
+      padding: 0.3em 0.5em;
+      border-radius: 7px;
+      color: var(--ink-soft);
+      font-size: 1em;
+      transition: background-color 0.15s ease, color 0.15s ease;
+
+      &:hover {
+        color: var(--accent-dk);
+        background-color: var(--accent-sf);
+        text-decoration: none;
+      }
+    }
+
+    > li > a {
+      padding: 0.3em 0.5em;
+    }
+
+    i,
+    .ai {
+      color: var(--accent);
+      margin-right: 0.3em;
+    }
+  }
+}
+
+/*
+   Page shell and headings
+   ========================================================================== */
+
+/* keep archive pages the same measure as single pages */
+.archive {
+  @include breakpoint($large) {
+    @include suffix(2 of 12);
+  }
+}
+
+
+.page__title {
+  font-size: 2.1em;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.page__content,
+.archive {
+  color: var(--ink-soft);
+
+  p, li, dl {
+    font-size: 0.95em;
+    line-height: 1.72;
+  }
+
+  h2,
+  h1:not(.page__title) {
+    position: relative;
+    margin-top: 2em;
+    padding-bottom: 0.42em;
+    border-bottom: 1px solid var(--line);
+    font-size: 1.32em;
+    font-weight: 600;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 44px;
+      height: 2px;
+      background: var(--accent);
+    }
+  }
+
+  h3 {
+    margin-top: 1.6em;
+    padding-left: 0.6em;
+    border-left: 3px solid rgba(31, 111, 154, 0.45);
+    font-size: 1.06em;
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 rgba(31, 111, 154, 0.32);
+    transition: color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+    &:hover {
+      color: var(--accent-dk);
+      text-decoration: none;
+      box-shadow: inset 0 -2px 0 var(--accent);
+    }
+  }
+
+  /* image links (badges, visitor map) should not get an underline */
+  a:has(img) {
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  hr {
+    margin: 2.4em 0;
+    border: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  ul, ol {
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  /* tighten kramdown's loose lists */
+  li > p {
+    margin-bottom: 0.3em;
+  }
+
+  li > ul,
+  li > ol {
+    margin-top: 0.25em;
+    margin-bottom: 0.7em;
+  }
+}
+
+/*
+   Disclosure widgets (details / summary)
+   ========================================================================== */
+
+.page__content,
+.archive {
+  details {
+    margin: 0.8em 0 1.5em;
+  }
+
+  summary {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3em 0.85em;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background-color: var(--surface-2);
+    color: var(--muted);
+    font-size: 0.85em;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:before {
+      content: "\203A";
+      display: inline-block;
+      margin-right: 0.5em;
+      font-size: 1.15em;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: var(--accent-dk);
+      border-color: rgba(31, 111, 154, 0.35);
+      background-color: var(--accent-sf);
+    }
+  }
+
+  details[open] > summary {
+    margin-bottom: 0.7em;
+
+    &:before {
+      transform: rotate(90deg);
+    }
+  }
+
+  details > ul,
+  details > p,
+  details > details {
+    padding-left: 0.9em;
+    border-left: 1px solid var(--line);
+  }
+}
+
+/*
+   Research topics list (home page intro)
+   ========================================================================== */
+
+.topics {
+  ul {
+    margin: 0.2em 0 1.5em;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* label on its own line, chips below it: every row of chips then starts on
+     the same edge and gets the full column width at any window size */
+  li {
+    margin: 0 0 0.95em;
+    line-height: 1.9;
+  }
+
+  li > strong:first-child {
+    display: block;
+    margin-bottom: 0.15em;
+    color: var(--muted);
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+  }
+
+  a {
+    display: inline-block;
+    margin: 0 0.35em 0.3em 0;
+    padding: 0.12em 0.62em;
+    border: 1px solid #dfe7ee;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: none;
+    color: var(--accent-dk);
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.6;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    /* the longest chip can outgrow a phone-width column */
+    @media (max-width: 30em) {
+      white-space: normal;
+    }
+
+    &:hover {
+      background-color: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      box-shadow: none;
+    }
+  }
+}
+
+/*
+   Featured notice
+   ========================================================================== */
+
+.page__content,
+.archive {
+  .notice--info {
+    margin: 1.9em 0 !important;
+    padding: 1.15em 1.3em;
+    border: 1px solid #dde8f0;
+    border-left: 3px solid var(--accent);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f7fbfd 0%, #f2f7fb 100%);
+    box-shadow: var(--shadow-sm);
+    font-size: 0.9em !important;
+    line-height: 1.7;
+
+    a {
+      color: var(--accent-dk);
+      box-shadow: inset 0 -1px 0 rgba(21, 81, 111, 0.3);
+
+      &:hover {
+        color: var(--accent);
+        box-shadow: inset 0 -2px 0 var(--accent);
+      }
+    }
+
+    img {
+      vertical-align: middle;
+      margin: 0.25em 0.2em 0 0;
+    }
+  }
+}
+
+/*
+   Updates timeline
+   ========================================================================== */
+
+.updates {
+  position: relative;
+  margin: 1.2em 0 0.5em;
+  padding-left: 1.5em;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1em;
+    bottom: 2.9em;
+    width: 1px;
+    background: linear-gradient(180deg, #d3dde5 0%, #d3dde5 72%, rgba(211, 221, 229, 0) 100%);
+  }
+
+  > p {
+    position: relative;
+    margin: 0 0 0.25em;
+    padding: 0.3em 0.6em 0.35em;
+    border-radius: 7px;
+    transition: background-color 0.15s ease;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: -1.5em;
+      top: 0.85em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 2px solid rgba(31, 111, 154, 0.55);
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    &:hover {
+      background-color: var(--surface-2);
+
+      &:before {
+        border-color: var(--accent);
+        transform: scale(1.15);
+      }
+    }
+  }
+
+  p > strong:first-child {
+    color: var(--accent-dk);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  > details {
+    margin-top: 0.9em;
+    margin-left: -0.1em;
+  }
+
+  p {
+    font-size: 0.86em;
+  }
+}
+
+/*
+   Publication entries
+   ========================================================================== */
+
+.pubs {
+  ul {
+    margin: 0.6em 0 1.5em;
+    padding: 0;
+    list-style: none;
+  }
+
+  > ul > li,
+  ul > li {
+    margin: 0 0 0.75em;
+    padding: 0.85em 1.1em 0.9em;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background-color: var(--surface);
+    box-shadow: var(--shadow-sm);
+    line-height: 1.6;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      border-color: #d5e2ec;
+      box-shadow: var(--shadow-md);
+    }
+
+    /* contain the floated thumbnail */
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  /* kramdown wraps loose list items in <p> */
+  li > p {
+    margin: 0;
+  }
+
+  /* thumbnail on the left, entry text flowing beside it */
+  .pub-thumb {
+    float: left;
+    width: 180px;
+    height: 120px;
+    margin: 0.3em 1.1em 0.4em 0;
+    padding: 4px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(16, 32, 48, 0.06);
+    object-fit: contain;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+
+    @media (max-width: 37.5em) {
+      width: 108px;
+      height: 78px;
+      padding: 3px;
+      margin: 0.25em 0.8em 0.3em 0;
+    }
+  }
+
+  /* Pull the thumbnail into the card's left padding so the entry text keeps a
+     clean second column instead of wrapping underneath it. Browsers without
+     :has() simply fall back to the plain floated thumbnail above. */
+  li:has(.pub-thumb) {
+    padding-left: calc(1.1em + 180px + 1.1em);
+
+    .pub-thumb {
+      margin-left: calc(-180px - 1.1em);
+      margin-right: 0;
+    }
+
+    @media (max-width: 37.5em) {
+      padding-left: calc(1.1em + 108px + 0.8em);
+
+      .pub-thumb {
+        margin-left: calc(-108px - 0.8em);
+      }
+    }
+  }
+
+  li br:last-child {
+    display: none;
+  }
+
+  /* Entry title. Kept inline so a title wrapping onto a second line is
+     underlined per line rather than as one box-wide rule. */
+  @mixin pub-title {
+    display: inline;
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 1.06em;
+    font-weight: 600;
+    box-shadow: none;
+
+    &:hover {
+      color: var(--accent);
+      box-shadow: none;
+      text-decoration: underline;
+      text-decoration-color: currentColor;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+  }
+
+  /* entries without a thumbnail: the title is the first link */
+  li > a:first-of-type,
+  li > p:first-child > a:first-of-type {
+    @include pub-title;
+  }
+
+  /* entries with a thumbnail: the title is the link right after it.
+     Kept as its own rule so browsers without :has() still get the rule
+     above rather than dropping both. */
+  li > a:has(> .pub-thumb) + a,
+  li > p:first-child > a:has(> .pub-thumb) + a {
+    @include pub-title;
+  }
+
+  /* the thumbnail links to the paper, same target as the title */
+  a:hover > .pub-thumb {
+    border-color: rgba(31, 111, 154, 0.55);
+    box-shadow: 0 3px 10px rgba(16, 32, 48, 0.13);
+  }
+
+  li em strong,
+  li strong em {
+    color: var(--warm);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+  }
+
+  li img {
+    vertical-align: middle;
+  }
+}
+
+/*
+   Visitor map and other centred blocks
+   ========================================================================== */
+
+.page__content,
+.archive {
+  div[align="center"] img {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  background-color: transparent;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+
+  a:hover {
+    color: var(--accent-dk);
+  }
+
+  .fas, .fab, .far, .fal {
+    color: var(--muted);
+  }
+}
+
+.page__footer-follow {
+  ul {
+    li {
+      font-size: 0.72em;
+      letter-spacing: 0.04em;
+    }
+  }
+}
+
+.page__footer-copyright {
+  color: var(--muted);
+}

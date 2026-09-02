@@ -13,10 +13,14 @@ I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](
 
 My research is in Large Language Models and Natural Language Processing, currently focused on **LLM agents** 🤖 and **AI for scientific discovery** 🔬 — building agents that learn and self-evolve in open-ended environments, and AI systems that automate and accelerate the research process end-to-end. This builds on my earlier work making **multimodal** and **medical** LLMs efficient, robust, and trustworthy. My work spans:
 
-* **LLM Agents:** [\[EMNLP 2026\]](https://openlair.github.io/openskill/), [\[EMNLP Findings 2026\]](https://claw-bench.com), [\[Agentic Robot\]](https://agentic-robot.github.io/)
-* **AI Scientist & Scientific Discovery:** [\[EMNLP 2026 Demo\]](https://arxiv.org/abs/2609.00365), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
-* **Multimodal LLM:** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[AIED 2026\]](https://arxiv.org/abs/2603.24961)
-* **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698), [\[KDD 2026\]](https://arxiv.org/abs/2602.10367)
+<div class="topics" markdown="1">
+
+* **LLM Agents** [EMNLP 2026](https://openlair.github.io/openskill/) [EMNLP Findings 2026](https://claw-bench.com) [Agentic Robot](https://agentic-robot.github.io/)
+* **AI Scientist & Scientific Discovery** [EMNLP 2026 Demo](https://arxiv.org/abs/2609.00365) [AutoResearch AI](https://arxiv.org/abs/2605.23204) [Medical AI Scientist](https://arxiv.org/abs/2603.28589)
+* **Multimodal LLM** [COLM 2024](https://milebench.github.io/) [COLING 2025](https://github.com/FreedomIntelligence/TRIM) [NAACL 2025](https://arxiv.org/abs/2311.13951) [ACL 2025](https://github.com/FreedomIntelligence/Med-MAT) [EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral](https://github.com/MLLM-Data-Contamination/MM-Detect) [EMNLP Findings 2025](https://github.com/FreedomIntelligence/LongLLaVA) [AIED 2026](https://arxiv.org/abs/2603.24961)
+* **Medical LLM** [NAACL 2024](https://arxiv.org/abs/2308.08833) [COLM 2024](https://arxiv.org/abs/2311.09774) [MICCAI 2025](https://arxiv.org/abs/2507.03698) [KDD 2026](https://arxiv.org/abs/2602.10367)
+
+</div>
 
 <details>
 <summary>Earlier directions</summary>
@@ -64,19 +68,19 @@ My research is in Large Language Models and Natural Language Processing, current
 
   <p><strong>May 2025</strong>: 🎉🎉 <a href="https://github.com/FreedomIntelligence/Med-MAT">Med-MAT</a> was accepted to <a href="https://2025.aclweb.org/">ACL'25</a> main conference!</p>
 
-  <p><strong>Jan 2025</strong>: 🎉🎉 <a href="https://arxiv.org/pdf/2311.13951">MLLM-Bench</a> was accepted to <a href="https://2025.naacl.org/">NAACL'25</a> main conference!</p>
+  <p><strong>Jan 2025</strong>: 🎉🎉 <a href="https://arxiv.org/abs/2311.13951">MLLM-Bench</a> was accepted to <a href="https://2025.naacl.org/">NAACL'25</a> main conference!</p>
 
-  <p><strong>Dec 2024</strong>: 🎉🎉 <a href="https://arxiv.org/pdf/2409.10994">TRIM</a> was accepted to <a href="https://coling2025.org/">COLING'25</a> main conference!</p>
+  <p><strong>Dec 2024</strong>: 🎉🎉 <a href="https://arxiv.org/abs/2409.10994">TRIM</a> was accepted to <a href="https://coling2025.org/">COLING'25</a> main conference!</p>
 
-  <p><strong>Nov 2024</strong>: <strong>MM-Detect</strong> 🕵️ released! MM-Detect is the first <strong>Data Contamination Detection Framework</strong> for MLLMs!  More information can be found in <a href="https://arxiv.org/pdf/2411.03823">📃 paper</a> and the <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">GitHub</a>.</p>
+  <p><strong>Nov 2024</strong>: <strong>MM-Detect</strong> 🕵️ released! MM-Detect is the first <strong>Data Contamination Detection Framework</strong> for MLLMs!  More information can be found in <a href="https://arxiv.org/abs/2411.03823">📃 paper</a> and the <a href="https://github.com/MLLM-Data-Contamination/MM-Detect">GitHub</a>.</p>
 
-  <p><strong>Sep 2024</strong>: <strong>TRIM</strong> ✂️ released! TRIM is a simple yet effective <strong>Image Token Reduction Method</strong> for efficient MLLMs!  More information can be found in <a href="https://arxiv.org/pdf/2409.10994">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/TRIM">GitHub</a>.</p>
+  <p><strong>Sep 2024</strong>: <strong>TRIM</strong> ✂️ released! TRIM is a simple yet effective <strong>Image Token Reduction Method</strong> for efficient MLLMs!  More information can be found in <a href="https://arxiv.org/abs/2409.10994">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/llava-v1.5-7b-TRIM">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/TRIM">GitHub</a>.</p>
 
-  <p><strong>Sep 2024</strong>: <strong>LongLLaVA</strong> 🐍🦙 released! LongLLaVA is the first MLLM with <strong>hybrid architecture</strong> that can handle up to <strong>1000 images</strong>!  More information can be found in <a href="https://arxiv.org/pdf/2409.02889">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/LongLLaVA">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/LongLLaVA">GitHub</a>. 🥈#2 Paper of the day on <a href="https://huggingface.co/papers/2409.02889">Huggingface Daily Paper</a>.</p>
+  <p><strong>Sep 2024</strong>: <strong>LongLLaVA</strong> 🐍🦙 released! LongLLaVA is the first MLLM with <strong>hybrid architecture</strong> that can handle up to <strong>1000 images</strong>!  More information can be found in <a href="https://arxiv.org/abs/2409.02889">📃 paper</a>, <a href="https://huggingface.co/FreedomIntelligence/LongLLaVA">🤗 HuggingFace</a> and the <a href="https://github.com/FreedomIntelligence/LongLLaVA">GitHub</a>. 🥈#2 Paper of the day on <a href="https://huggingface.co/papers/2409.02889">Huggingface Daily Paper</a>.</p>
 
   <p><strong>July 2024</strong>: 🎉🎉 Two papers <a href="https://milebench.github.io/">MileBench</a> and <a href="https://www.huatuogpt.cn/#/">HuatuoGPT2</a> were accepted to <a href="https://colmweb.org/">COLM'24</a> main conference!</p>
 
-  <p><strong>April 2024</strong>: <strong>MileBench</strong> 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the <strong>MultImodal Long-contExt capabilities of MLLMs</strong>.  More information can be found on the <a href="https://milebench.github.io/">🌐 website</a>, <a href="https://arxiv.org/pdf/2404.18532">📃 paper</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/MileBench">🤗 HuggingFace</a> and the <a href="https://github.com/MileBench/MileBench">GitHub</a>.</p>
+  <p><strong>April 2024</strong>: <strong>MileBench</strong> 🛣️ released! MileBench is a pioneering benchmark designed to rigorously test the <strong>MultImodal Long-contExt capabilities of MLLMs</strong>.  More information can be found on the <a href="https://milebench.github.io/">🌐 website</a>, <a href="https://arxiv.org/abs/2404.18532">📃 paper</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/MileBench">🤗 HuggingFace</a> and the <a href="https://github.com/MileBench/MileBench">GitHub</a>.</p>
 
   <p><strong>March 2024</strong>: 🎉🎉 Two papers <a href="https://github.com/FreedomIntelligence/CMB">CMB</a> and <a href="https://arxiv.org/abs/2309.12053">AceGPT</a> were accepted to <a href="https://2024.naacl.org/">NAACL'24</a> main conference!</p>
 
@@ -105,9 +109,12 @@ My research is in Large Language Models and Natural Language Processing, current
 ## Selected Publications
 [Google Scholar](https://scholar.google.com/citations?user=YLQ8DCsAAAAJ) &nbsp;·&nbsp; **[See all publications →](/publications/)**
 
+<div class="pubs" markdown="1">
+
 ### LLM Agents
 
-* [OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
+* [![OpenSkill framework](/images/pubs/openskill.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2606.06741)
+[OpenSkill: Open-World Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.06741)
 <br>
 Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
 <br>
@@ -116,7 +123,8 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 
 ### AI Scientist & Scientific Discovery
 
-* [Dr. Claw 🦞: An AI Scientist Workspace for Vibe Research](https://arxiv.org/abs/2609.00365)
+* [![Dr. Claw](/images/pubs/dr-claw.jpg){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2609.00365)
+[Dr. Claw 🦞: An AI Scientist Workspace for Vibe Research](https://arxiv.org/abs/2609.00365)
 <br>
 *"A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power."* — carries a project from idea to publication, with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills.
 <br>
@@ -125,7 +133,8 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw) &nbsp; [📃 Paper](https://arxiv.org/abs/2609.00365) · [🌐 Website](https://openlair.github.io/dr-claw/) · [GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>
 
-* [Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589)
+* [![Towards a Medical AI Scientist](/images/pubs/medical-ai-scientist.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2603.28589)
+[Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589)
 <br>
 Hongtao Wu\*, Boyun Zheng\*, **Dingjie Song\***, Yu Jiang, Jianfeng Gao, Lei Xing, Lichao Sun, Yixuan Yuan
 <br>
@@ -134,33 +143,39 @@ Hongtao Wu\*, Boyun Zheng\*, **Dingjie Song\***, Yu Jiang, Jianfeng Gao, Lei Xin
 
 ### Multimodal LLM
 
-* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
+* [![MM-Detect](/images/pubs/mm-detect.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2411.03823)
+[Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/abs/2411.03823)
 <br>
 **Dingjie Song\***, Sicheng Lai\*, Mingxuan Wang, Shunian Chen, Lichao Sun, Benyou Wang
 <br>
 ***EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop <span style="color:#A52A2A;">Oral</span>***, [project page](https://github.com/MLLM-Data-Contamination/MM-Detect)
 <br>
 
-* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
+* [![LongLLaVA architecture](/images/pubs/longllava.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2409.02889)
+[LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/abs/2409.02889)
 <br>
 Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
 ***EMNLP Findings 2025***, [project page](https://github.com/FreedomIntelligence/LongLLaVA/), [code and data](https://huggingface.co/FreedomIntelligence/LongLLaVA)
 <br>
 
-* [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
+* [![TRIM](/images/pubs/trim.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2409.10994)
+[Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/abs/2409.10994)
 <br>
 **Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
 <br>
 ***COLING 2025***, [code and model](https://github.com/FreedomIntelligence/TRIM)
 <br>
 
-* [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
+* [![MileBench results](/images/pubs/milebench.png){: .pub-thumb loading="lazy"}](https://arxiv.org/abs/2404.18532)
+[MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/abs/2404.18532)
 <br>
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
 <br>
 ***COLM 2024***, [project page](https://milebench.github.io/), [code and data](https://github.com/MileBench/MileBench)
 <br>
+
+</div>
 
 **[→ Browse the full list of publications](/publications/)**
 

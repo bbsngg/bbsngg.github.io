@@ -8,8 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-Education
-=========
+## Education
 
 * Ph.D. in Computer Science and Engineering, Lehigh University, Bethlehem, PA, USA (01/2025 - Present)
 
@@ -23,8 +22,7 @@ Education
   * Advisors: Dr. Xinyu Dai, Dr. Jidong Ge
   * GPA: 4.3/5.0
 
-Work experience
-===============
+## Work experience
 
 * 2026: Research Intern
 
@@ -42,8 +40,7 @@ Work experience
 
   * NLP Group, Nanjing University
 
-Skills
-======
+## Skills
 
 * **Programming Languages**: Python, Java, JavaScript, SQL, HTML/CSS
 * **Natural Languages**: English, Mandarin, Cantonese
@@ -68,6 +65,5 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-Service
-======
+## Service
 * Conference reviewer: EMNLP, ACL Rolling Review

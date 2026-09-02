@@ -9,6 +9,8 @@ author_profile: true
 
 (\* denotes equal contribution)
 
+<div class="pubs" markdown="1">
+
 ### Preprints
 
 * [Distributional Matching for Vector Quantization: A Unified Theoretical and Empirical Framework](https://arxiv.org/abs/2607.15933)
@@ -67,7 +69,7 @@ Yi-Fan Zhang, Hang Li, **Dingjie Song**, Lichao Sun, Tianlong Xu, Qingsong Wen
 *arXiv, Under Review*
 <br>
 
-* [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/pdf/2412.14203)
+* [BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement](https://arxiv.org/abs/2412.14203)
 <br>
 Yuhao Du, Shunian Chen, Wenbo Zan, Peizhao Li, Mingxuan Wang, **Dingjie Song**, Bo Li, Yan Hu, Benyou Wang
 <br>
@@ -113,7 +115,7 @@ Zhiling Yan, **Dingjie Song**, Zhe Fang, Yisheng Ji, Xiang Li, Quanzheng Li, Lic
 
 ### 2025
 
-* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/pdf/2409.02889)
+* [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://arxiv.org/abs/2409.02889)
 <br>
 Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
@@ -121,7 +123,7 @@ Xidong Wang\*, **Dingjie Song\***, Shunian Chen, Chen Zhang, Benyou Wang
 <br>
 
 
-* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/pdf/2411.03823)
+* [Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination](https://arxiv.org/abs/2411.03823)
 <br>
 **Dingjie Song\***, Sicheng Lai\*, Mingxuan Wang, Shunian Chen, Lichao Sun, Benyou Wang
 <br>
@@ -136,21 +138,21 @@ Zhiling Yan, Sifan Song, **Dingjie Song**, Yiwei Li, Rong Zhou, Weixiang Sun, Zh
 ***MICCAI 2025***, [code and data](https://github.com/ZhilingYan/Medical-SAM-Bench)
 <br>
 
-* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/pdf/2412.20070)
+* [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/abs/2412.20070)
 <br>
 Zhenyang Cai, Junying Chen, Rongsheng Wang, Weihong Wang, Yonglin Deng, **Dingjie Song**, Yize Chen, Zixu Zhang, Benyou Wang
 <br>
 ***ACL 2025***, [project page](https://github.com/FreedomIntelligence/Med-MAT)
 <br>
 
-* [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/pdf/2311.13951)
+* [MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria](https://arxiv.org/abs/2311.13951)
 <br>
 Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, Nuo Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, **Dingjie Song**, Xidong Wang, Anningzhe Gao, Zhang Zhiyi, Jianquan Li, Xiang Wan, Benyou Wang
 <br>
 ***NAACL 2025***, [project page](https://github.com/FreedomIntelligence/MLLM-Bench)
 <br>
 
-* [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/pdf/2409.10994)
+* [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](https://arxiv.org/abs/2409.10994)
 <br>
 **Dingjie Song**, Wenjun Wang, Shunian Chen, Xidong Wang, Michael Guan, Benyou Wang
 <br>
@@ -159,7 +161,7 @@ Wentao Ge\*, Shunian Chen\*, Guiming Hardy Chen\*, Junying Chen, Zhihong Chen, N
 
 ### 2024
 
-* [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/pdf/2404.18532)
+* [MileBench: Benchmarking MLLMs in Long Context](https://arxiv.org/abs/2404.18532)
 <br>
 **Dingjie Song**, Shunian Chen, Guiming Hardy Chen, Fei Yu, Xiang Wan, Benyou Wang
 <br>
@@ -206,3 +208,5 @@ Pengfei Sun, Yawen Ouyang, **Dingjie Song**, Xinyu Dai
 <br>
 ***JCST 2022***, [code and data](https://github.com/bbsngg/STAM)
 <br>
+
+</div>
