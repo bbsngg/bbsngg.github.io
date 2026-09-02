@@ -14,7 +14,7 @@ I am a Ph.D. student in Computer Science and Engineering at [Lehigh University](
 My research is in Large Language Models and Natural Language Processing, currently focused on **LLM agents** 🤖 and **AI for scientific discovery** 🔬 — building agents that learn and self-evolve in open-ended environments, and AI systems that automate and accelerate the research process end-to-end. This builds on my earlier work making **multimodal** and **medical** LLMs efficient, robust, and trustworthy. My work spans:
 
 * **LLM Agents:** [\[EMNLP 2026\]](https://openlair.github.io/openskill/), [\[EMNLP Findings 2026\]](https://claw-bench.com), [\[Agentic Robot\]](https://agentic-robot.github.io/)
-* **AI Scientist & Scientific Discovery:** [\[EMNLP 2026 Demo\]](https://github.com/OpenLAIR/dr-claw), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
+* **AI Scientist & Scientific Discovery:** [\[EMNLP 2026 Demo\]](https://arxiv.org/abs/2609.00365), [\[AutoResearch AI\]](https://arxiv.org/abs/2605.23204), [\[Medical AI Scientist\]](https://arxiv.org/abs/2603.28589)
 * **Multimodal LLM:** [\[COLM 2024\]](https://milebench.github.io/), [\[COLING 2025\]](https://github.com/FreedomIntelligence/TRIM), [\[NAACL 2025\]](https://arxiv.org/pdf/2311.13951), [\[ACL 2025\]](https://github.com/FreedomIntelligence/Med-MAT), [\[EMNLP Findings 2025, ICML 2025 DIG-BUG Workshop Oral\]](https://github.com/MLLM-Data-Contamination/MM-Detect), [\[EMNLP Findings 2025\]](https://github.com/FreedomIntelligence/LongLLaVA), [\[AIED 2026\]](https://arxiv.org/abs/2603.24961)
 * **Medical LLM:** [\[NAACL 2024\]](https://arxiv.org/abs/2308.08833), [\[COLM 2024\]](https://arxiv.org/abs/2311.09774), [\[MICCAI 2025\]](https://arxiv.org/abs/2507.03698), [\[KDD 2026\]](https://arxiv.org/abs/2602.10367)
 
@@ -31,7 +31,7 @@ My research is in Large Language Models and Natural Language Processing, current
 <div class="notice--info" markdown="1">
 🦞 **Featured — [Dr. Claw](https://github.com/OpenLAIR/dr-claw): the best open-source IDE for AI-powered research.** Carry a project from idea to publication with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills. [![EMNLP 2026 System Demonstrations](https://img.shields.io/badge/EMNLP%202026-System%20Demonstrations-A52A2A?style=flat)](https://2026.emnlp.org/) [![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw)
 
-[🌐 Website](https://openlair.github.io/dr-claw/) · [⭐ Star on GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+[📃 Paper](https://arxiv.org/abs/2609.00365) · [🌐 Website](https://openlair.github.io/dr-claw/) · [⭐ Star on GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 </div>
 
 ## Updates
@@ -116,13 +116,13 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 
 ### AI Scientist & Scientific Discovery
 
-* [Dr. Claw 🦞: A Full-Stack AI Research Workspace](https://github.com/OpenLAIR/dr-claw)
+* [Dr. Claw 🦞: An AI Scientist Workspace for Vibe Research](https://arxiv.org/abs/2609.00365)
 <br>
 *"A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power."* — carries a project from idea to publication, with structured pipelines, multi-agent support (Claude Code, Gemini CLI, Codex, OpenRouter), and 100+ built-in research skills.
 <br>
 ***EMNLP 2026, System Demonstrations Track***
 <br>
-[![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw) &nbsp; [🌐 Website](https://openlair.github.io/dr-claw/) · [GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+[![GitHub stars](https://img.shields.io/github/stars/OpenLAIR/dr-claw?style=flat&logo=github&label=Stars&color=181717)](https://github.com/OpenLAIR/dr-claw) &nbsp; [📃 Paper](https://arxiv.org/abs/2609.00365) · [🌐 Website](https://openlair.github.io/dr-claw/) · [GitHub](https://github.com/OpenLAIR/dr-claw) · [📰 Featured by Lehigh Engineering](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>
 
 * [Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589)

@@ -83,11 +83,11 @@ Zhiling Yan\*, **Dingjie Song\***, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yuton
 ***EMNLP 2026***, [project page](https://openlair.github.io/openskill/), [code](https://github.com/OpenLAIR/OpenSkill)
 <br>
 
-* [Dr. Claw: An AI Research Workspace from Idea to Paper](https://github.com/OpenLAIR/dr-claw)
+* [Dr. Claw: An AI Scientist Workspace for Vibe Research](https://arxiv.org/abs/2609.00365)
 <br>
 **Dingjie Song**, Hanrong Zhang, Dawei Liu, Yixin Liu, Zongxia Li, Zhengqing Yuan, Siqi Zhang, Henry Peng Zou, Zhiling Yan, Yuxuan Zhang, Yanfang Ye, Philip S. Yu, Lichao Sun
 <br>
-***EMNLP 2026, System Demonstrations Track***, [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
+***EMNLP 2026, System Demonstrations Track***, [paper](https://arxiv.org/abs/2609.00365), [project page](https://openlair.github.io/dr-claw/), [code](https://github.com/OpenLAIR/dr-claw), [news](https://engineering.lehigh.edu/news/article/meet-dr-claw-open-source-ai-assistant-revolutionizing-research-workflow)
 <br>
 
 * [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
