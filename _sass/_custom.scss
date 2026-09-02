@@ -404,8 +404,8 @@ h1, h2, h3, h4, h5, h6,
   /* label on its own line, chips below it: every row of chips then starts on
      the same edge and gets the full column width at any window size */
   li {
-    margin: 0 0 0.95em;
-    line-height: 1.9;
+    margin: 0 0 0.85em;
+    line-height: 1.75;
   }
 
   li > strong:first-child {
@@ -420,16 +420,16 @@ h1, h2, h3, h4, h5, h6,
 
   a {
     display: inline-block;
-    margin: 0 0.35em 0.3em 0;
-    padding: 0.12em 0.62em;
+    margin: 0 0.3em 0.28em 0;
+    padding: 0.08em 0.52em;
     border: 1px solid #dfe7ee;
-    border-radius: 6px;
+    border-radius: 5px;
     background-color: #fff;
     box-shadow: none;
     color: var(--accent-dk);
-    font-size: 0.9em;
+    font-size: 0.82em;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.55;
     white-space: nowrap;
     vertical-align: middle;
 
