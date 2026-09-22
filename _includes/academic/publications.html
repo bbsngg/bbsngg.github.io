@@ -1,0 +1,19 @@
+{% assign catalog = site.publications | where: 'catalog', true | sort: 'list_order' %}
+{% if include.selected %}{% assign catalog = catalog | where: 'selected', true | sort: 'selected_order' %}{% endif %}
+{% unless include.selected %}
+{% assign preprints = catalog | where: 'preprint', true %}
+{% if preprints.size > 0 %}
+<details class="publication-group" open>
+  <summary class="year-heading"><h2 id="preprints">Preprints</h2><span class="paper-count">{{ preprints.size }} papers</span>{% include academic/icon.html name='chevron' %}</summary>
+  <div class="card publication-card">{% for paper in preprints %}{% include academic/publication.html item=paper %}{% endfor %}</div>
+</details>
+{% endif %}
+{% assign catalog = catalog | where: 'preprint', false %}
+{% endunless %}
+{% assign groups = catalog | group_by: 'display_year' | sort: 'name' | reverse %}
+{% for group in groups %}
+<details class="publication-group" open>
+  <summary class="year-heading"><{% if include.selected %}h3{% else %}h2{% endif %} id="year-{{ group.name }}">{{ group.name }}</{% if include.selected %}h3{% else %}h2{% endif %}><span class="paper-count">{{ group.items.size }} {% if group.items.size == 1 %}paper{% else %}papers{% endif %}</span>{% include academic/icon.html name='chevron' %}</summary>
+  <div class="card publication-card">{% for paper in group.items %}{% include academic/publication.html item=paper selected=include.selected %}{% endfor %}</div>
+</details>
+{% endfor %}

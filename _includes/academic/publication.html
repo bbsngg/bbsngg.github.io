@@ -1,0 +1,23 @@
+{% assign item = include.item %}
+<!-- Adapted from academic-homepage's publication_item.html (MIT). -->
+<article class="publication-item {% unless item.cover %}publication-text-only{% endunless %}">
+  {% if item.cover %}
+  <a class="publication-cover" href="{{ item.paper_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ item.cover | relative_url }}" alt="" loading="lazy" decoding="async" width="190" height="132">
+  </a>
+  {% endif %}
+  <div class="publication-body">
+    <{% if include.selected %}h4{% else %}h3{% endif %}><a href="{{ item.paper_url }}">{{ item.title | escape }}</a></{% if include.selected %}h4{% else %}h3{% endif %}>
+    {% if item.author_role %}<span class="author-role">{% if item.author_role == "co-first" %}Co-first author{% else %}First author{% endif %}</span>{% endif %}
+    <p class="authors">{% for author in item.authors %}{% if author contains site.data.profile.primary_name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <p class="publication-venue">{{ item.pub }}</p>
+    {% include academic/tldr.html item=item %}
+    <div class="publication-links">
+      {% for link in item.links %}
+      {% assign first_character = link[1] | slice: 0 %}
+      <a href="{% if first_character == '/' %}{{ link[1] | relative_url }}{% else %}{{ link[1] }}{% endif %}">{{ link[0] | escape }} <span aria-hidden="true">↗</span></a>
+      {% endfor %}
+    </div>
+    {% include academic/bibtex.html item=item %}
+  </div>
+</article>

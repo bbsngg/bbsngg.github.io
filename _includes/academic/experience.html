@@ -1,0 +1,30 @@
+<!-- Adapted from academic-homepage's experience_card.html (MIT). -->
+<section class="card experience-card" id="experience" aria-label="Education and research experience">
+  <div class="card-body">
+    <div class="row">
+      {% assign categories = 'education,experience' | split: ',' %}
+      {% for category in categories %}
+      <div class="col-lg-6 experience-column">
+        <h2>{% if category == 'education' %}{% include academic/icon.html name="scholar" %}{% else %}{% include academic/icon.html name="experience" %}{% endif %} {% if category == 'education' %}Education{% else %}Research Experience{% endif %}</h2>
+        <ul class="list-unstyled institution-list">
+          {% assign visible_count = site.data.profile[category].size %}
+          {% if category == 'experience' and include.full != true %}{% assign visible_count = 3 %}{% endif %}
+          {% for item in site.data.profile[category] limit: visible_count %}
+          {% include academic/experience-item.html item=item full=include.full %}
+          {% endfor %}
+        </ul>
+        {% if category == 'experience' and include.full != true and site.data.profile.experience.size > 3 %}
+        <details class="earlier-experience">
+          <summary>Earlier experience</summary>
+          <ul class="list-unstyled institution-list">
+            {% for item in site.data.profile.experience offset: 3 %}
+            {% include academic/experience-item.html item=item %}
+            {% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

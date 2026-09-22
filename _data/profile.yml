@@ -1,0 +1,93 @@
+---
+primary_name: Dingjie Song
+navbar_name: Dingjie Song
+portrait_url: "/images/avatar.jpg"
+portrait_caption: Dingjie Song
+tagline: Building LLM agents that learn, evolve, and accelerate scientific discovery.
+positions:
+- name: Ph.D. Student · Computer Science & Engineering · Lehigh University
+email: dingjiesong.cs@gmail.com
+gscholar: YLQ8DCsAAAAJ
+github: bbsngg
+cv_link: "/files/DingjieSong_Academic_CV_en.pdf"
+short_bio: <p>I am a Ph.D. student at <a href="https://www.lehigh.edu/">Lehigh University</a>,
+  advised by <a href="https://lichao-sun.github.io/">Prof. Lichao Sun</a>. My research
+  focuses on <strong>LLM agents</strong> and <strong>AI for scientific discovery</strong>,
+  building on earlier work in multimodal and medical language models. My work includes
+  <a href="https://openlair.github.io/dr-claw/">Dr. Claw</a> for traceable research
+  workflows and <a href="https://openlair.github.io/openskill/">OpenSkill</a> for
+  agent self-evolution.</p>
+background_bio: <p>I was a research intern at <a href="https://www.salesforceairesearch.com/">Salesforce
+  AI Research</a> in summer 2026 and at <a href="https://squirrelai.com/">Squirrel
+  AI Learning</a> in 2024–2025. Previously, I worked with <a href="https://wabyking.github.io/old.html">Dr.
+  Benyou Wang</a> at the <a href="https://freedomintelligence.github.io/">CUHK-Shenzhen
+  NLP group</a> and earned my master’s degree at <a href="https://nlp.nju.edu.cn/">Nanjing
+  University</a>.</p>
+topics:
+- LLM Agents
+- AI for Scientific Discovery
+- Multimodal LLMs
+- Medical LLMs
+education:
+- name: Lehigh University
+  institution: lehigh
+  position: Ph.D. in Computer Science and Engineering
+  date: Jan. 2025 – Present
+  location: Bethlehem, PA, USA
+  details: 'Advisor: Dr. Lichao Sun'
+- name: Nanjing University
+  institution: nju
+  position: Master of Software Engineering
+  date: Sept. 2021 – June 2023
+  location: Nanjing, China
+  details: 'Advisors: Dr. Xinyu Dai, Dr. Jidong Ge · GPA: 4.4/5.0'
+- name: Nanjing University
+  institution: nju
+  position: Bachelor of Software Engineering
+  date: Sept. 2017 – June 2021
+  location: Nanjing, China
+  details: 'Advisors: Dr. Xinyu Dai, Dr. Jidong Ge · GPA: 4.3/5.0'
+experience:
+- name: Salesforce AI Research
+  institution: salesforce
+  position: Research Intern
+  date: Summer 2026
+  location: Palo Alto, CA
+- name: Squirrel AI Learning
+  institution: squirrel
+  position: Research Intern
+  date: 2024 – 2025
+- name: The Chinese University of Hong Kong, Shenzhen
+  institution: cuhksz
+  position: Research Assistant
+  date: 2023 – 2024
+- name: International Digital Economy Academy (IDEA)
+  institution: idea
+  position: NLP Research Intern
+  date: 2022 – 2023
+- name: NLP Group, Nanjing University
+  institution: nju
+  position: Graduate Student
+  date: 2021 – 2022
+awards:
+- name: Outstanding Graduate Student, Nanjing University
+  date: '2023'
+- name: Yingcai Scholarship, Nanjing University
+  date: '2022'
+- name: Renmin Scholarship (People’s Scholarship), Nanjing University
+  date: 2018–2021
+- name: Third Runner-Up, 15th Citi Cup Financial Innovation Application Competition,
+    Citigroup
+  date: '2019'
+- name: Second Runner-Up, “Chain to Future” University Blockchain Technology Application
+    Competition, CCF
+  date: '2019'
+- name: Outstanding Student Leader of the Communist Youth League, Nanjing University
+  date: 2018–2019
+services: 'Conference reviewer: EMNLP, ACL Rolling Review'
+skills:
+  Programming Languages: Python, Java, JavaScript, SQL, HTML/CSS
+  Natural Languages: English, Mandarin, Cantonese
+  Tools & Frameworks: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark,
+    Git, LaTeX, ssh
+content_updated: '2026-09-22'

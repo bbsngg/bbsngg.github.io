@@ -1,0 +1,21 @@
+<!-- Adapted from luost26/academic-homepage's profile card (MIT). -->
+<section class="card profile-card" aria-labelledby="profile-name">
+  <div class="profile-grid">
+    <div class="profile-intro">
+      <h1 id="profile-name">{{ site.data.profile.primary_name }}{% if site.data.profile.secondary_name %} <small>{{ site.data.profile.secondary_name }}</small>{% endif %}</h1>
+      <p class="profile-tagline">{{ site.data.profile.tagline }}</p>
+      <div class="text-profile-position">{% for position in site.data.profile.positions %}<span>{{ position.name }}</span>{% endfor %}</div>
+    </div>
+    {% if site.data.profile.portrait_url %}
+    <div class="profile-portrait"><img src="{{ site.data.profile.portrait_url | relative_url }}" class="portrait" alt="{{ site.data.profile.primary_name }}" width="200" height="200" fetchpriority="high"></div>
+    {% endif %}
+    {% include academic/contacts.html %}
+    <div class="profile-content">
+      <div class="text-profile-bio">{{ site.data.profile.short_bio }}</div>
+      {% if site.data.profile.background_bio %}
+      <details class="profile-background"><summary>More about me</summary><div class="text-profile-bio">{{ site.data.profile.background_bio }}</div></details>
+      {% endif %}
+      <div class="topic-tags">{% for topic in site.data.profile.topics %}<span{% if forloop.index > 2 %} class="topic-secondary"{% endif %}>{{ topic }}</span>{% endfor %}</div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Episode-based Prompt Learning</title>
+  <desc id="desc">Conceptual illustration: prompt-based sentence pairs and episodic training support zero-shot and few-shot intent detection.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#537ca5" stroke-width="1.5"/></marker></defs>
+  <rect width="720" height="440" rx="20" fill="#f5f8fc"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="360" y="56" fill="#142d4e" font-size="29" font-weight="700">Episode-based Prompt Learning</text>
+    <text x="360" y="87" fill="#5e7188" font-size="18">Any-shot intent detection</text>
+    <g fill="#fff" stroke="#c6d6e6" stroke-width="2">
+      <rect x="38" y="130" width="182" height="90" rx="14"/>
+      <rect x="270" y="130" width="182" height="90" rx="14"/>
+      <rect x="500" y="130" width="182" height="90" rx="14"/>
+    </g>
+    <g fill="#142d4e" font-size="20" font-weight="700">
+      <text x="129" y="168">Utterance</text><text x="129" y="195">+ intent</text>
+      <text x="361" y="168">Prompted</text><text x="361" y="195">sentence pair</text>
+      <text x="591" y="168">Intent</text><text x="591" y="195">prediction</text>
+    </g>
+    <g fill="none" stroke="#537ca5" stroke-width="3" marker-end="url(#arrow)"><path d="M225 175H257"/><path d="M457 175H489"/><path d="M361 291V233"/></g>
+    <rect x="210" y="303" width="302" height="59" rx="12" fill="#21496f"/>
+    <text x="361" y="341" fill="#fff" font-size="23" font-weight="700">Episodic training</text>
+    <text x="360" y="399" fill="#53718f" font-size="19">Zero-shot  ·  Few-shot  ·  Any-shot</text>
+  </g>
+</svg>

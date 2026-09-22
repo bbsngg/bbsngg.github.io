@@ -1,0 +1,30 @@
+<nav class="{% if include.rail %}social-rail{% else %}contact-links{% endif %}" aria-label="{% if include.rail %}Quick contact links{% else %}Contact and profiles{% endif %}">
+  {% assign contact_kinds = 'email,cv,scholar,github' | split: ',' %}
+  {% for kind in contact_kinds %}
+    {% assign contact_url = nil %}
+    {% case kind %}
+      {% when 'email' %}
+        {% if site.data.profile.email %}{% assign contact_url = site.data.profile.email | prepend: 'mailto:' %}{% endif %}
+        {% assign contact_label = 'Email' %}
+      {% when 'cv' %}
+        {% if site.data.profile.cv_link %}{% assign contact_url = site.data.profile.cv_link | relative_url %}{% endif %}
+        {% assign contact_label = 'CV' %}
+      {% when 'scholar' %}
+        {% if site.data.profile.gscholar %}
+          {% if site.data.profile.gscholar contains 'scholar.google' %}{% assign contact_url = site.data.profile.gscholar %}
+          {% else %}{% assign contact_url = site.data.profile.gscholar | prepend: 'https://scholar.google.com/citations?user=' %}{% endif %}
+        {% endif %}
+        {% assign contact_label = 'Google Scholar' %}
+      {% when 'github' %}
+        {% if site.data.profile.github %}{% assign contact_url = site.data.profile.github | prepend: 'https://github.com/' %}{% endif %}
+        {% assign contact_label = 'GitHub' %}
+    {% endcase %}
+    {% if contact_url %}
+    <a class="contact-link contact-{{ kind }}" href="{{ contact_url | escape }}" aria-label="{% if kind == 'email' and include.rail != true %}Email {{ site.data.profile.email | escape }}{% else %}{{ contact_label }}{% endif %}" {% if include.rail %}title="{{ contact_label }}"{% endif %}>
+      {% include academic/icon.html name=kind %}
+      <span class="contact-label">{% if kind == 'email' and include.rail != true %}{{ site.data.profile.email | escape }}{% else %}{{ contact_label }}{% endif %}</span>
+      {% unless include.rail %}<span class="contact-arrow" aria-hidden="true">↗</span>{% endunless %}
+    </a>
+    {% endif %}
+  {% endfor %}
+</nav>

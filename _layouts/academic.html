@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Adapted from https://github.com/luost26/academic-homepage (MIT). -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f8fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1727" media="(prefers-color-scheme: dark)">
+  <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  {% assign description = page.description | default: site.description %}
+  <title>{% unless page.url == '/' %}{{ page.title | escape }} · {% endunless %}{{ site.data.profile.primary_name | escape }}</title>
+  <meta name="description" content="{{ description | escape }}">
+  <meta name="author" content="{{ site.data.profile.primary_name | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+  <meta property="og:image:alt" content="Portrait of Dingjie Song">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | escape }}">
+  <meta name="twitter:description" content="{{ description | escape }}">
+  <meta name="twitter:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic-base.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":{{ site.data.profile.primary_name | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"image":{{ site.data.profile.portrait_url | absolute_url | jsonify }},"jobTitle":"Ph.D. Student","affiliation":{"@type":"CollegeOrUniversity","name":"Lehigh University"},"sameAs":["https://github.com/bbsngg","https://scholar.google.com/citations?user=YLQ8DCsAAAAJ"]}
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="container-lg site-nav" aria-label="Main navigation">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.data.profile.navbar_name }}</a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a>
+        {% include academic/theme-toggle.html %}
+      </div>
+    </nav>
+  </header>
+  {% include academic/contacts.html rail=true %}
+  <main class="container-lg main-content" id="main-content" tabindex="-1">
+    {{ content }}
+  </main>
+  <footer class="site-footer container-lg">
+    {% if site.data.profile.content_updated %}<span>Updated {{ site.data.profile.content_updated | date: "%b %Y" }}</span>{% endif %}
+    <span>© {{ site.time | date: '%Y' }} {{ site.data.profile.primary_name }}</span>
+    <span><a href="https://github.com/luost26/academic-homepage">Academic Homepage</a> · <a href="#top">Back to top ↑</a></span>
+  </footer>
+  <a class="back-to-top" href="#top" aria-label="Back to top" hidden>↑</a>
+  <script src="{{ "/assets/js/academic.js" | relative_url }}?v={{ site.time | date: "%s" }}" defer></script>
+</body>
+</html>

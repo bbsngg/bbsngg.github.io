@@ -1,0 +1,20 @@
+<section class="home-section" aria-labelledby="news">
+  <div class="section-heading"><h2 id="news">{% include academic/icon.html name="news" %} News</h2></div>
+  <div class="card news-card">
+    <ul class="news-list list-unstyled">
+      {% for item in site.data.news limit: 6 %}
+      <li><span class="date">{{ item.date }}</span><div>{{ item.text | markdownify }}</div></li>
+      {% endfor %}
+    </ul>
+    {% if site.data.news.size > 6 %}
+    <details class="earlier-news">
+      <summary>Earlier news <span class="muted">({{ site.data.news.size | minus: 6 }})</span></summary>
+      <ul class="news-list list-unstyled">
+        {% for item in site.data.news offset: 6 %}
+        <li><span class="date">{{ item.date }}</span><div>{{ item.text | markdownify }}</div></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </div>
+</section>

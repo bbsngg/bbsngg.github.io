@@ -1,0 +1,39 @@
+lehigh:
+  name: Lehigh University
+  short_name: LU
+  url: https://www.lehigh.edu/
+  logo: /images/institutions/lehigh.png
+  source: https://www2.lehigh.edu/sites/www2/files/favicons/favicon192.png
+nju:
+  name: Nanjing University
+  short_name: NJU
+  url: https://www.nju.edu.cn/
+  logo: /images/institutions/nju.svg
+  variant: purple
+  source: https://www.nju.edu.cn/images/footer_logo.svg
+salesforce:
+  name: Salesforce
+  short_name: SF
+  url: https://www.salesforceairesearch.com/
+  logo: /images/institutions/salesforce.svg
+  source: https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024
+squirrel:
+  name: Squirrel AI
+  short_name: AI
+  url: https://squirrelai.com/
+  logo: /images/institutions/squirrel.svg
+  source: https://squirrelai.com/wp-content/uploads/Squirrel.svg
+cuhksz:
+  name: The Chinese University of Hong Kong, Shenzhen
+  short_name: CUHK
+  url: https://www.cuhk.edu.cn/en
+  logo: /images/institutions/cuhksz.png
+  variant: crest
+  source: https://www.cuhk.edu.cn/themes/custom/cuhk_ui/favicon.ico
+idea:
+  name: International Digital Economy Academy
+  short_name: IDEA
+  url: https://www.idea.edu.cn/
+  logo: /images/institutions/idea.png
+  variant: navy
+  source: https://www.idea.edu.cn/wp-content/uploads/2023/10/2023103010182414.png

@@ -1,0 +1,13 @@
+{% if include.item.bibtex %}
+<details class="bibtex-panel">
+  <summary aria-label="BibTeX for {{ include.item.title | escape }}">BibTeX</summary>
+  <div class="bibtex-content">
+    <pre tabindex="0" aria-label="BibTeX citation"><code>{{ include.item.bibtex | escape }}</code></pre>
+    <div class="citation-actions">
+      <button class="copy-citation" type="button" hidden>Copy BibTeX</button>
+      <a href="{{ include.item.bibtex_source }}">{% if include.item.bibtex_source contains "arxiv.org" %}arXiv citation source{% else %}Published citation source{% endif %} ↗</a>
+      <span class="copy-status" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+</details>
+{% endif %}

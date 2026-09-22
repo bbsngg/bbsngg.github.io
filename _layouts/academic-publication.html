@@ -1,0 +1,13 @@
+---
+layout: academic
+---
+<header class="page-heading">
+  <div><h1>{{ page.title | escape }}</h1><p>{{ page.pub }}</p></div>
+</header>
+<section class="card paper-details" aria-label="Publication details">
+  <p>{% for author in page.authors %}{% if author contains site.data.profile.primary_name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+  {% assign author_text = page.authors | join: ', ' %}{% if author_text contains '*' %}<p class="muted small">* denotes equal contribution.</p>{% endif %}
+  {% if page.tldr %}{% include academic/tldr.html item=page %}{% elsif page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
+  <div class="publication-links">{% for link in page.links %}{% assign first_character = link[1] | slice: 0 %}<a href="{% if first_character == '/' %}{{ link[1] | relative_url }}{% else %}{{ link[1] }}{% endif %}">{{ link[0] }} ↗</a>{% endfor %}</div>
+</section>
+<p class="browse-all"><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>

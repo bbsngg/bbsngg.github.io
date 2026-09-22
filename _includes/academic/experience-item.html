@@ -1,0 +1,15 @@
+{% assign institution = site.data.institutions[include.item.institution] %}
+<li class="institution-item">
+  <span class="institution-mark{% if institution.variant %} institution-mark-{{ institution.variant }}{% endif %}" aria-hidden="true">
+    {% if institution.logo %}<img src="{{ institution.logo | relative_url }}" alt="" width="44" height="44" loading="lazy">{% else %}<span>{{ institution.short_name | default: include.item.name | slice: 0, 4 | escape }}</span>{% endif %}
+  </span>
+  <div class="institution-body">
+    <h3>{% if institution.url %}<a href="{{ institution.url }}">{{ include.item.name }}</a>{% else %}{{ include.item.name }}{% endif %}</h3>
+    <div class="institution-position">{{ include.item.position }}</div>
+    <div class="date">{{ include.item.date }}</div>
+    {% if include.full %}
+    {% if include.item.location %}<div class="institution-detail">{{ include.item.location }}</div>{% endif %}
+    {% if include.item.details %}<div class="institution-detail">{{ include.item.details }}</div>{% endif %}
+    {% endif %}
+  </div>
+</li>

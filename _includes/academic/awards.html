@@ -1,0 +1,9 @@
+<section class="card awards-card" aria-labelledby="awards">
+  <h2 id="awards">{% include academic/icon.html name="award" %} Honors & Awards</h2>
+  <ul class="award-list list-unstyled">
+    {% for award in site.data.profile.awards limit: 3 %}<li><span>{{ award.name }}</span><span class="date">{{ award.date }}</span></li>{% endfor %}
+  </ul>
+  <details><summary>More awards</summary><ul class="award-list list-unstyled">
+    {% for award in site.data.profile.awards offset: 3 %}<li><span>{{ award.name }}</span><span class="date">{{ award.date }}</span></li>{% endfor %}
+  </ul></details>
+</section>

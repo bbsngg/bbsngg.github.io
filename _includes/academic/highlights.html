@@ -1,0 +1,20 @@
+<section class="home-section" aria-labelledby="highlights">
+  <div class="section-heading"><h2 id="highlights">{% include academic/icon.html name="research" %} Research Highlights</h2><span>Agents & scientific discovery</span></div>
+  <div class="highlight-grid">
+    {% assign highlights = site.publications | where_exp: 'paper', 'paper.highlight_order != nil' | sort: 'highlight_order' %}
+    {% for paper in highlights %}
+    <article class="card highlight-card{% if forloop.first %} highlight-featured{% endif %}">
+      <a class="highlight-image" href="{{ paper.paper_url }}" tabindex="-1" aria-hidden="true"><img src="{{ paper.cover | relative_url }}" alt="" width="480" height="270" loading="lazy"></a>
+      <div class="highlight-body">
+        <span class="venue-badge">{{ paper.pub | strip_html }}</span>
+        <h3><a href="{{ paper.paper_url }}">{{ paper.short_title }}</a></h3>
+        <p>{{ paper.abstract }}</p>
+        <div class="publication-links">
+          {% for link in paper.links limit: 3 %}<a href="{{ link[1] }}">{{ link[0] }} <span aria-hidden="true">↗</span></a>{% endfor %}
+          {% if paper.links.News %}<a href="{{ paper.links.News }}">Media coverage <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

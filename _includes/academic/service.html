@@ -1,0 +1,5 @@
+<section class="card service-card" aria-labelledby="service">
+  <h2 id="service">{% include academic/icon.html name="service" %} Academic Service</h2>
+  <span class="service-role">Reviewer</span>
+  <ul class="service-list">{% assign services = site.data.profile.services | remove: "Conference reviewer: " | split: ", " %}{% for service in services %}<li>{{ service }}</li>{% endfor %}</ul>
+</section>
