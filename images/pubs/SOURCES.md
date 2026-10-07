@@ -25,3 +25,4 @@ The EPL SVG is an original conceptual illustration based on the abstract, not an
 | 2308.08833 | [https://github.com/FreedomIntelligence/CMB/blob/main/assets/CMB-2.svg](https://github.com/FreedomIntelligence/CMB/blob/main/assets/CMB-2.svg) | Official project benchmark overview. |
 | 2603.24961 | [/ScratchMath/images/overview.png](/ScratchMath/images/overview.png) | Overview from the local ScratchMath project page. |
 | 978-3-031-44693-1_3 | [https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3) | Original conceptual illustration based on the abstract; not a figure from the paper. |
+| tracegym | [/files/TraceGym.pdf](/files/TraceGym.pdf) | Figure 1 excerpt from PDF page 2. |
