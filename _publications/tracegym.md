@@ -12,7 +12,11 @@ authors:
 pub: Preprint, Salesforce AI Research
 display_year: 2026
 preprint: true
-selected: false
+selected: true
+selected_order: 2
+highlight_order: 3
+short_title: TraceGym
+abstract: Terminal agents repeat the same kinds of mistakes across tasks. TraceGym turns these failures into executable training environments that put the agent back in the situation where it erred, using the task's existing verifier as the only reward. It produces 225 environments and lifts Qwen3.6-27B on Terminal-Bench 2.1 from 48.8% to 56.2%.
 links:
   Paper: "/files/TraceGym.pdf"
 list_order: 0
