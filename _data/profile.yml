@@ -84,10 +84,10 @@ awards:
   date: '2019'
 - name: Outstanding Student Leader of the Communist Youth League, Nanjing University
   date: 2018–2019
-services: 'Conference reviewer: EMNLP, ACL Rolling Review'
+services: 'Conference reviewer: ICLR, EMNLP, ACL Rolling Review'
 skills:
   Programming Languages: Python, Java, JavaScript, SQL, HTML/CSS
   Natural Languages: English, Mandarin, Cantonese
   Tools & Frameworks: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark,
     Git, LaTeX, ssh
-content_updated: '2026-09-22'
+content_updated: '2026-10-06'
