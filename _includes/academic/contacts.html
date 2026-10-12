@@ -1,5 +1,5 @@
 <nav class="{% if include.rail %}social-rail{% else %}contact-links{% endif %}" aria-label="{% if include.rail %}Quick contact links{% else %}Contact and profiles{% endif %}">
-  {% assign contact_kinds = 'email,cv,scholar,github' | split: ',' %}
+  {% assign contact_kinds = 'email,cv,scholar,github,linkedin,twitter' | split: ',' %}
   {% for kind in contact_kinds %}
     {% assign contact_url = nil %}
     {% case kind %}
@@ -18,6 +18,12 @@
       {% when 'github' %}
         {% if site.data.profile.github %}{% assign contact_url = site.data.profile.github | prepend: 'https://github.com/' %}{% endif %}
         {% assign contact_label = 'GitHub' %}
+      {% when 'linkedin' %}
+        {% if site.data.profile.linkedin %}{% assign contact_url = site.data.profile.linkedin | prepend: 'https://www.linkedin.com/in/' | append: '/' %}{% endif %}
+        {% assign contact_label = 'LinkedIn' %}
+      {% when 'twitter' %}
+        {% if site.data.profile.twitter %}{% assign contact_url = site.data.profile.twitter | prepend: 'https://x.com/' %}{% endif %}
+        {% assign contact_label = 'X / Twitter' %}
     {% endcase %}
     {% if contact_url %}
     <a class="contact-link contact-{{ kind }}" href="{{ contact_url | escape }}" aria-label="{% if kind == 'email' and include.rail != true %}Email {{ site.data.profile.email | escape }}{% else %}{{ contact_label }}{% endif %}" {% if include.rail %}title="{{ contact_label }}"{% endif %}>
