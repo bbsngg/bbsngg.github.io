@@ -11,7 +11,7 @@ gscholar: YLQ8DCsAAAAJ
 github: bbsngg
 linkedin: dingjie-song-a24505242
 twitter: bbsngg1002
-cv_link: "/files/DingjieSong_Academic_CV_en.pdf"
+cv_link: "/files/DingjieSong_Academic_CV_en_20261017.pdf"
 short_bio: <p>I am a Ph.D. student at <a href="https://www.lehigh.edu/">Lehigh University</a>,
   advised by <a href="https://lichao-sun.github.io/">Prof. Lichao Sun</a>. My research
   focuses on <strong>LLM agents</strong> and <strong>AI for scientific discovery</strong>,
@@ -71,6 +71,17 @@ experience:
   institution: nju
   position: Graduate Student
   date: 2021 – 2022
+teaching:
+- name: Lehigh University
+  institution: lehigh
+  position: Teaching Assistant · CSE 326/426 Fundamentals of Machine Learning
+  date: Fall 2026
+  location: Bethlehem, PA
+- name: Lehigh University
+  institution: lehigh
+  position: Teaching Assistant · CSE 325/425 Natural Language Processing
+  date: Fall 2026
+  location: Bethlehem, PA
 awards:
 - name: Outstanding Graduate Student, Nanjing University
   date: '2023'
@@ -86,10 +97,15 @@ awards:
   date: '2019'
 - name: Outstanding Student Leader of the Communist Youth League, Nanjing University
   date: 2018–2019
-services: 'Conference reviewer: ICLR, EMNLP, ACL Rolling Review'
+services: 'Conference reviewer: ACL Rolling Review (2025–2026), COLM (2025–2026), EMNLP (2026), ICLR (2027)'
+session_chair:
+- EMNLP 2026 (Virtual Session)
 skills:
-  Programming Languages: Python, Java, JavaScript, SQL, HTML/CSS
+  Programming Languages: Python, TypeScript/JavaScript, SQL, Bash
+  LLM Training & Inference: PyTorch, Hugging Face (Transformers, Accelerate, PEFT),
+    DeepSpeed, FSDP2, verl, vLLM
+  LLM Agents & Evaluation: Claude Agent SDK, Codex SDK, Model Context Protocol (MCP),
+    LiteLLM, Harbor
+  Engineering: Docker, Node.js, React, SQLite, uv, Git, Linux/ssh, LaTeX
   Natural Languages: English, Mandarin, Cantonese
-  Tools & Frameworks: PyTorch, DeepSpeed, Colossal-AI, FAISS, Elastic Search, Spark,
-    Git, LaTeX, ssh
-content_updated: '2026-10-06'
+content_updated: '2026-10-17'

@@ -26,5 +26,17 @@
       </div>
       {% endfor %}
     </div>
+    {% if site.data.profile.teaching %}
+    <div class="row teaching-row">
+      <div class="col-12 experience-column">
+        <h2>{% include academic/icon.html name="service" %} Teaching</h2>
+        <ul class="list-unstyled institution-list">
+          {% for item in site.data.profile.teaching %}
+          {% include academic/experience-item.html item=item full=include.full %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endif %}
   </div>
 </section>

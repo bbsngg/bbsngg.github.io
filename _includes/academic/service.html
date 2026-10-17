@@ -2,4 +2,6 @@
   <h2 id="service">{% include academic/icon.html name="service" %} Academic Service</h2>
   <span class="service-role">Reviewer</span>
   <ul class="service-list">{% assign services = site.data.profile.services | remove: "Conference reviewer: " | split: ", " %}{% for service in services %}<li>{{ service }}</li>{% endfor %}</ul>
+  {% if site.data.profile.session_chair %}<span class="service-role">Session Chair</span>
+  <ul class="service-list">{% for item in site.data.profile.session_chair %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
 </section>
