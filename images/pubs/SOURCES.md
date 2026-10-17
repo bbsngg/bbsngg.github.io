@@ -26,5 +26,5 @@ The EPL SVG is an original conceptual illustration based on the abstract, not an
 | 2603.24961 | [/ScratchMath/images/overview.png](/ScratchMath/images/overview.png) | Overview from the local ScratchMath project page. |
 | 978-3-031-44693-1_3 | [https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3](https://link.springer.com/chapter/10.1007/978-3-031-44693-1_3) | Original conceptual illustration based on the abstract; not a figure from the paper. |
 | tracegym | [/files/TraceGym.pdf](/files/TraceGym.pdf) | Figure 1 excerpt from PDF page 2. |
-| 2610.20951 | [https://github.com/OpenLAIR/lev/blob/main/figures/figure-1-preview.svg](https://github.com/OpenLAIR/lev/blob/main/figures/figure-1-preview.svg) | Figure 1 preview rasterized to WebP (732 × 720 pixels). |
+| 2610.20951 | [https://openlair.github.io/lev/assets/lev-social.png](https://openlair.github.io/lev/assets/lev-social.png) | Project banner image converted to WebP (960 × 504 pixels). |
 | 2610.21046 | [https://github.com/OpenLAIR/PremiseCheck/blob/main/assets/pipeline.png](https://github.com/OpenLAIR/PremiseCheck/blob/main/assets/pipeline.png) | Pipeline figure converted to WebP (960 × 387 pixels). |

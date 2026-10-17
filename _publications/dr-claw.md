@@ -36,7 +36,7 @@ links:
 list_order: 10
 catalog: true
 cover: "/images/pubs/dr-claw.jpg"
-highlight_order: 1
+highlight_order: 2
 short_title: Dr. Claw
 abstract: Research work often fragments across chat, coding, and writing tools. Dr.
   Claw connects these steps in a human-guided workspace, coordinating coding agents
