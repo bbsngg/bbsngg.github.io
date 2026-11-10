@@ -1,3 +1,7 @@
+- date: Nov 2026
+  summary: Gave a talk and live demo of Dr. Claw at Lehigh's Agentic AI Meetup
+  text: "\U0001F3A4 Gave a talk and live demo, *Dr. Claw: One AI Workspace for the
+    Whole Research Process*, at Lehigh's Agentic AI Meetup. [Code](https://github.com/OpenLAIR/dr-claw)"
 - date: Oct 2026
   text: "\U0001F4C3 [TraceGym](/files/TraceGym.pdf), my Salesforce AI Research internship
     work, turns terminal agents' failures into training environments."
