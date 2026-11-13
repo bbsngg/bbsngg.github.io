@@ -1,0 +1,6 @@
+<section class="card awards-card grants-card" aria-labelledby="grants">
+  <h2 id="grants">{% include academic/icon.html name="research" %} Compute Grants</h2>
+  <ul class="award-list grant-list list-unstyled">
+    {% for grant in site.data.profile.grants %}<li><span><strong>{{ grant.role }}</strong>, {{ grant.program }} ({{ grant.id }}): <em>{{ grant.title }}</em><span class="grant-detail">{{ grant.detail }}</span></span><span class="date">{{ grant.date }}</span></li>{% endfor %}
+  </ul>
+</section>
