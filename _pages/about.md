@@ -22,7 +22,10 @@ redirect_from:
   <p class="browse-all"><a href="{{ '/publications/' | relative_url }}">Browse all publications →</a></p>
 </section>
 <div class="closing-grid">
-  {% include academic/awards.html %}
+  <div class="closing-stack">
+    {% include academic/grants.html %}
+    {% include academic/awards.html %}
+  </div>
   {% include academic/service.html %}
 </div>
 <div class="visitor-map">

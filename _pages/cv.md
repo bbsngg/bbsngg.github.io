@@ -17,7 +17,10 @@ redirect_from:
     <dl>{% for skill in site.data.profile.skills %}<dt>{{ skill[0] }}</dt><dd>{{ skill[1] }}</dd>{% endfor %}</dl>
   </section>
   <div class="closing-grid">
-    {% include academic/awards.html %}
+    <div class="closing-stack">
+      {% include academic/grants.html %}
+      {% include academic/awards.html %}
+    </div>
     {% include academic/service.html %}
   </div>
 </div>
