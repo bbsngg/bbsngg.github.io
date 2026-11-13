@@ -82,6 +82,19 @@ teaching:
   position: Teaching Assistant · CSE 325/425 Natural Language Processing
   date: Fall 2026
   location: Bethlehem, PA
+grants:
+- role: PI
+  program: NSF ACCESS Discover Allocation
+  id: CIS251418
+  title: Multi-Agent System for Automated Information Collection and Idea Generation
+  detail: 750,000 ACCESS credits (CloudBank research cloud, NCSA Delta GPU/CPU)
+  date: 2025–2026
+- role: Co-PI
+  program: NSF ACCESS Explore Allocation
+  id: CIS261470
+  title: 'Stress-Testing Scientific Gatekeeping: Adversarial Evidence Corruption and Verifiable Human–AI Peer Review'
+  detail: '200,000 ACCESS credits (NCSA Delta GPU, DeltaAI); PI: Dr. Lichao Sun'
+  date: 2026–2027
 awards:
 - name: Outstanding Graduate Student, Nanjing University
   date: '2023'
@@ -108,4 +121,4 @@ skills:
     LiteLLM, Harbor
   Engineering: Docker, Node.js, React, SQLite, uv, Git, Linux/ssh, LaTeX
   Natural Languages: English, Mandarin, Cantonese
-content_updated: '2026-10-17'
+content_updated: '2026-11-13'
