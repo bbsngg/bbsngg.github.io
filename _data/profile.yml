@@ -86,12 +86,14 @@ grants:
 - role: PI
   program: NSF ACCESS Discover Allocation
   id: CIS251418
+  type: Compute allocation
   title: Multi-Agent System for Automated Information Collection and Idea Generation
   detail: 750,000 ACCESS credits (CloudBank research cloud, NCSA Delta GPU/CPU)
   date: 2025–2026
 - role: Co-PI
   program: NSF ACCESS Explore Allocation
   id: CIS261470
+  type: Compute allocation
   title: 'Stress-Testing Scientific Gatekeeping: Adversarial Evidence Corruption and Verifiable Human–AI Peer Review'
   detail: '200,000 ACCESS credits (NCSA Delta GPU, DeltaAI); PI: Dr. Lichao Sun'
   date: 2026–2027
